@@ -1,21 +1,28 @@
 # Flutter complete Interview questions(100+) with answers
+
 ![alt text](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/Flutter.png)
+
 ### All Questions with Answers ###
 
 ---
 Flutter Questions and Answers
 ---
-
+1.
+2.
 ---
-1.What is Flutter?
+1. What is Flutter?
 ---
-   Flutter is an open-source UI toolkit, developed by Google and first released in 2017. It uses the Dart language and allows developers to create cross-platform apps for Android, iOS, web, and desktop from a single codebase. It features a fast UI framework, hot reload, and rich widgets for smooth development.
+Flutter is an open-source UI toolkit, developed by Google and first released in 2017. It uses the
+Dart language and allows developers to create cross-platform apps for Android, iOS, web, and desktop
+from a single codebase. It features a fast UI framework, hot reload, and rich widgets for smooth
+development.
 
 
 ---
 2.What is Dart and Why does Flutter use it?
 ---
-   Dart is a programming language developed by Google in 2011. It is optimized for building fast, scalable, and cross-platform applications.
+Dart is a programming language developed by Google in 2011. It is optimized for building fast,
+scalable, and cross-platform applications.
 
 Flutter uses Dart because:
 ✅ Fast Performance — Compiles to native code (JIT & AOT).
@@ -26,9 +33,11 @@ Flutter uses Dart because:
 ---
 3.What is pubspec.yaml file and what does it do?
 ---
-   The pubspec.yaml file is a configuration and dependency management file in every Flutter project. It tells Flutter how to build the app and what external packages, assets, and settings to use.
+The pubspec.yaml file is a configuration and dependency management file in every Flutter project. It
+tells Flutter how to build the app and what external packages, assets, and settings to use.
 
-The pubspec.yaml file is automatically created in every Flutter project. It is located in the root directory and is used to manage dependencies, assets, fonts, and project settings. 🚀
+The pubspec.yaml file is automatically created in every Flutter project. It is located in the root
+directory and is used to manage dependencies, assets, fonts, and project settings. 🚀
 
 What It Does?
 
@@ -43,7 +52,7 @@ It’s essential for managing project resources and ensuring smooth app developm
 ---
 4.What is the difference between main() and runApp() functions in Flutter?
 ---
-   In Flutter, main() and runApp() serve different purposes:
+In Flutter, main() and runApp() serve different purposes:
 
 🔹 main(): The entry point of a Flutter app. It runs first when the app starts.
 🔹 runApp(): Takes a widget and makes it the root of the app, rendering it on the screen.
@@ -58,8 +67,8 @@ runApp(MyApp()); // Calls runApp() with MyApp as the root widget
 ---
 5.Differentiate between named parameters and positional parameters in Flutter.
 ---
-   Named vs. Positional Parameters in Flutter
-   📌 Positional Parameters
+Named vs. Positional Parameters in Flutter
+📌 Positional Parameters
 
 Order matters, and they are passed without labels.
 Can be required or optional (with default values).
@@ -89,16 +98,19 @@ greet(name: "Bob"); // ✅ Uses default city
 ---
 6.What are widgets in Flutter?
 ---
-   Widgets in Flutter are the building blocks of the UI. Everything in Flutter is a widget, including buttons, text, images, and layouts.
+Widgets in Flutter are the building blocks of the UI. Everything in Flutter is a widget, including
+buttons, text, images, and layouts.
 
 Types of Widgets
 🔹 Stateless Widget — Does not change after creation (e.g., Text, Icon).
 
-🔹 Stateless Widget — Does not change once built. Used for static UI elements like Text and Icon. More efficient since it doesn't rebuild.
+🔹 Stateless Widget — Does not change once built. Used for static UI elements like Text and Icon.
+More efficient since it doesn't rebuild.
 
 🔹 StatefulWidget – Can change dynamically based on user interaction (e.g., TextField, Checkbox).
 
-🔹 StatefulWidget — Can change dynamically using setState(). Used for interactive UI like TextField and Checkbox. Requires more resources but enables real-time updates.
+🔹 StatefulWidget — Can change dynamically using setState(). Used for interactive UI like TextField
+and Checkbox. Requires more resources but enables real-time updates.
 
 Why Are Widgets Important?
 ✔ Everything in Flutter is a widget (UI elements, layout, gestures).
@@ -106,13 +118,15 @@ Why Are Widgets Important?
 ✔ They make the UI flexible and reusable.
 
 Conclusion
-Widgets are the foundation of a Flutter app, allowing developers to create beautiful and responsive UIs easily! 🚀
+Widgets are the foundation of a Flutter app, allowing developers to create beautiful and responsive
+UIs easily! 🚀
 
 ---
 7.Difference Between Stateless Widget and Stateful Widget in Flutter
 ---
-   🔹 Stateless Widget – A widget that does not change once built. It is immutable and only updates when its parent widget changes. Suitable for static content like text, icons, and images.
-   Example:
+🔹 Stateless Widget – A widget that does not change once built. It is immutable and only updates when
+its parent widget changes. Suitable for static content like text, icons, and images.
+Example:
 
 class MyStatelessWidget extends StatelessWidget {
 @override
@@ -120,7 +134,9 @@ Widget build(BuildContext context) {
 return Text("I am constant!");
 }
 }
-🔹 StatefulWidget – A widget that can change dynamically during runtime. It has a mutable state and updates using setState(). Used for interactive UI elements like text fields, counters, and animations.
+🔹 StatefulWidget – A widget that can change dynamically during runtime. It has a mutable state and
+updates using setState(). Used for interactive UI elements like text fields, counters, and
+animations.
 Example:
 
 class MyStatefulWidget extends StatefulWidget {
@@ -161,8 +177,8 @@ Conclusion
 ---
 8.What is Hot Reload and Hot Restart in Flutter?
 ---
-   Hot Reload vs. Hot Restart in Flutter
-   🔥 Hot Reload
+Hot Reload vs. Hot Restart in Flutter
+🔥 Hot Reload
 
 Fast updates UI without restarting the app.
 Keeps the app state intact (e.g., text fields, animations).
@@ -180,17 +196,21 @@ Shortcut: R in terminal or click Hot Restart in IDE.
 ---
 9.What do you mean by open-source software? Is Flutter open-source?
 ---
-   What is Open-Source Software?
-   Open-source software is software with publicly available source code, allowing anyone to view, modify, and distribute it freely. It promotes collaboration, transparency, and community contributions.
+What is Open-Source Software?
+Open-source software is software with publicly available source code, allowing anyone to view,
+modify, and distribute it freely. It promotes collaboration, transparency, and community
+contributions.
 
 Is Flutter Open-Source?
-✅ Yes! Flutter is open-source, developed by Google, and available on GitHub. Developers worldwide contribute to its improvement, making it free to use for building apps across multiple platforms. 🚀
+✅ Yes! Flutter is open-source, developed by Google, and available on GitHub. Developers worldwide
+contribute to its improvement, making it free to use for building apps across multiple platforms. 🚀
 
 ---
 10.What is BuildContext in Flutter? And why is it needed?
 ---
-    What is BuildContext in Flutter?
-    BuildContext is a reference to the location of a widget in the widget tree. It helps Flutter identify where the widget is placed and how it should interact with other widgets.
+What is BuildContext in Flutter?
+BuildContext is a reference to the location of a widget in the widget tree. It helps Flutter
+identify where the widget is placed and how it should interact with other widgets.
 
 Why is BuildContext Needed?
 ✔ Access Widget Tree — Helps navigate and interact with other widgets.
@@ -199,48 +219,53 @@ Why is BuildContext Needed?
 ✔ Theme & Localization – Helps retrieve Theme.of(context) and MediaQuery.of(context).
 
 Example Usage:
-void main() {
-runApp(MyApp());
-}
 
-class MyApp extends StatelessWidget {
-@override
-Widget build(BuildContext context) {  // BuildContext here
-return MaterialApp(
-home: Scaffold(
-appBar: AppBar(title: Text("BuildContext Example")),
-body: Center(child: MyButton()),
-),
-);
-}
-}
-class MyButton extends StatelessWidget {
-@override
-Widget build(BuildContext context) {  // BuildContext in another widget
-return ElevatedButton(
-onPressed: () {
-ScaffoldMessenger.of(context).showSnackBar(
-SnackBar(content: Text("Hello from BuildContext!"))
-);
-},
-child: Text("Show Snackbar"),
-);
-}
-}
+        void main() {
+            runApp(MyApp());
+        }
+
+    class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {  // BuildContext here
+    return MaterialApp(
+    home: Scaffold(
+    appBar: AppBar(title: Text("BuildContext Example")),
+    body: Center(child: MyButton()),
+    ),
+    );
+    }
+    }
+    class MyButton extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {  // BuildContext in another widget
+    return ElevatedButton(
+    onPressed: () {
+    ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(content: Text("Hello from BuildContext!"))
+    );
+    },
+    child: Text("Show Snackbar"),
+    );
+    }
+    }
+
 Key Takeaways
 ✅ BuildContext identifies widget position in the tree.
 ✅ Needed for navigation, themes, and UI updates.
 ✅ Every widget has its own BuildContext. 🚀
 
 ---
-
-11) What are packages and plugins in Flutter?
+11.What are packages and plugins in Flutter?
+---
     Packages vs. Plugins in Flutter
-    In Flutter, both packages and plugins help add extra functionality to your app, but they have key differences:
+    In Flutter, both packages and plugins help add extra functionality to your app, but they have
+    key differences:
 
-🔹 Packages — Pure Dart code that adds functionality without using native platform code. Example: http for API calls, provider for state management.
+🔹 Packages — Pure Dart code that adds functionality without using native platform code. Example:
+http for API calls, provider for state management.
 
-🔹 Plugins — Use native code (Java, Kotlin, Swift) to access platform-specific features like camera, GPS, and storage. Example: camera for taking pictures, geolocator for GPS tracking.
+🔹 Plugins — Use native code (Java, Kotlin, Swift) to access platform-specific features like camera,
+GPS, and storage. Example: camera for taking pictures, geolocator for GPS tracking.
 
 Example of Using a Package (http)
 A package provides extra functionality using pure Dart code.
@@ -270,9 +295,9 @@ Key Takeaways
 ✅ Both are installed via pubspec.yaml and managed with pub.dev. 🚀
 
 ---
-
-12) Name some popular apps made with Flutter.
-    Popular Apps Built with Flutter 🚀
+12.Name some popular apps made with Flutter.
+---
+Popular Apps Built with Flutter 🚀
     1️⃣ Google Pay — Digital payments app by Google.
     2️⃣ Alibaba — E-commerce app used by millions.
     3️⃣ BMW — Car app for vehicle tracking and services.
@@ -285,10 +310,9 @@ Key Takeaways
 ✅ Why Flutter? Fast development, cross-platform support, and a beautiful UI! 🚀
 
 ---
-
-
-13) What are different Build modes in Flutter?
-    Different Build Modes in Flutter
+13.What are different Build modes in Flutter?
+---
+Different Build Modes in Flutter
     Flutter provides three build modes for different stages of app development and deployment:
 
 1️⃣ Debug Mode 🛠️
@@ -317,17 +341,18 @@ When to Use Each?
 ✅ Release mode gives the best speed & smallest size! 🚀
 
 ---
-
-
-14) What is the difference between WidgetsApp and MaterialApp in Flutter?
-    🔹 WidgetsApp – A basic app structure in Flutter that provides an app-level widget tree without Material Design components. It is useful when building custom UI frameworks.
+14.What is the difference between WidgetsApp and MaterialApp in Flutter?
+---
+🔹 WidgetsApp – A basic app structure in Flutter that provides an app-level widget tree without
+    Material Design components. It is useful when building custom UI frameworks.
     Example:
 
 WidgetsApp(
 color: Colors.blue,
 builder: (context, child) => Center(child: Text("Hello!")),
 )
-🔹 MaterialApp – A subclass of WidgetsApp that includes Material Design components like themes, navigation, and fonts. Used for building standard Flutter apps.
+🔹 MaterialApp – A subclass of WidgetsApp that includes Material Design components like themes,
+navigation, and fonts. Used for building standard Flutter apps.
 Example:
 
 MaterialApp(
@@ -342,10 +367,9 @@ Key Differences:
 3️⃣ MaterialApp is recommended for most Flutter apps. 🚀
 
 ---
-
-
-15) Differentiate between Final, Const and Static keyword with example?
-    1️⃣ final – (Run-time constant)
+15.Differentiate between Final, Const and Static keyword with example?
+---
+1️⃣ final – (Run-time constant)
     Can only be assigned once, but its value is determined at runtime.
     Used when the value does not change after initialization, but isn’t known at compile-time.
     Example:
@@ -401,17 +425,18 @@ Example:
 
 void main() {
 final someValue1 = DateTime.now(); // run-time constant
-const someValue2 = 10;             // compile-time constant
+const someValue2 = 10; // compile-time constant
 
 print(someValue1);
 print(someValue2);
 }
 
 ---
-
-16) What are StatefulWidget Lifecycle methods. Explain briefly.
-    StatefulWidget Lifecycle Methods in Flutter
-    A StatefulWidget goes through different lifecycle stages as it is created, updated, and destroyed. These methods help manage widget behavior.
+16.What are StatefulWidget Lifecycle methods. Explain briefly.
+---
+StatefulWidget Lifecycle Methods in Flutter
+    A StatefulWidget goes through different lifecycle stages as it is created, updated, and
+    destroyed. These methods help manage widget behavior.
 
 1️⃣ createState()
 Called when the widget is created.
@@ -501,11 +526,11 @@ Lifecycle Flow:
 ✅ dispose() – For cleanup
 
 ---
-
-
-17) What are StatefulWidget Lifecycle methods. Explain briefly.
-    StatelessWidget Lifecycle in Flutter
-    A StatelessWidget is immutable, meaning it does not change after being built. Since it has no internal state, it has a very simple lifecycle.
+17.What are StatefulWidget Lifecycle methods. Explain briefly.
+---
+StatelessWidget Lifecycle in Flutter
+    A StatelessWidget is immutable, meaning it does not change after being built. Since it has no
+    internal state, it has a very simple lifecycle.
 
 Lifecycle Method of StatelessWidget
 1️⃣ build()
@@ -533,16 +558,19 @@ Efficient and lightweight compared to StatefulWidget.
 Useful for static UI elements that don’t change dynamically. 🚀
 
 ---
-
-
-18) What are keys and why do we need them?
-    🔹 What Are Keys?
-    Keys are special identifiers used in Flutter to preserve the widget’s state when the widget tree is rebuilt. They help Flutter differentiate widgets, ensuring that the correct widget retains its data rather than being recreated.
+18.What are keys and why do we need them?
+---
+🔹 What Are Keys?
+    Keys are special identifiers used in Flutter to preserve the widget’s state when the widget tree
+    is rebuilt. They help Flutter differentiate widgets, ensuring that the correct widget retains
+    its data rather than being recreated.
 
 🔹 Why Do We Need Keys?
-1️⃣ Preserve Widget State — Without keys, Flutter might unnecessarily recreate widgets, losing important states like text input or animations.
+1️⃣ Preserve Widget State — Without keys, Flutter might unnecessarily recreate widgets, losing
+important states like text input or animations.
 2️⃣ Optimize Performance — Helps Flutter reuse widgets instead of rebuilding them from scratch.
-3️⃣ Fix UI Issues in Lists — Prevents UI flickering or unexpected behavior when updating lists dynamically.
+3️⃣ Fix UI Issues in Lists — Prevents UI flickering or unexpected behavior when updating lists
+dynamically.
 
 🔹 Types of Keys in Flutter
 1️⃣ GlobalKey — Used for uniquely identifying widgets across the entire app.
@@ -588,10 +616,10 @@ return ListTile(title: Text(items[index]), key: ValueKey(items[index]));
 ✔ Choose the right key (GlobalKey, ValueKey, ObjectKey, UniqueKey) based on the use case. 🚀
 
 ---
-
-
-19) What is the difference between Expanded and Flexible widget?
-    Both Expanded and Flexible are used inside Row, Column, or Flex widgets to distribute child widgets proportionally. However, they behave slightly differently.
+19.What is the difference between Expanded and Flexible widget?
+---
+Both Expanded and Flexible are used inside Row, Column, or Flex widgets to distribute child
+    widgets proportionally. However, they behave slightly differently.
 
 1️⃣ Expanded – (*Takes Up All Available Space*)
 Forces the child widget to take up all remaining space within a Row or Column.
@@ -627,16 +655,20 @@ Container(width: 50, color: Colors.blue), // Fixed width
 ✔ Use Flexible when the widget should take only as much space as it needs. 🚀
 
 ---
+20.What is Fat Arrow Notation in Dart?
+---
+The fat arrow (=>) notation in Dart is a shorthand way to write functions that have a single
+    expression. Instead of using curly braces {} and return, we can use => to make the function
+    concise.
 
-20) What is Fat Arrow Notation in Dart?
-    The fat arrow (=>) notation in Dart is a shorthand way to write functions that have a single expression. Instead of using curly braces {} and return, we can use => to make the function concise.
-
-Fat arrow notation (=>) is a shorthand for writing single-expression functions in Dart. It makes the code more concise and readable.
+Fat arrow notation (=>) is a shorthand for writing single-expression functions in Dart. It makes the
+code more concise and readable.
 
 🔹 Why Use Fat Arrow Notation?
 1️⃣ Code Simplicity: Reduces boilerplate code and makes functions easier to read.
 2️⃣ Performance: Works the same as regular functions but is syntactically shorter.
-3️⃣ Best for Single Expressions: Works only when the function has a single return statement or expression.
+3️⃣ Best for Single Expressions: Works only when the function has a single return statement or
+expression.
 
 🔹 Difference Between Normal and Fat Arrow Functions
 ✅ Without Fat Arrow (Traditional Function)
@@ -689,12 +721,15 @@ void printNumbers() => for (int i = 1; i <= 5; i++) print(i); // ❌ Incorrect
 🚀 “Use fat arrow notation for single expressions, but for complex logic, use curly braces {}."
 
 ---
-
-21) What is the purpose of SafeArea widget in Flutter?
-    The SafeArea widget prevents UI elements from overlapping with system UI elements like the status bar, notches, navigation bar, and the home indicator on edge-to-edge screens. It automatically adds padding to ensure content is displayed safely within the visible screen area.
+21.What is the purpose of SafeArea widget in Flutter?
+---
+The SafeArea widget prevents UI elements from overlapping with system UI elements like the
+    status bar, notches, navigation bar, and the home indicator on edge-to-edge screens. It
+    automatically adds padding to ensure content is displayed safely within the visible screen area.
 
 🔹 Why is SafeArea Needed?
-Modern smartphones have notches, rounded corners, and navigation bars that can hide part of the UI. SafeArea ensures that content is positioned properly and avoids these system elements.
+Modern smartphones have notches, rounded corners, and navigation bars that can hide part of the UI.
+SafeArea ensures that content is positioned properly and avoids these system elements.
 
 Example Without SafeArea (Overlaps Notch)
 Scaffold(
@@ -712,10 +747,11 @@ Key Points:
 ✔ Use for full-screen UIs; avoid in widgets like AppBar that already handle padding.
 
 ---
-
-
-22) What are Slivers in Flutter?
-    Slivers are scrollable areas in Flutter that allow for efficient and custom scrolling effects. They help create flexible, lazy-loaded lists and grids with smooth scrolling and dynamic behaviors.
+22.What are Slivers in Flutter?
+--- 
+Slivers are scrollable areas in Flutter that allow for efficient and custom scrolling effects.
+    They help create flexible, lazy-loaded lists and grids with smooth scrolling and dynamic
+    behaviors.
 
 🔹 Why Use Slivers?
 ✔ Optimized for large lists & grids (lazy loading).
@@ -750,10 +786,10 @@ childCount: 10,
 ✔ Common in collapsing headers, sticky lists, and parallax effects.
 
 ---
-
-
-23) What is an Extension Method in Dart?
-    An extension method in Dart allows you to add new functionality to existing classes without modifying them. It helps improve code organization and reusability.
+23.What is an Extension Method in Dart?
+---
+An extension method in Dart allows you to add new functionality to existing classes without
+    modifying them. It helps improve code organization and reusability.
 
 🔹 Why Use Extension Methods?
 ✔ Add methods to existing classes without inheritance.
@@ -778,11 +814,11 @@ print(name.capitalize()); // Output: Flutter
 🚀 “Use extension methods to enhance existing classes while keeping code clean and reusable!”
 
 ---
-
-
-24) Explain the mounted property. How is it important and when to use it?
-    What is the mounted Property in Flutter?
-    The mounted property in Flutter is a boolean that checks if a State object is still attached to the widget tree. It helps prevent errors when updating the UI after the widget has been removed.
+24.Explain the mounted property. How is it important and when to use it?
+---
+What is the mounted Property in Flutter?
+    The mounted property in Flutter is a boolean that checks if a State object is still attached to
+    the widget tree. It helps prevent errors when updating the UI after the widget has been removed.
 
 🔹 Why is mounted Important?
 ✔ Prevents calling setState() on a disposed widget (avoids crashes).
@@ -815,10 +851,10 @@ super.dispose();
 🚀 “Always check mounted before updating UI in async functions to avoid modifying a disposed widget!"
 
 ---
-
-
-25) What is Sound Null Safety in Dart?
-    Sound null safety ensures that non-nullable variables cannot be null, preventing null reference errors at compile-time rather than runtime. This makes Flutter apps more stable and efficient.
+25.What is Sound Null Safety in Dart?
+---
+    Sound null safety ensures that non-nullable variables cannot be null, preventing null reference
+    errors at compile-time rather than runtime. This makes Flutter apps more stable and efficient.
 
 🔹 Why is Null Safety Important?
 ✔ Prevents null reference errors.
@@ -846,13 +882,15 @@ nonNullable = null; // ❌ Error: Null not allowed
 ✔ Nullable (?) and non-nullable types are enforced at compile time.
 ✔ Use ! cautiously and ?? to handle null values gracefully.
 
-🚀 “Dart’s sound null safety makes Flutter apps safer, faster, and more reliable by preventing null errors at compile time!”
+🚀 “Dart’s sound null safety makes Flutter apps safer, faster, and more reliable by preventing null
+errors at compile time!”
 
 ---
-
-
-26) What is the Null-Aware Operator in Dart?
-    Null-aware operators in Dart help safely handle null values and prevent null reference errors. They provide a way to check for null and assign default values or safely access properties without crashing the app.
+26.What is the Null-Aware Operator in Dart?
+---
+Null-aware operators in Dart help safely handle null values and prevent null reference errors.
+    They provide a way to check for null and assign default values or safely access properties
+    without crashing the app.
 
 🔹 Key Null-Aware Operators:
 1️⃣ ?? (Default Value Operator) → Returns the value if it's not null, otherwise assigns a default.
@@ -877,20 +915,21 @@ print(title!.length); // Output: 4 (Crashes if title is null)
 ✔ Makes code safer and cleaner.
 ✔ Helps manage nullable values efficiently.
 
-🚀 “Null-aware operators in Dart make handling null values easier, preventing crashes while keeping the code readable and safe!”
+🚀 “Null-aware operators in Dart make handling null values easier, preventing crashes while keeping
+the code readable and safe!”
 
 ---
-
-
-27) Difference Between mainAxisAlignment and crossAxisAlignment in Flutter.
-    In Flutter, both mainAxisAlignment and crossAxisAlignment are used in Row and Column widgets to control how children are positioned.
+27.Difference Between mainAxisAlignment and crossAxisAlignment in Flutter.
+---
+In Flutter, both mainAxisAlignment and crossAxisAlignment are used in Row and Column widgets to
+    control how children are positioned.
 
 mainAxisAlignment: Aligns children along the main axis (horizontal in Row, vertical in Column).
 crossAxisAlignment: Aligns children along the cross axis (vertical in Row, horizontal in Column).
 Example in Row:
 Row(
 mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Spaces children horizontally
-crossAxisAlignment: CrossAxisAlignment.center,   // Aligns children vertically
+crossAxisAlignment: CrossAxisAlignment.center, // Aligns children vertically
 children: [
 Icon(Icons.star),
 Icon(Icons.favorite),
@@ -916,10 +955,10 @@ crossAxisAlignment.center → Centers text horizontally.
 ✔ crossAxisAlignment → Controls alignment along the cross axis.
 
 ---
-
-
-28) What are Mixins in Dart? How to use them?
-    Mixins in Dart allow reusing code across multiple classes without using inheritance. They help add functionality to classes without extending them, making code more modular and reusable.
+28.What are Mixins in Dart? How to use them?
+---
+Mixins in Dart allow reusing code across multiple classes without using inheritance. They help
+    add functionality to classes without extending them, making code more modular and reusable.
 
 How to Use Mixins?
 1️⃣ Define a Mixin using the mixin keyword:
@@ -949,16 +988,18 @@ Key Points:
 class MyClass with Logger, AnotherMixin {}
 ✔ Helps in code reusability without deep inheritance.
 
-🚀 “Mixins help add functionality to multiple classes without inheritance, making code cleaner and more efficient!”
+🚀 “Mixins help add functionality to multiple classes without inheritance, making code cleaner and
+more efficient!”
 
 ---
-
-
-29) Why Shouldn’t We Use Inheritance in Flutter?
-    While inheritance is a core OOP principle, Flutter discourages deep inheritance because it can lead to:
+29.Why Shouldn’t We Use Inheritance in Flutter?
+---
+While inheritance is a core OOP principle, Flutter discourages deep inheritance because it can
+    lead to:
 
 1️⃣ Tightly Coupled Code → If a parent class changes, all child classes may break.
-2️⃣ Reduced Reusability → A subclass gets everything from the parent, even if it only needs a few methods.
+2️⃣ Reduced Reusability → A subclass gets everything from the parent, even if it only needs a few
+methods.
 3️⃣ Complex Hierarchy → Multiple levels of inheritance make debugging harder.
 4️⃣ Difficult Maintenance → Adding features or modifying behavior becomes rigid.
 
@@ -991,15 +1032,18 @@ void main() {
 MyClass obj = MyClass();
 obj.log("This is a log message!");
 }
-🚀 “Flutter prefers composition and mixins over inheritance to keep the code flexible, reusable, and maintainable!”
+🚀 “Flutter prefers composition and mixins over inheritance to keep the code flexible, reusable, and
+maintainable!”
 
-✅ Best Practice: Instead of manually using InheritedWidget, use Provider (built on InheritedWidget) for state management.
+✅ Best Practice: Instead of manually using InheritedWidget, use Provider (built on InheritedWidget)
+for state management.
 
 ---
-
-
-30) What is InheritedWidget in Flutter?
-    InheritedWidget is a special type of widget in Flutter that allows data to be passed down the widget tree efficiently without using constructors. It is commonly used for state management and sharing data across multiple widgets.
+30.What is InheritedWidget in Flutter?
+---
+InheritedWidget is a special type of widget in Flutter that allows data to be passed down the
+    widget tree efficiently without using constructors. It is commonly used for state management and
+    sharing data across multiple widgets.
 
 🔹 Why Use InheritedWidget?
 Helps avoid prop drilling (passing data manually through multiple widget constructors).
@@ -1015,7 +1059,7 @@ return context.dependOnInheritedWidgetOfExactType<MyInheritedWidget>();
 }
 @override
 bool updateShouldNotify(MyInheritedWidget oldWidget) {
-return counter != oldWidget.counter;  // Notify only if data changes
+return counter != oldWidget.counter; // Notify only if data changes
 }
 }
 Usage in Widgets:
@@ -1035,7 +1079,6 @@ return Text('Counter: $inheritedData');
 
 ---
 
-
 31) Difference Between Container and SizedBox in Flutter
     1️⃣ Container
 
@@ -1047,7 +1090,7 @@ Example:
 Container(
 width: 100,
 height: 100,
-color: Colors.blue,  // Supports styling
+color: Colors.blue, // Supports styling
 child: Text("Hello"),
 );
 2️⃣ SizedBox
@@ -1061,13 +1104,15 @@ SizedBox(
 width: 50,
 height: 50,
 );
-🚀 “Use Container for layouts and styling, and SizedBox when you just need empty space or a fixed size!"
+🚀 “Use Container for layouts and styling, and SizedBox when you just need empty space or a fixed
+size!"
 
 ---
 
-
 32) What is AppLifecycleState in Flutter?
-    AppLifecycleState is an enum in Flutter that helps track the lifecycle of an app—whether it's running, paused, or in the background. It is useful when handling app states like saving data, stopping tasks, or resuming functionality.
+    AppLifecycleState is an enum in Flutter that helps track the lifecycle of an app—whether it's
+    running, paused, or in the background. It is useful when handling app states like saving data,
+    stopping tasks, or resuming functionality.
 
 Lifecycle States:
 1️⃣ resumed → App is active and visible.
@@ -1107,10 +1152,10 @@ home: Scaffold(body: Center(child: Text("App Lifecycle Example"))),
 );
 }
 }
-🚀 “AppLifecycleState helps in handling app behavior when it moves between foreground, background, or gets terminated!"
+🚀 “AppLifecycleState helps in handling app behavior when it moves between foreground, background, or
+gets terminated!"
 
 ---
-
 
 33) Difference Between NetworkImage and Image.network in Flutter
     Both are used to load images from a network URL, but they work differently.
@@ -1131,16 +1176,17 @@ Easier to use as it directly renders an image.
 Example:
 
 Image.network('https://example.com/image.png');
-🚀 “Use NetworkImage when you need an image provider, and Image.network when you want a ready-to-use widget!"
+🚀 “Use NetworkImage when you need an image provider, and Image.network when you want a ready-to-use
+widget!"
 
 ---
-
 
 34) Explain async, await, and Future in Dart
     In Dart, asynchronous programming allows the app to perform tasks without blocking the UI.
 
 1️⃣ Future (Represents an Async Operation)
-A Future is a placeholder for a value that will be available at some point in the future (after an async task completes).
+A Future is a placeholder for a value that will be available at some point in the future (after an
+async task completes).
 
 Future<String> fetchData() {
 return Future.delayed(Duration(seconds: 2), () => "Data Loaded");
@@ -1158,7 +1204,7 @@ The await keyword pauses execution until the Future completes.
 
 Future<void> loadData() async {
 print("Loading...");
-String data = await fetchData();  // Waits here until fetchData() completes
+String data = await fetchData(); // Waits here until fetchData() completes
 print(data);
 }
 Real-World Example (Fetching API Data)
@@ -1166,13 +1212,14 @@ Future<void> fetchUser() async {
 final response = await http.get(Uri.parse('https://jsonplaceholder.typicode.com/users/1'));
 print(response.body);
 }
-🚀 “Future represents a delayed result, async makes a function asynchronous, and await waits for the result before moving forward!"
+🚀 “Future represents a delayed result, async makes a function asynchronous, and await waits for the
+result before moving forward!"
 
 ---
 
-
 35) What is resizeToAvoidBottomInset in Flutter? When should we use it?
-    resizeToAvoidBottomInset is a property of Scaffold that controls whether the screen resizes when the keyboard appears.
+    resizeToAvoidBottomInset is a property of Scaffold that controls whether the screen resizes when
+    the keyboard appears.
 
 🔹 How It Works?
 true (Default) → The screen adjusts to prevent widgets from being hidden by the keyboard.
@@ -1182,10 +1229,10 @@ Use true when you want to prevent input fields from being hidden by the keyboard
 Use false if you are handling the layout manually (e.g., using SingleChildScrollView).
 📌 Example:
 Scaffold(
-resizeToAvoidBottomInset: false,  // Prevents screen resizing
+resizeToAvoidBottomInset: false, // Prevents screen resizing
 body: Column(
 children: [
-TextField(),  // Might get hidden by the keyboard
+TextField(), // Might get hidden by the keyboard
 ],
 ),
 );
@@ -1193,45 +1240,48 @@ TextField(),  // Might get hidden by the keyboard
 
 ---
 
-
 36) What is TextEditingController in Flutter?
-    TextEditingController is used to control and manipulate text in a TextField or TextFormField. It helps in retrieving, setting, and listening to text changes in input fields.
+    TextEditingController is used to control and manipulate text in a TextField or TextFormField. It
+    helps in retrieving, setting, and listening to text changes in input fields.
 
 🔹 Why Use TextEditingController?
 Get or set the value of a text field programmatically.
 Listen to text changes in real time.
 Clear or modify the input dynamically.
 📌 Example Usage:
-TextEditingController _controller = TextEditingController();  // Initialize
+TextEditingController _controller = TextEditingController(); // Initialize
 
 @override
 void dispose() {
-_controller.dispose();  // Always dispose controllers to free memory
+_controller.dispose(); // Always dispose controllers to free memory
 super.dispose();
 }
 TextField(
-controller: _controller,  // Attach controller
+controller: _controller, // Attach controller
 decoration: InputDecoration(labelText: "Enter text"),
 );
 // Get text
 String text = _controller.text;
 // Set text
 _controller.text = "Hello, Flutter!";
-🚀 “TextEditingController allows direct control over a text field, making it essential for form handling and real-time text updates!"
+🚀 “TextEditingController allows direct control over a text field, making it essential for form
+handling and real-time text updates!"
 
 ---
 
-
 37) What is Animation and AnimationController in Flutter?
-    Flutter’s animation system allows smooth transitions, movement, and effects in UI elements. It works with an animation object and a controller to handle animations.
+    Flutter’s animation system allows smooth transitions, movement, and effects in UI elements. It
+    works with an animation object and a controller to handle animations.
 
 1️⃣ What is Animation?
-Animation<T> is an abstract class that represents a value changing over time. It is used to animate properties like position, opacity, or color.
+Animation<T> is an abstract class that represents a value changing over time. It is used to animate
+properties like position, opacity, or color.
 
 👉 It goes from a start value to an end value over a duration.
 
 2️⃣ What is AnimationController?
-AnimationController is a special type of animation that controls the duration, start, stop, and repeat behavior of an animation.
+AnimationController is a special type of animation that controls the duration, start, stop, and
+repeat behavior of an animation.
 
 🔹 It requires a vsync (Ticker) to optimize performance.
 
@@ -1252,17 +1302,17 @@ vsync: this,
 duration: Duration(seconds: 2),
 );
 _animation = Tween<double>(begin: 0, end: 1).animate(_controller);
-_controller.forward();  // Starts animation
+_controller.forward(); // Starts animation
 }
 @override
 void dispose() {
-_controller.dispose();  // Free memory
+_controller.dispose(); // Free memory
 super.dispose();
 }
 @override
 Widget build(BuildContext context) {
 return FadeTransition(
-opacity: _animation,  // Apply animation
+opacity: _animation, // Apply animation
 child: Text("Flutter Animation!"),
 );
 }
@@ -1275,12 +1325,13 @@ Use with Widgets like FadeTransition, SlideTransition, etc.
 
 ---
 
-
 38) What is Tree Shaking in Flutter?
-    Tree shaking is an optimization technique that removes unused code from the final app build, reducing the app size.
+    Tree shaking is an optimization technique that removes unused code from the final app build,
+    reducing the app size.
 
 🔹 How It Works?
-When you compile a Flutter app, the Dart compiler analyzes the code and removes unused functions, classes, and libraries that are never called in the app.
+When you compile a Flutter app, the Dart compiler analyzes the code and removes unused functions,
+classes, and libraries that are never called in the app.
 
 🔹 Why is It Important?
 ✅ Reduces app size by eliminating dead code.
@@ -1288,7 +1339,8 @@ When you compile a Flutter app, the Dart compiler analyzes the code and removes 
 ✅ Optimizes production builds for efficiency.
 
 📌 Example
-If you import a package but never use it, Flutter’s tree shaking will remove it from the final build, ensuring that only the required parts of the package remain.
+If you import a package but never use it, Flutter’s tree shaking will remove it from the final
+build, ensuring that only the required parts of the package remain.
 
 import 'package:some_library/some_unused_feature.dart'; // This will be removed if not used
 🔹 When Does Tree Shaking Happen?
@@ -1298,9 +1350,9 @@ Not in debug mode (as it keeps all code for faster development).
 
 ---
 
-
 39) What is the AspectRatio Widget in Flutter?
-    The AspectRatio widget is used to maintain a specific width-to-height ratio for its child widget, regardless of the available space.
+    The AspectRatio widget is used to maintain a specific width-to-height ratio for its child
+    widget, regardless of the available space.
 
 🔹 Why Use AspectRatio?
 ✅ Ensures UI elements maintain consistent proportions across different screen sizes.
@@ -1309,7 +1361,7 @@ Not in debug mode (as it keeps all code for faster development).
 
 📌 Example: Maintaining a 16:9 Aspect Ratio (Common for Videos)
 AspectRatio(
-aspectRatio: 16 / 9,  // Width : Height
+aspectRatio: 16 / 9, // Width : Height
 child: Container(
 color: Colors.blue,
 ),
@@ -1318,15 +1370,16 @@ This ensures that the Container always maintains a 16:9 ratio, no matter the scr
 
 🔹 Key Points:
 The aspectRatio is calculated as width / height.
-If the parent widget has infinite constraints, the AspectRatio widget will size itself based on its child.
+If the parent widget has infinite constraints, the AspectRatio widget will size itself based on its
+child.
 Helps create responsive UIs without hardcoding width and height values.
 🚀 “Use AspectRatio to keep widgets proportionate across different screens!"
 
 ---
 
-
 40) What is vsync in Flutter?
-    vsync (vertical synchronization) is a mechanism in Flutter that syncs animations with the screen’s refresh rate to optimize performance and prevent unnecessary computations.
+    vsync (vertical synchronization) is a mechanism in Flutter that syncs animations with the
+    screen’s refresh rate to optimize performance and prevent unnecessary computations.
 
 🔹 Why is vsync Needed?
 ✅ Prevents animations from running when not visible, saving resources.
@@ -1365,10 +1418,10 @@ Prevents unnecessary computations for off-screen animations.
 
 ---
 
-
 41) Difference Between Future and Stream in Flutter
     1️⃣ Future: Used for handling a single asynchronous value (e.g., fetching data from an API).
-    2️⃣ Stream: Used for handling multiple asynchronous values over time (e.g., real-time updates like Firebase Firestore, sensors, or WebSockets).
+    2️⃣ Stream: Used for handling multiple asynchronous values over time (e.g., real-time updates
+    like Firebase Firestore, sensors, or WebSockets).
 
 📌 Key Differences:
 Future runs once and completes.
@@ -1384,13 +1437,12 @@ return "Data Loaded";
 Stream<int> numberStream() async* {
 for (int i = 1; i <= 5; i++) {
 await Future.delayed(Duration(seconds: 1));
-yield i;  // Emits data continuously
+yield i; // Emits data continuously
 }
 }
 🚀 Use Future for one-time async tasks and Stream for continuous updates!
 
 ---
-
 
 42) Types of Future in Dart
     There are two main types of Future in Dart:
@@ -1425,7 +1477,6 @@ return completer.future;
 
 ---
 
-
 43) Types of Streams in Dart
     There are two main types of Streams in Dart:
 
@@ -1442,7 +1493,7 @@ return completer.future;
 Stream<int> numberStream() async* {
 for (int i = 1; i <= 5; i++) {
 await Future.delayed(Duration(seconds: 1));
-yield i;  // Emits data sequentially
+yield i; // Emits data sequentially
 }
 }
 
@@ -1475,7 +1526,6 @@ startStream();
 
 ---
 
-
 44) What is assert in Dart and Flutter?
     👉 assert is used for debugging to check if a condition is true during development.
     👉 It only works in debug mode and is ignored in release mode.
@@ -1495,9 +1545,9 @@ print("Execution continues...");
 
 ---
 
-
 45) Can you explain the process of creating custom widgets in Flutter?
-    In Flutter, you can create custom widgets by extending either StatelessWidget or StatefulWidget based on whether your widget needs to hold state.
+    In Flutter, you can create custom widgets by extending either StatelessWidget or StatefulWidget
+    based on whether your widget needs to hold state.
 
 1️⃣ Creating a Stateless Custom Widget
 📌 Use when the widget does not change after creation
@@ -1554,7 +1604,6 @@ CounterWidget();
 
 ---
 
-
 46) What is typedef in Dart?
     👉 typedef (Type Definition) is used to create an alias for function types in Dart.
     👉 It makes code more readable, reusable, and manageable when passing functions as parameters.
@@ -1568,8 +1617,8 @@ void calculate(MathOperation operation, int a, int b) {
 print("Result: ${operation(a, b)}");
 }
 void main() {
-calculate(add, 5, 3);       // Output: Result: 8
-calculate(multiply, 5, 3);  // Output: Result: 15
+calculate(add, 5, 3); // Output: Result: 8
+calculate(multiply, 5, 3); // Output: Result: 15
 }
 📌 Example: Using typedef for Callbacks
 typedef Callback = void Function(String message);
@@ -1584,9 +1633,9 @@ showMessage((msg) => print(msg)); // Output: Hello from typedef!
 
 ---
 
-
 47) What is FutureBuilder in Flutter and how is it used to build dynamic UI?
-    👉 FutureBuilder is a Flutter widget that builds UI dynamically based on the result of a Future (asynchronous operation).
+    👉 FutureBuilder is a Flutter widget that builds UI dynamically based on the result of a Future (
+    asynchronous operation).
     👉 It listens to a Future, waits for its completion, and updates the UI accordingly.
     👉 Commonly used for fetching data from APIs, databases, or performing async operations.
 
@@ -1628,9 +1677,9 @@ How FutureBuilder Works?
 
 ---
 
-
 48) How do you handle exceptions in Flutter, and what strategies have you used?
-    Exception handling in Flutter is crucial to prevent app crashes and provide a smooth user experience. Common strategies include:
+    Exception handling in Flutter is crucial to prevent app crashes and provide a smooth user
+    experience. Common strategies include:
 
 1️⃣ Using try-catch for Synchronous & Asynchronous Errors
 📌 Use try-catch to catch runtime errors and display meaningful messages.
@@ -1690,14 +1739,16 @@ runApp(MyApp());
 print("Unhandled error: $error");
 });
 }
-🚀 “Handle exceptions using try-catch, global handlers, and user-friendly error messages to ensure a smooth app experience!"
+🚀 “Handle exceptions using try-catch, global handlers, and user-friendly error messages to ensure a
+smooth app experience!"
 
 ---
 
-
 49) What is an Isolate in Flutter?
-    👉 Isolates are independent memory spaces that run parallel to the main Dart thread, used for handling heavy computations without blocking the UI.
-    👉 Unlike threads, isolates do not share memory, making them safer for concurrency but requiring message passing for communication.
+    👉 Isolates are independent memory spaces that run parallel to the main Dart thread, used for
+    handling heavy computations without blocking the UI.
+    👉 Unlike threads, isolates do not share memory, making them safer for concurrency but requiring
+    message passing for communication.
 
 📌 Why Use Isolates?
 Prevents UI freezing during expensive operations.
@@ -1742,9 +1793,9 @@ print("Result: $message");
 
 ---
 
-
 50) What are DevTools in Flutter?
-    Flutter DevTools is a suite of debugging and performance tools for Flutter apps. It helps developers analyze, debug, and optimize their applications.
+    Flutter DevTools is a suite of debugging and performance tools for Flutter apps. It helps
+    developers analyze, debug, and optimize their applications.
 
 Flutter DevTools Features
 1️⃣ Flutter Inspector → Inspect widget tree, layout, size, and position.
@@ -1770,7 +1821,6 @@ Then open DevTools via VS Code, Android Studio, or Chrome.
 
 ---
 
-
 51) How would you make HTTP requests in the Flutter framework?
     In Flutter, you can use the http package to make API calls.
 
@@ -1778,7 +1828,7 @@ Then open DevTools via VS Code, Android Studio, or Chrome.
 1️⃣ Add the http package in pubspec.yaml:
 
 dependencies:
-http: ^0.13.6  # (Use latest version)
+http: ^0.13.6 # (Use latest version)
 2️⃣ Import the package:
 
 import 'package:http/http.dart' as http;
@@ -1819,13 +1869,13 @@ print("Failed to send data");
 
 ---
 
-
 52) Making API Calls Using Dio in Flutter?
-    The Dio package is a powerful HTTP client for Flutter, supporting advanced features like interceptors, timeout, and request cancellation.
+    The Dio package is a powerful HTTP client for Flutter, supporting advanced features like
+    interceptors, timeout, and request cancellation.
 
 📌 Step 1: Add Dio to pubspec.yaml
 dependencies:
-dio: ^5.4.0  # (Use the latest version)
+dio: ^5.4.0 # (Use the latest version)
 📌 Step 2: Import Dio
 import 'package:dio/dio.dart';
 📌 GET Request Example
@@ -1863,13 +1913,15 @@ print("Error: $e");
 ✔ Implement timeout handling for network requests.
 ✔ Use BaseOptions for global configurations.
 
-🚀 “Dio is great for making API calls with features like interceptors, timeouts, and request cancellation!”
+🚀 “Dio is great for making API calls with features like interceptors, timeouts, and request
+cancellation!”
 
 ---
 
-
 53) What is Microfrontend in Flutter?
-    Microfrontend is an architectural approach where a large frontend application is broken into smaller, independently developed and deployed modules. In Flutter, this concept is applied to modularizing the app by splitting it into feature-based modules.
+    Microfrontend is an architectural approach where a large frontend application is broken into
+    smaller, independently developed and deployed modules. In Flutter, this concept is applied to
+    modularizing the app by splitting it into feature-based modules.
 
 📌 Why Use Microfrontend in Flutter?
 ✅ Scalability — Different teams can work on separate modules.
@@ -1893,9 +1945,9 @@ Each module is built separately and integrated into the main app.
 
 ---
 
-
 54) Difference Between Dio and HTTP in Flutter
-    📌 Dio and HTTP are both used for making API requests in Flutter, but Dio is more feature-rich, while HTTP is lightweight and simple.
+    📌 Dio and HTTP are both used for making API requests in Flutter, but Dio is more feature-rich,
+    while HTTP is lightweight and simple.
 
 1️⃣ Dio (Advanced)
 ✅ Supports interceptors for modifying requests/responses.
@@ -1928,14 +1980,16 @@ When to Use?
 
 ---
 
-
 55) What is Factory constructor?
-    A factory constructor is a special type of constructor in Dart that does not always create a new instance of a class. Instead, it can return an existing instance or perform custom initialization before returning an object.
+    A factory constructor is a special type of constructor in Dart that does not always create a new
+    instance of a class. Instead, it can return an existing instance or perform custom
+    initialization before returning an object.
 
 Why Use a Factory Constructor?
 ✅ When we need to return a cached instance instead of creating a new object every time.
 ✅ When we need to return a subclass or a specific implementation based on some condition.
-✅ When we need asynchronous initialization (though it can’t be async directly, it can call an async method).
+✅ When we need asynchronous initialization (though it can’t be async directly, it can call an async
+method).
 
 Example: Singleton Pattern (Returning a Cached Instance)
 class Database {
@@ -1952,7 +2006,8 @@ var db1 = Database();
 var db2 = Database();
 print(db1 == db2); // true (same instance)
 }
-🔹 Here, the factory constructor ensures only one instance of Database is created (Singleton Pattern).
+🔹 Here, the factory constructor ensures only one instance of Database is created (Singleton
+Pattern).
 
 Example: Returning Different Implementations
 abstract class Vehicle {
@@ -1975,13 +2030,14 @@ print(myVehicle.runtimeType); // Car
 
 Conclusion
 📌 Factory constructors are used when we need control over object creation.
-📌 They help in implementing caching, singleton patterns, and returning different instances dynamically.
+📌 They help in implementing caching, singleton patterns, and returning different instances
+dynamically.
 
 ---
 
-
 56) What is a Singleton Class in Dart?
-    A Singleton Class is a design pattern where only one instance of a class is created and shared across the entire app. It ensures that the same object is used whenever it’s accessed.
+    A Singleton Class is a design pattern where only one instance of a class is created and shared
+    across the entire app. It ensures that the same object is used whenever it’s accessed.
 
 Why Use Singleton?
 ✔ Saves memory (prevents multiple instances).
@@ -2007,7 +2063,6 @@ print(obj1 == obj2); // true (same instance)
 
 ---
 
-
 57) Can you explain the process of testing a Flutter app?
     Sure! Here’s a short and simple answer you can say in an interview:
 
@@ -2020,6 +2075,7 @@ Tests individual functions, methods, or classes.
 test('adds two numbers', () {   
 expect(add(2, 3), 5);
 });
+
 2. Widget Testing –
    Tests UI components (widgets) in isolation.
    📌 Verifies layout, UI, and interactions.
@@ -2028,6 +2084,7 @@ testWidgets('Check button text', (tester) async {
 await tester.pumpWidget(MyApp());   
 expect(find.text('Click Me'), findsOneWidget);
 });
+
 3. Integration Testing –
    Tests the complete app flow (from UI to backend).
    📌 Simulates real user behavior across screens.
@@ -2040,23 +2097,24 @@ flutter test
 
 ---
 
-
 58) What technology is Flutter built with?
     Flutter is built using C++, Dart, and Skia.
 
 Dart — The main programming language used to write Flutter apps.
 C++ — Powers Flutter’s engine for performance and low-level rendering.
 Skia — A 2D graphics engine used to render Flutter’s UI across platforms.
-👉 This combo lets Flutter deliver fast, smooth, and native-like performance on iOS, Android, web, desktop, and more.
+👉 This combo lets Flutter deliver fast, smooth, and native-like performance on iOS, Android, web,
+desktop, and more.
 
 ---
 
-
 59) What is the event loop?
-    The event loop is the system in Dart (and Flutter) that manages how asynchronous operations (like API calls, timers, file access) are handled without blocking the main thread.
+    The event loop is the system in Dart (and Flutter) that manages how asynchronous operations (
+    like API calls, timers, file access) are handled without blocking the main thread.
 
 📌 Simple Explanation:
-It listens for events (like button clicks, futures, streams), and executes callbacks when those events are ready.
+It listens for events (like button clicks, futures, streams), and executes callbacks when those
+events are ready.
 
 ✅ How it works:
 Executes all synchronous code first.
@@ -2075,28 +2133,31 @@ Async task
 
 ---
 
-
 60) What is the difference between Provider vs. InheritedWidget?
     ✅ Provider vs InheritedWidget
-    Provider is a wrapper around InheritedWidget that makes it much easier to manage and pass data down the widget tree.
+    Provider is a wrapper around InheritedWidget that makes it much easier to manage and pass data
+    down the widget tree.
 
 InheritedWidget is the low-level way of sharing data — powerful, but more manual and boilerplate.
-Provider simplifies that — it automatically listens for changes and rebuilds widgets, making it ideal for state management.
+Provider simplifies that — it automatically listens for changes and rebuilds widgets, making it
+ideal for state management.
 📝 Summary:
-InheritedWidget is the core low-level mechanism, while Provider is a wrapper built on top of it that simplifies state management and makes code cleaner and scalable.
+InheritedWidget is the core low-level mechanism, while Provider is a wrapper built on top of it that
+simplifies state management and makes code cleaner and scalable.
 
 📌 Use Provider for most real-world apps unless you need custom or fine-tuned behavior.
 
-📌 So, Provider uses InheritedWidget under the hood, but gives a much cleaner and scalable way to manage state in Flutter apps.
+📌 So, Provider uses InheritedWidget under the hood, but gives a much cleaner and scalable way to
+manage state in Flutter apps.
 
 ---
-
 
 61) What is the purpose of the initState() method in a StatefulWidget?
     The initState() method is called once when a StatefulWidget is created.
 
 🔹 Purpose:
-It’s used to initialize data, start animations, fetch data, or set up controllers before the UI builds.
+It’s used to initialize data, start animations, fetch data, or set up controllers before the UI
+builds.
 
 🧠 Example use:
 Calling an API when the screen loads
@@ -2110,9 +2171,9 @@ super.initState();
 
 ---
 
-
 62) What is the purpose of the dispose() method in a StatefulWidget?
-    The dispose() method is used to clean up resources when a StatefulWidget is removed from the widget tree.
+    The dispose() method is used to clean up resources when a StatefulWidget is removed from the
+    widget tree.
 
 🔹 Purpose:
 To avoid memory leaks
@@ -2127,9 +2188,9 @@ super.dispose();
 
 ---
 
-
 63) What is a GlobalKey in Flutter?
-    A GlobalKey in Flutter is used to uniquely identify a widget and access its state from anywhere in the app.
+    A GlobalKey in Flutter is used to uniquely identify a widget and access its state from anywhere
+    in the app.
 
 🔹 When to use:
 You need to access the state of a widget from outside its build context
@@ -2139,10 +2200,10 @@ final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 You can then use:
 
 _formKey.currentState?.validate();
-✅ In short, GlobalKey gives access to a widget’s state and context globally, but use it carefully — overusing it can affect performance.
+✅ In short, GlobalKey gives access to a widget’s state and context globally, but use it carefully —
+overusing it can affect performance.
 
 ---
-
 
 64) What is the difference between padding and margin in Flutter?
     Padding is the space inside a widget, between its content and its border.
@@ -2152,7 +2213,7 @@ Margin is the space outside a widget, between the widget and other surrounding w
 🧠 Example:
 Container(
 padding: EdgeInsets.all(10), // space inside the container
-margin: EdgeInsets.all(10),  // space outside the container
+margin: EdgeInsets.all(10), // space outside the container
 child: Text('Hello'),
 )
 ✅ Think of it like this:
@@ -2160,7 +2221,6 @@ Padding = internal spacing
 Margin = external spacing
 
 ---
-
 
 65) What is the purpose of the scaffold widget in Flutter?
     The Scaffold widget provides the basic structure for a screen in a Flutter app.
@@ -2183,9 +2243,9 @@ floatingActionButton: FloatingActionButton(onPressed: () {}),
 
 ---
 
-
 66) What is the purpose of the Expanded widget in Flutter?
-    The Expanded widget is used inside flexible widgets like Row, Column, or Flex to make a child take up the remaining available space.
+    The Expanded widget is used inside flexible widgets like Row, Column, or Flex to make a child
+    take up the remaining available space.
 
 It helps in building responsive UIs by distributing space among widgets.
 
@@ -2195,14 +2255,14 @@ You can control the ratio of space with the flex property.
 ✅ Example:
 Row(
 children: [
-Container(width: 100, color: Colors.grey),     // Fixed width
+Container(width: 100, color: Colors.grey), // Fixed width
 Expanded(
 flex: 2,
-child: Container(color: Colors.red),         // Takes 2 parts
+child: Container(color: Colors.red), // Takes 2 parts
 ),
 Expanded(
 flex: 1,
-child: Container(color: Colors.blue),        // Takes 1 part
+child: Container(color: Colors.blue), // Takes 1 part
 ),
 ],
 )
@@ -2217,9 +2277,9 @@ Helps in building adaptive layouts easily.
 
 ---
 
-
 67) How do you handle user input in Flutter?
-In Flutter, user input is usually handled using form fields like TextField, along with a controller like TextEditingController to get or modify the input.
+    In Flutter, user input is usually handled using form fields like TextField, along with a
+    controller like TextEditingController to get or modify the input.
 
 🧠 Example:
 TextEditingController nameController = TextEditingController();
@@ -2238,7 +2298,8 @@ Use TextField, TextFormField for input
 Use TextEditingController to control and read input
 Use Form and GlobalKey for form validation and submission
 68)What is the purpose of the LayoutBuilder widget in Flutter?
-LayoutBuilder is used to build widgets based on the parent’s constraints. It helps create responsive layouts that adapt to screen size or available space.
+LayoutBuilder is used to build widgets based on the parent’s constraints. It helps create responsive
+layouts that adapt to screen size or available space.
 
 🧠 Why it’s useful:
 You can check the available width or height and build different UIs accordingly.
@@ -2260,9 +2321,9 @@ Ideal for responsive or dynamic UI adjustments.
 
 ---
 
-
 69) What is the purpose of SingleChildScrollView in Flutter?
-    SingleChildScrollView lets you scroll a single child widget when its content is too big to fit on the screen.
+    SingleChildScrollView lets you scroll a single child widget when its content is too big to fit
+    on the screen.
 
 ✅ When to use:
 When you have a column of widgets that might overflow.
@@ -2283,7 +2344,6 @@ Prevents overflow errors.
 Often used with Column for form screens or long content.
 
 ---
-
 
 70) What is the purpose of the Stack widget in Flutter?
     The Stack widget allows you to place widgets on top of each other, like layers.
@@ -2309,9 +2369,9 @@ Great for custom UIs and layered designs.
 
 ---
 
-
 71) 🎨 What is a Theme in Flutter?
-A Theme in Flutter defines the overall visual styling of your app — like colors, fonts, and shapes.
+    A Theme in Flutter defines the overall visual styling of your app — like colors, fonts, and
+    shapes.
 
 ✅ Purpose:
 Ensures consistent look across the app.
@@ -2331,9 +2391,9 @@ Access with Theme.of(context) for styling specific widgets.
 
 ---
 
-
 72) 👁️ What is the purpose of the Visibility widget in Flutter?
-The Visibility widget is used to show or hide a widget in the widget tree without removing it from layout structure.
+    The Visibility widget is used to show or hide a widget in the widget tree without removing it
+    from layout structure.
 
 ✅ Why use it:
 To toggle UI elements on or off based on a condition.
@@ -2350,9 +2410,8 @@ Good for conditionally displaying content.
 
 ---
 
-
 73) 🔄 How do you navigate between screens in Flutter?
-You can navigate using Navigator class.
+    You can navigate using Navigator class.
 
 ✅ To push (go to next screen):
 Navigator.push(
@@ -2367,7 +2426,6 @@ Use Navigator.pop() to return to the previous screen.
 Useful for multi-screen apps and user flows.
 
 ---
-
 
 74) 🗺️ What are Routes in Flutter?
     Routes are the named paths/screens in your Flutter app that you can navigate to using Navigator.
@@ -2391,9 +2449,9 @@ Useful for managing multiple screens in a structured way.
 
 ---
 
-
 75) 📥 What is a Modal Bottom Sheet in Flutter?
-    A Modal Bottom Sheet is a UI panel that slides up from the bottom of the screen and covers part of the content. It’s used to show extra options or forms without navigating away.
+    A Modal Bottom Sheet is a UI panel that slides up from the bottom of the screen and covers part
+    of the content. It’s used to show extra options or forms without navigating away.
 
 ✅ Example:
 showModalBottomSheet(
@@ -2412,9 +2470,9 @@ Closes by tapping outside or using Navigator.pop(context) inside it.
 
 ---
 
-
 76) 🔄 How do you use ValueNotifier class in Flutter?
-ValueNotifier is a simple way to manage state. It notifies listeners when its value changes — perfect for small updates without using a big state management solution.
+    ValueNotifier is a simple way to manage state. It notifies listeners when its value changes —
+    perfect for small updates without using a big state management solution.
 
 ✅ Example:
 ValueNotifier<int> counter = ValueNotifier<int>(0);
@@ -2438,9 +2496,9 @@ Wrap with ValueListenableBuilder to reflect UI updates.
 
 ---
 
-
 78) 📍 How do you use the Positioned widget in Flutter?
-    Positioned is used inside a Stack to place a widget at an exact location (top, bottom, left, right) within the stack.
+    Positioned is used inside a Stack to place a widget at an exact location (top, bottom, left,
+    right) within the stack.
 
 ✅ Basic Usage:
 Stack(
@@ -2457,13 +2515,13 @@ child: Icon(Icons.star, size: 50, color: Colors.yellow),
 Must be used inside a Stack.
 Gives absolute positioning relative to the stack boundaries.
 You can use top, bottom, left, right, height, and width.
-Perfect for UI layouts that need overlays or custom positioning like badges, tooltips, or floating elements.
+Perfect for UI layouts that need overlays or custom positioning like badges, tooltips, or floating
+elements.
 
 ---
 
-
 79) 🔁 How do you pass data between screens in Flutter?
-You can pass data between screens using Navigator when pushing routes.
+    You can pass data between screens using Navigator when pushing routes.
 
 ✅ Example: Passing data
 From First Screen:
@@ -2493,9 +2551,9 @@ Simple and clean for navigating and sharing info between screens.
 
 ---
 
-
 80) 📱 What can you do for Responsive Layout in Flutter?
-To make your app look good on all screen sizes (mobile, tablet, desktop), here are the most common and effective ways:
+    To make your app look good on all screen sizes (mobile, tablet, desktop), here are the most
+    common and effective ways:
 
 ✅ 1. MediaQuery
 Use it to get screen width/height and adjust UI.
@@ -2523,13 +2581,14 @@ These widgets help maintain proportions and scaling.
 Use these packages for easier and scalable responsive design.
 
 Summary:
-Use a mix of MediaQuery, LayoutBuilder, and flexible widgets to build clean, scalable, and adaptive UI across different devices.
+Use a mix of MediaQuery, LayoutBuilder, and flexible widgets to build clean, scalable, and adaptive
+UI across different devices.
 
 ---
 
-
 81) 📱 What is a MediaQuery in Flutter?
-    MediaQuery gives you information about the screen size, orientation, padding, and device pixel ratio of the current device.
+    MediaQuery gives you information about the screen size, orientation, padding, and device pixel
+    ratio of the current device.
 
 ✅ Common Use:
 var screenWidth = MediaQuery.of(context).size.width;
@@ -2542,12 +2601,13 @@ Detect keyboard visibility, notch areas, etc.
 
 ---
 
-
 82) 🧱 What is LayoutBuilder in Flutter?
-    LayoutBuilder is a widget that lets you build your UI based on the available space (constraints).
+    LayoutBuilder is a widget that lets you build your UI based on the available space (
+    constraints).
 
 ✅ Use Case:
-Perfect for making responsive designs — when you want to display different layouts on small vs. large screens.
+Perfect for making responsive designs — when you want to display different layouts on small vs.
+large screens.
 
 🧩 Example:
 LayoutBuilder(
@@ -2563,17 +2623,19 @@ return Text('Mobile Layout');
 For dynamic UI
 To adapt widgets based on screen width/height
 Useful in responsive UIs and reusable components
-🧠 In short: LayoutBuilder gives you the space info during build time and lets you design smart adaptive UIs.
+🧠 In short: LayoutBuilder gives you the space info during build time and lets you design smart
+adaptive UIs.
 
 ---
 
-
 83) What is the purpose of the 🔄didUpdateWidget method in a StatefulWidget?
     🔄 didUpdateWidget in Flutter
-    didUpdateWidget() is a lifecycle method in StatefulWidget that's called when the widget configuration changes, but the State object is not recreated.
+    didUpdateWidget() is a lifecycle method in StatefulWidget that's called when the widget
+    configuration changes, but the State object is not recreated.
 
 ✅ Purpose:
-To respond when the parent widget rebuilds with new parameters, and you want to react to those changes.
+To respond when the parent widget rebuilds with new parameters, and you want to react to those
+changes.
 
 🧩 Example:
 @override
@@ -2587,13 +2649,14 @@ if (oldWidget.title != widget.title) {
 To compare old and new widget values
 Update internal state based on new inputs
 Helps avoid unnecessary state rebuilds
-🧠 In short: Use didUpdateWidget when you need to handle changes to widget properties without recreating the whole State.
+🧠 In short: Use didUpdateWidget when you need to handle changes to widget properties without
+recreating the whole State.
 
 ---
 
-
 84) 🎨 What is CustomPainter in Flutter?
-    CustomPainter is a class in Flutter used to draw custom graphics (like shapes, paths, gradients) directly on the screen using the Canvas.
+    CustomPainter is a class in Flutter used to draw custom graphics (like shapes, paths, gradients)
+    directly on the screen using the Canvas.
 
 ✅ Purpose:
 To create custom UI designs that aren’t available through standard widgets — like:
@@ -2623,13 +2686,14 @@ size: Size(200, 200),
 painter: MyPainter(),
 )
 🧠 In short:
-CustomPainter gives full control to draw anything pixel by pixel on the screen, making your UI more flexible and powerful.
+CustomPainter gives full control to draw anything pixel by pixel on the screen, making your UI more
+flexible and powerful.
 
 ---
 
-
 85) 🔄 What is the purpose of AnimatedBuilder in Flutter?
-    AnimatedBuilder is used to build animations efficiently by rebuilding only the parts of the widget tree that need to change when an animation updates.
+    AnimatedBuilder is used to build animations efficiently by rebuilding only the parts of the
+    widget tree that need to change when an animation updates.
 
 ✅ Why use it?
 To avoid rebuilding the whole widget tree on every animation frame.
@@ -2646,13 +2710,14 @@ child: child,
 child: Icon(Icons.refresh, size: 50),
 )
 🧠 In short:
-AnimatedBuilder helps optimize performance and cleanly structure animated UIs by only rebuilding what's necessary.
+AnimatedBuilder helps optimize performance and cleanly structure animated UIs by only rebuilding
+what's necessary.
 
 ---
 
-
 86) What is the 🚀 Purpose of the Navigator class in Flutter?
-    The Navigator class is used to manage a stack of routes (screens/pages) and handle navigation between them.
+    The Navigator class is used to manage a stack of routes (screens/pages) and handle navigation
+    between them.
 
 ✅ Why use it?
 To push new screens: Navigator.push()
@@ -2664,13 +2729,14 @@ Navigator.push(context, MaterialPageRoute(builder: (_) => SecondScreen()));
 // Go back
 Navigator.pop(context);
 🧠 In short:
-Navigator helps move between screens and maintain history like a stack — forward and back navigation is easy and flexible.
+Navigator helps move between screens and maintain history like a stack — forward and back navigation
+is easy and flexible.
 
 ---
 
-
 87) What is the🎭 Purpose of the AnimatedSwitcher widget in Flutter?
-    AnimatedSwitcher is used to switch between two widgets with an animation when the child widget changes.
+    AnimatedSwitcher is used to switch between two widgets with an animation when the child widget
+    changes.
 
 ✅ Why use it?
 To create smooth transitions when a widget changes (e.g., counter, icon, text).
@@ -2687,17 +2753,18 @@ style: TextStyle(fontSize: 30),
 Every time count changes, the widget animates the transition.
 
 🧠 In short:
-AnimatedSwitcher animates widget changes automatically — great for swapping UI elements with nice effects.
+AnimatedSwitcher animates widget changes automatically — great for swapping UI elements with nice
+effects.
 
 ---
-
 
 88) What is the🎯 Purpose of FittedBox in Flutter:
     FittedBox is used to scale and position its child within the available space.
 
 ✅ Why use it?
 To make widgets fit perfectly without overflow.
-Useful when dealing with responsive layouts or text/images that should adjust to their container size.
+Useful when dealing with responsive layouts or text/images that should adjust to their container
+size.
 🧩 Example:
 FittedBox(
 child: Text("Flutter is awesome!", style: TextStyle(fontSize: 40)),
@@ -2705,13 +2772,14 @@ child: Text("Flutter is awesome!", style: TextStyle(fontSize: 40)),
 If placed in a small container, the text will scale down to fit rather than overflow.
 
 🧠 In short:
-FittedBox keeps your UI neat and resizable, especially in dynamic layouts or when preventing overflow.
+FittedBox keeps your UI neat and resizable, especially in dynamic layouts or when preventing
+overflow.
 
 ---
 
-
 89) 🧠 What is State Management in Flutter?
-    State Management is how you handle and update the data (state) of your app UI when something changes — like user input, API response, or theme toggle.
+    State Management is how you handle and update the data (state) of your app UI when something
+    changes — like user input, API response, or theme toggle.
 
 🚦 Why it’s needed:
 Flutter is reactive. When state changes, the UI needs to rebuild to reflect the new data.
@@ -2736,9 +2804,9 @@ State Management ensures your UI stays in sync with the data behind it.
 
 ---
 
-
 90) 🧩 What is Provider in Flutter?
-    Provider is a state management solution in Flutter. It allows you to share data (state) across your widget tree efficiently.
+    Provider is a state management solution in Flutter. It allows you to share data (state) across
+    your widget tree efficiently.
 
 🚀 Why use Provider?
 Cleaner code
@@ -2768,12 +2836,15 @@ Consumer<Counter>(
 builder: (context, counter, child) => Text('${counter.value}'),
 )
 ✅ In short:
-Provider helps manage and access state across your app efficiently using a clean and scalable pattern.
+Provider helps manage and access state across your app efficiently using a clean and scalable
+pattern.
 
 🚦Types of Providers in Flutter
+
 1. Provider
    Best For: Basic state management.
-   Use Case: The most commonly used provider to manage state in Flutter. It allows you to provide data down the widget tree and notify listeners when the state changes.
+   Use Case: The most commonly used provider to manage state in Flutter. It allows you to provide
+   data down the widget tree and notify listeners when the state changes.
    Example:
    class Counter with ChangeNotifier {
    int _count = 0;
@@ -2793,7 +2864,8 @@ Provider helps manage and access state across your app efficiently using a clean
    }
 2. ChangeNotifierProvider
    Best For: Notifying listeners when state changes.
-   Use Case: Wraps a ChangeNotifier and provides it to the widget tree. It’s useful when you have a class that extends ChangeNotifier to manage state and notify changes.
+   Use Case: Wraps a ChangeNotifier and provides it to the widget tree. It’s useful when you have a
+   class that extends ChangeNotifier to manage state and notify changes.
    Example:
    ChangeNotifierProvider(
    create: (context) => MyModel(),
@@ -2801,7 +2873,8 @@ Provider helps manage and access state across your app efficiently using a clean
    );
 3. FutureProvider
    Best For: Providing a value asynchronously.
-   Use Case: Used to manage the state that depends on a Future. It’s helpful when you’re working with data that will be available in the future, like an API response.
+   Use Case: Used to manage the state that depends on a Future. It’s helpful when you’re working
+   with data that will be available in the future, like an API response.
    Example:
    FutureProvider<String>(
    create: (context) => fetchDataFromApi(),
@@ -2810,7 +2883,8 @@ Provider helps manage and access state across your app efficiently using a clean
    );
 4. StreamProvider
    Best For: Providing a stream of values over time.
-   Use Case: Used to listen to a stream (e.g., WebSocket data, Firebase data) and provide the latest value to the widget tree.
+   Use Case: Used to listen to a stream (e.g., WebSocket data, Firebase data) and provide the latest
+   value to the widget tree.
    Example:
    StreamProvider<int>(
    create: (context) => myStream(),
@@ -2819,7 +2893,8 @@ Provider helps manage and access state across your app efficiently using a clean
    );
 5. Selector
    Best For: Optimizing rebuilds based on specific data.
-   Use Case: Useful when you need to watch only part of the state and avoid unnecessary widget rebuilds. It is commonly used in combination with Provider to select specific parts of the state.
+   Use Case: Useful when you need to watch only part of the state and avoid unnecessary widget
+   rebuilds. It is commonly used in combination with Provider to select specific parts of the state.
    Example:
    Selector<MyModel, String>(
    selector: (context, model) => model.someData,
@@ -2829,7 +2904,8 @@ Provider helps manage and access state across your app efficiently using a clean
    );
 6. ProxyProvider
    Best For: Combining multiple providers.
-   Use Case: Used when you need to combine values from multiple providers or modify them before providing them to the widget tree.
+   Use Case: Used when you need to combine values from multiple providers or modify them before
+   providing them to the widget tree.
    Example:
    ProxyProvider<int, String>(   
    update: (context, count, previous) => 'Count: $count',
@@ -2841,13 +2917,16 @@ Provider helps manage and access state across your app efficiently using a clean
    Optimized Builds: Use Selector.
    Combining Providers: Use ProxyProvider.
    ✨ Interview Line:
-   “I choose different types of providers based on the app’s needs — ChangeNotifierProvider for managing simple state, FutureProvider and StreamProvider for async data, and Selector for optimizing widget rebuilds.”
+   “I choose different types of providers based on the app’s needs — ChangeNotifierProvider for
+   managing simple state, FutureProvider and StreamProvider for async data, and Selector for
+   optimizing widget rebuilds.”
 
 ---
 
-
 91) 👉 What is BLoC in Flutter?
-    BLoC stands for Business Logic Component. It helps separate UI from business logic using Streams. You send events, and BLoC gives back states. It’s useful for apps that need structured and testable logic.
+    BLoC stands for Business Logic Component. It helps separate UI from business logic using
+    Streams. You send events, and BLoC gives back states. It’s useful for apps that need structured
+    and testable logic.
 
 🔹 Components of BLoC:
 Event: This represents user actions, like tapping a button.
@@ -2892,13 +2971,15 @@ The UI listens to a stream to rebuild with the new number.
 
 ---
 
-
 92) ✅ Difference Between Cupertino and Material Design in Flutter:
-    Material Design is used in Flutter to give apps an Android-like look and feel. It includes widgets like Scaffold, AppBar, ElevatedButton, etc.
+    Material Design is used in Flutter to give apps an Android-like look and feel. It includes
+    widgets like Scaffold, AppBar, ElevatedButton, etc.
 
-Cupertino is used to create iOS-style apps. It provides iOS-specific widgets like CupertinoPageScaffold, CupertinoButton, and CupertinoNavigationBar.
+Cupertino is used to create iOS-style apps. It provides iOS-specific widgets like
+CupertinoPageScaffold, CupertinoButton, and CupertinoNavigationBar.
 
-We usually use Material for Android and Cupertino for iOS. Flutter also allows us to switch between them based on the platform using Platform.isIOS or use both together if needed.
+We usually use Material for Android and Cupertino for iOS. Flutter also allows us to switch between
+them based on the platform using Platform.isIOS or use both together if needed.
 
 ✅ Cupertino (iOS-style)
 Mimics iOS design (Apple Human Interface Guidelines).
@@ -2913,13 +2994,14 @@ Bold, colorful UI with more motion and elevation.
 Default on Android apps in Flutter.
 Easier to customize and supports both platforms.
 🧠 Tip for interview:
-Flutter allows platform-specific UI using Platform.isIOS to switch between Cupertino and Material if needed.
+Flutter allows platform-specific UI using Platform.isIOS to switch between Cupertino and Material if
+needed.
 
 ---
 
-
 93) What is the purpose of the Material Design Icons package in Flutter?
-    The Material Design Icons package in Flutter provides a set of ready-to-use icons that follow Google’s Material Design guidelines.
+    The Material Design Icons package in Flutter provides a set of ready-to-use icons that follow
+    Google’s Material Design guidelines.
 
 🎯 Purpose:
 To easily add icons (like home, menu, settings, etc.) in your app using the Icons class.
@@ -2931,9 +3013,9 @@ This shows a blue home icon.
 
 ---
 
-
 94) Explain briefly how you will deploy a Flutter app to the Google Play/App Store?
-    Here’s a step-by-step guide to deploy a Flutter app to both the Google Play Store and the Apple App Store.
+    Here’s a step-by-step guide to deploy a Flutter app to both the Google Play Store and the Apple
+    App Store.
 
 ✅ Deploy to Google Play Store (Android)
 🔹 Step 1: Prepare Your App
@@ -2946,7 +3028,8 @@ flutter build apk --release
 or
 flutter build appbundle --release
 🔹 Step 3: Create a Keystore (only once)
-keytool -genkey -v -keystore ~/your_keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias your_key_alias
+keytool -genkey -v -keystore ~/your_keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias
+your_key_alias
 🔹 Step 4: Configure Signing in build.gradle
 android {
 ...
@@ -2994,85 +3077,104 @@ Create a new app
 Add app info, screenshots, etc.
 Select the uploaded build
 Submit for review
-The Flutter Inspector is a powerful tool in Flutter DevTools that helps developers understand and debug UI layouts. Here’s a concise list of its advantages:
+The Flutter Inspector is a powerful tool in Flutter DevTools that helps developers understand and
+debug UI layouts. Here’s a concise list of its advantages:
 
 ---
-
 
 95) What are ✅ Advantages of Flutter Inspector:
     Visual Widget Tree View
     Lets you explore the UI structure in real-time.
     Shows parent-child widget relationships clearly.
+
 2. Real-time Layout Debugging
 
 Helps detect layout issues like padding, alignment, overflow, etc.
+
 3. Highlight on Device
 
 Select a widget in the inspector, and it gets highlighted on the emulator or real device.
+
 4. Track Render Objects
 
 See how widgets are rendered and identify render/layout problems.
+
 5. Toggle Debug Paint
 
 Displays borders, baselines, padding, and margins visually.
+
 6. Select Widget Mode
 
 You can click any widget in the app UI to inspect its properties directly.
+
 7. Fast Feedback
 
 Works seamlessly with hot reload, so changes can be visualized instantly.
+
 8. View Constraints
 
 Understand how constraints affect widget size and position.
-🛠️ In short: Flutter Inspector is like an X-ray for your app layout — it helps you analyze, debug, and fix UI issues visually.
+🛠️ In short: Flutter Inspector is like an X-ray for your app layout — it helps you analyze, debug,
+and fix UI issues visually.
 
 ---
 
-
 96) List the responsibilities of FlutterActivity.
-    The FlutterActivity class in Flutter is the entry point for integrating Flutter into an Android app. It handles the connection between Android's native platform and the Flutter engine.
+    The FlutterActivity class in Flutter is the entry point for integrating Flutter into an Android
+    app. It handles the connection between Android's native platform and the Flutter engine.
 
 ✅ Responsibilities of FlutterActivity:
 Launches the Flutter Engine
 Starts and manages the Flutter runtime environment.
+
 2. Displays Flutter UI
 
 Loads and renders your Flutter app’s user interface inside an Android Activity.
+
 3. Handles Platform Channels
 
-Acts as a bridge for communication between Dart (Flutter) and Kotlin/Java (Android) using platform channels.
+Acts as a bridge for communication between Dart (Flutter) and Kotlin/Java (Android) using platform
+channels.
+
 4. Lifecycle Management
 
 Maps Android lifecycle events (onCreate, onPause, onResume, etc.) to Flutter's engine lifecycle.
+
 5. Initial Route & Arguments Handling
 
 Allows passing initial route and parameters to the Flutter app.
+
 6. Plugin Registration
 
 Ensures plugins are registered properly so they work in the Flutter environment.
+
 7. Manages Flutter View
 
 Creates and manages the FlutterView, which renders Flutter's UI in the Android activity.
+
 8. Handles Configuration Changes
 
 Manages orientation and screen size changes by delegating to the Flutter engine.
 📝 In simple terms:
-FlutterActivity is the default Android container for running a full-screen Flutter experience. It manages the setup, rendering, communication, and lifecycle between Android and Flutter.
+FlutterActivity is the default Android container for running a full-screen Flutter experience. It
+manages the setup, rendering, communication, and lifecycle between Android and Flutter.
 
 ---
 
-
 97) Can you describe how to implement 🌍internationalization in a flutter app?
     🌍 What is Internationalization (i18n)?
-    Internationalization allows your app to support multiple languages, so users around the world can use it in their native language.
+    Internationalization allows your app to support multiple languages, so users around the world
+    can use it in their native language.
 
 ✅ Step-by-Step Implementation in Flutter:
+
 1. Add dependencies
    In pubspec.yaml, add:
 
 flutter_localizations:
 sdk: flutter
 intl: ^0.18.1
+
 2. Enable localizations
    In MaterialApp, add this:
 
@@ -3090,6 +3192,7 @@ Locale('fr'), // French, etc.
 locale: Locale('en'), // default
 home: MyHomePage(),
 );
+
 3. Create localization files
    Create a l10n directory with intl_en.arb, intl_hi.arb, etc.
 
@@ -3105,6 +3208,7 @@ intl_hi.arb
 "hello": "नमस्ते",
 "welcome": "मेरे ऐप में आपका स्वागत है"
 }
+
 4. Generate Dart localization files
    In terminal, run:
 
@@ -3118,15 +3222,17 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 Text(AppLocalizations.of(context)!.hello)
 💡 Optional: Dynamically change language
-You can change the locale using setState() or a state management solution by updating the locale parameter of MaterialApp.
+You can change the locale using setState() or a state management solution by updating the locale
+parameter of MaterialApp.
 
 ---
 
-
 98) How do you implement a custom transition between screens in flutter?
-    To implement a custom screen transition in Flutter, you can use the PageRouteBuilder class. It gives you full control over the animation during navigation.
+    To implement a custom screen transition in Flutter, you can use the PageRouteBuilder class. It
+    gives you full control over the animation during navigation.
 
 ✅ Step-by-step: Custom Screen Transition
+
 1. Use Navigator.push with PageRouteBuilder
    Navigator.push(
    context,
@@ -3170,10 +3276,10 @@ child: child,
 );
 },
 💡 Pro Tip:
-You can combine multiple transitions using TweenSequence or wrap them inside AnimatedBuilder for more complex animations.
+You can combine multiple transitions using TweenSequence or wrap them inside AnimatedBuilder for
+more complex animations.
 
 ---
-
 
 99) How do you implement a custom animation curve in flutter?
     To implement a custom animation curve in Flutter, you can either:
@@ -3222,9 +3328,9 @@ Built-in Curves don't fit your design
 
 ---
 
-
 100) How do you implement a🔄 Draggable widget in flutter?
-     Draggable allows users to drag a widget around the screen. It's often used in drag-and-drop interactions.
+     Draggable allows users to drag a widget around the screen. It's often used in drag-and-drop
+     interactions.
 
 The widget you wrap with Draggable becomes draggable.
 feedback: what is shown while dragging.
@@ -3261,11 +3367,12 @@ Games or design apps
 
 ---
 
-
 101) How do you provide ✅Accessibility when developing flutter apps, do you at all?
-     Yes, accessibility should be considered while developing Flutter apps to ensure that users with disabilities can use your app comfortably. Flutter makes this easier with built-in support.
+     Yes, accessibility should be considered while developing Flutter apps to ensure that users with
+     disabilities can use your app comfortably. Flutter makes this easier with built-in support.
 
 ✅ How to Provide Accessibility in Flutter:
+
 1. Use Semantics Widget
    Wrap widgets with Semantics to provide custom descriptions:
 
@@ -3277,6 +3384,7 @@ onPressed: () {},
 child: Text('Submit'),
 ),
 )
+
 2. Descriptive Text
    Use clear and meaningful Text() that makes sense to screen readers.
 
@@ -3296,6 +3404,7 @@ Image.asset(
 'assets/logo.png',
 semanticLabel: 'Company logo',
 )
+
 7. Focus Traversal
    Use FocusNode and FocusTraversalGroup to manage keyboard navigation if needed.
 
@@ -3371,9 +3480,10 @@ Makes navigation easier for visually impaired users
 
 ---
 
-
 102) How to create a list with Persistent headers?
-     To create a list with persistent headers in Flutter, you can use CustomScrollView with SliverPersistentHeader and SliverList widgets. This allows headers to stay visible (or pinned) while scrolling.
+     To create a list with persistent headers in Flutter, you can use CustomScrollView with
+     SliverPersistentHeader and SliverList widgets. This allows headers to stay visible (or pinned)
+     while scrolling.
 
 ✅ CustomScrollView + SliverPersistentHeader
 This allows headers to stick at the top while scrolling.
@@ -3424,12 +3534,12 @@ You can create multiple sections with multiple headers
 
 ---
 
-
 103) Can you communicate between isolates? Describe an Isolate?
      Yes, isolates can communicate in Dart using ports.
 
 🧠 What is an Isolate?
-An Isolate is a separate thread of execution with its own memory and event loop. Unlike traditional threads, isolates don’t share memory — they communicate using messages.
+An Isolate is a separate thread of execution with its own memory and event loop. Unlike traditional
+threads, isolates don’t share memory — they communicate using messages.
 
 📡 Communication
 Communication between isolates happens through:
@@ -3450,14 +3560,16 @@ print(message); // Output: Hello from isolate!
 });
 }
 🔍 Use Case:
-Performing heavy tasks like parsing, compression, or DB operations without blocking the main UI thread.
-So, isolates allow parallel execution with message-based communication — making Dart/Flutter apps fast and responsive.
+Performing heavy tasks like parsing, compression, or DB operations without blocking the main UI
+thread.
+So, isolates allow parallel execution with message-based communication — making Dart/Flutter apps
+fast and responsive.
 
 ---
 
-
 104) Explain 🕰 What is a Ticker in Flutter?
-     A Ticker is like a metronome ⏱ — it calls a callback function every frame, synced with the device’s screen refresh (usually 60 times per second).
+     A Ticker is like a metronome ⏱ — it calls a callback function every frame, synced with the
+     device’s screen refresh (usually 60 times per second).
 
 🔧 Why use it?
 It’s used to drive animations, giving you control over time-based updates.
@@ -3480,20 +3592,22 @@ _ticker.start();
 AnimationController (it uses a Ticker internally)
 SingleTickerProviderStateMixin or TickerProviderStateMixin to provide a ticker
 🧠 Summary:
-A Ticker is useful when you need frame-by-frame control for animations or game loops. It’s the heartbeat for anything animated in Flutter.
+A Ticker is useful when you need frame-by-frame control for animations or game loops. It’s the
+heartbeat for anything animated in Flutter.
 
 ---
 
-
 105) What is the Flutter rendering pipeline and how does it work?
-     The Flutter Rendering Pipeline is the process that converts your Flutter code (widgets) into pixels on the screen. Here’s a simple breakdown of the steps involved:
+     The Flutter Rendering Pipeline is the process that converts your Flutter code (widgets) into
+     pixels on the screen. Here’s a simple breakdown of the steps involved:
 
 🧱 1. Widget Tree
 You define your UI using widgets (like Text, Row, Column).
 Widgets are lightweight and immutable descriptions of your UI.
 🧩 2. Element Tree
 When the widget is built, Flutter creates an Element Tree.
-Elements manage the lifecycle of widgets and maintain the connection between widgets and render objects.
+Elements manage the lifecycle of widgets and maintain the connection between widgets and render
+objects.
 🎨 3. Render Tree
 Widgets that affect layout and painting create RenderObjects.
 These objects live in the Render Tree and are responsible for:
@@ -3519,25 +3633,29 @@ This efficient pipeline is one of the reasons why Flutter apps are fast and smoo
 
 ---
 
-
 106) What is the role of the FlutterEngine in the Flutter framework?
-     The FlutterEngine is the core runtime of a Flutter app. It plays a central role in bridging your Dart code and the platform (Android/iOS).
+     The FlutterEngine is the core runtime of a Flutter app. It plays a central role in bridging
+     your Dart code and the platform (Android/iOS).
 
 🚀 Role of FlutterEngine:
 Executes Dart Code
 Runs the Dart VM.
 Executes your Flutter app’s logic (UI, business logic, etc).
+
 2. Handles Rendering
 
 Manages the rendering pipeline using the Skia engine.
 Translates widgets into pixels on screen.
+
 3. Platform Communication
 
 Facilitates communication between Dart and native code via platform channels.
 E.g., accessing camera, GPS, native APIs.
+
 4. Plugin Management
 
 Loads and registers plugins (like camera, geolocator, etc).
+
 5. Manages Isolates
 
 Supports spawning and managing isolates (for background processing).
@@ -3546,20 +3664,24 @@ A FlutterEngine is typically created in a FlutterActivity or FlutterFragment.
 You can also pre-warm the engine to improve startup time.
 🔁 Summary:
 FlutterEngine = Dart Runtime + Rendering + Platform Integration
-It is the heart of every Flutter app, responsible for running and displaying your UI while integrating with the native platform.
+It is the heart of every Flutter app, responsible for running and displaying your UI while
+integrating with the native platform.
 
 ---
 
-
 107) What are platform channels in Flutter and when would you use them?
-     Platform Channels in Flutter are a way to communicate between Dart (Flutter code) and native code (Java/Kotlin for Android, Objective-C/Swift for iOS).
+     Platform Channels in Flutter are a way to communicate between Dart (Flutter code) and native
+     code (Java/Kotlin for Android, Objective-C/Swift for iOS).
 
 🧩 Why Use Platform Channels?
-Flutter doesn’t include every native feature out of the box (like Bluetooth, camera settings, battery info, etc).
-So, when you need something native that Flutter doesn’t directly support, you use platform channels to call that native code.
+Flutter doesn’t include every native feature out of the box (like Bluetooth, camera settings,
+battery info, etc).
+So, when you need something native that Flutter doesn’t directly support, you use platform channels
+to call that native code.
 
 💬 How It Works:
-Flutter sends messages through a channel → Native side listens and responds → Flutter receives the result.
+Flutter sends messages through a channel → Native side listens and responds → Flutter receives the
+result.
 
 // Dart side
 static const platform = MethodChannel('com.example.myapp/battery');
@@ -3586,10 +3708,10 @@ Access device-specific APIs (battery, camera, sensors, etc)
 Use platform SDKs not available in Flutter
 Reuse existing native code or libraries
 🧠 Summary:
-Platform channels allow Flutter and native code to talk to each other. Use them when you need native functionality that isn’t available in Flutter plugins.
+Platform channels allow Flutter and native code to talk to each other. Use them when you need native
+functionality that isn’t available in Flutter plugins.
 
 ---
-
 
 108) How do you work with multiple Flutter flavors?
      🔥 What Are Flavors in Flutter?
@@ -3689,20 +3811,26 @@ Avoid pushing test data to production
 Easily switch environments during development
 Customize branding (icons, names) for each variant
 🧠 Summary:
-Flavors let you build multiple app variants from a single codebase with different configurations. You separate Dart entry points, use different environment variables, and configure Android/iOS accordingly.
+Flavors let you build multiple app variants from a single codebase with different configurations.
+You separate Dart entry points, use different environment variables, and configure Android/iOS
+accordingly.
 
 ---
 
-
 109) What is code-splitting in Flutter, and how does it help?
-     Code-splitting in Flutter refers to breaking down your Flutter app’s codebase into smaller, manageable chunks or deferred components, so that not all code is loaded at once. This helps in reducing the initial app size, improving startup time, and loading parts of the app only when needed.
+     Code-splitting in Flutter refers to breaking down your Flutter app’s codebase into smaller,
+     manageable chunks or deferred components, so that not all code is loaded at once. This helps in
+     reducing the initial app size, improving startup time, and loading parts of the app only when
+     needed.
 
 🔹 Why is it useful?
 🏃‍♂️ Faster startup — Loads only necessary parts at launch.
 📦 Smaller initial download size — Helpful for large apps or games.
-⚡ Improved performance — On-demand loading of features like help screens, onboarding, or heavy assets.
+⚡ Improved performance — On-demand loading of features like help screens, onboarding, or heavy
+assets.
 🔧 How is it done?
-Flutter uses something called deferred components (for Android) or dynamic feature modules to implement code-splitting.
+Flutter uses something called deferred components (for Android) or dynamic feature modules to
+implement code-splitting.
 
 Example:
 
@@ -3724,7 +3852,6 @@ Games or apps with heavy assets
 
 ---
 
-
 110) What are the differences between JIT and AOT?
      JIT (Just-In-Time) and AOT (Ahead-Of-Time) are two ways Dart compiles Flutter apps.
 
@@ -3745,7 +3872,6 @@ JIT = Great for development
 AOT = Great for production
 
 ---
-
 
 111) How do Object, dynamic, and var differ in Dart?
      🔹 var
@@ -3772,13 +3898,15 @@ Use Object when you want flexibility but still want some safety.
 
 ---
 
-
 112) How do mixins differ from interfaces in Dart?
      🟢 Mixins vs Interfaces in Dart
      🔹 Mixins
-     Mixins in Dart are used to reuse code across multiple classes without using inheritance. They allow you to define methods and properties once and apply them to multiple classes using the with keyword.
+     Mixins in Dart are used to reuse code across multiple classes without using inheritance. They
+     allow you to define methods and properties once and apply them to multiple classes using the
+     with keyword.
 
-Mixins are used to reuse code across multiple classes. They let you write methods once and use them in many classes using the with keyword.
+Mixins are used to reuse code across multiple classes. They let you write methods once and use them
+in many classes using the with keyword.
 They help you avoid code duplication.
 You don’t need to implement or override all the methods.
 Ideal for sharing common behaviors like logging, validation, etc.
@@ -3788,9 +3916,12 @@ void log(String message) => print("LOG: $message");
 
 class MyClass with Logger {}
 🔸 Interfaces
-Interfaces define a contract. When a class implements an interface, it must override all of its methods and properties.
+Interfaces define a contract. When a class implements an interface, it must override all of its
+methods and properties.
 
-Interfaces, on the other hand, are used to define a structure or contract. They don’t contain any logic — just method declarations. You use them with the implements keyword and must override all the methods.
+Interfaces, on the other hand, are used to define a structure or contract. They don’t contain any
+logic — just method declarations. You use them with the implements keyword and must override all the
+methods.
 Dart doesn’t have a separate interface keyword — every class can act as an interface.
 Use implements keyword to follow the contract.
 No code reuse — just structure.
@@ -3808,15 +3939,17 @@ print("Printing report...");
 Use Mixins when you want to reuse logic.
 Use Interfaces when you want to enforce structure.
 🧠 Example to Tell:
-“For example, I can create a Logger mixin with a method that prints logs, and then reuse that in multiple classes. But if I have a Printable interface, I must implement all its methods in every class that uses it."
+“For example, I can create a Logger mixin with a method that prints logs, and then reuse that in
+multiple classes. But if I have a Printable interface, I must implement all its methods in every
+class that uses it."
 
 Great question! Here’s a short and interview-friendly explanation of Equatable in Dart:
 
 ---
 
-
 113) 🔹 What is Equatable?
-     Equatable is a package in Dart (commonly used in Flutter apps) that helps you compare objects by their values instead of references.
+     Equatable is a package in Dart (commonly used in Flutter apps) that helps you compare objects
+     by their values instead of references.
 
 By default, Dart compares objects by memory reference, which means:
 
@@ -3842,9 +3975,9 @@ Makes equality comparisons easier and cleaner.
 
 ---
 
-
 114) 🔹 What is build() in Flutter?
-     The build() method is a core part of every widget in Flutter. It describes how to display the widget on the screen.
+     The build() method is a core part of every widget in Flutter. It describes how to display the
+     widget on the screen.
 
 It returns a widget tree (layout), and Flutter uses it to redraw UI when needed.
 
@@ -3861,14 +3994,14 @@ When the widget is first created.
 When setState() is called.
 When dependencies change.
 💡 Key Point:
-build() should be pure — it should return UI based only on the current state and not do heavy work or async operations.
+build() should be pure — it should return UI based only on the current state and not do heavy work
+or async operations.
 
 ---
 
-
 115) 🔹 What is BuildContext in Flutter?
-BuildContext is like a handle to the location of a widget in the widget tree.
-It helps you access widget data, themes, navigation, media queries, etc.
+     BuildContext is like a handle to the location of a widget in the widget tree.
+     It helps you access widget data, themes, navigation, media queries, etc.
 
 🔸 Common Uses:
 Access parent widget info (like Theme, MediaQuery)
@@ -3880,10 +4013,10 @@ Navigator.push(context, MaterialPageRoute(builder: (context) => NextPage()));
 Here, context tells Flutter where in the widget tree the NextPage should go.
 
 ⚠️ Tip:
-Don’t use BuildContext from one widget inside another widget’s lifecycle (like initState) — it may not be valid yet.
+Don’t use BuildContext from one widget inside another widget’s lifecycle (like initState) — it may
+not be valid yet.
 
 ---
-
 
 116) 🔹 Lifecycle of a StatefulWidget:
      createState()
@@ -3919,17 +4052,18 @@ Don’t use BuildContext from one widget inside another widget’s lifecycle (li
 
 ---
 
-
 117) 🔸 What is an Instance Variable and Instance Method?
      🧠 What is an Instance Variable?
-     An instance variable is a property (or data field) of an object. It stores information specific to that particular object.
+     An instance variable is a property (or data field) of an object. It stores information specific
+     to that particular object.
 
-📌 Think of a class as a blueprint (like a car model), and each object created from it (like individual cars) has its own unique set of data (like color, speed, etc.).
+📌 Think of a class as a blueprint (like a car model), and each object created from it (like
+individual cars) has its own unique set of data (like color, speed, etc.).
 
 ✅ Example:
 class Car {
 String color; // instance variable
-int speed;    // instance variable
+int speed; // instance variable
 
 Car(this.color, this.speed);
 }
@@ -3945,7 +4079,8 @@ print(car2.color); // Blue
 Each car object holds its own values for color and speed.
 
 🧠 What is an Instance Method?
-An instance method is a function inside a class that can access instance variables and usually performs some behavior or logic.
+An instance method is a function inside a class that can access instance variables and usually
+performs some behavior or logic.
 
 ✅ Example:
 class Car {
@@ -3953,13 +4088,13 @@ String color;
 int speed;
 
 Car(this.color, this.speed);
-void showInfo() {  // instance method
+void showInfo() { // instance method
 print("Color: $color, Speed: $speed km/h");
 }
 }
 void main() {
 var car = Car('Black', 150);
-car.showInfo();  // Output: Color: Black, Speed: 150 km/h
+car.showInfo(); // Output: Color: Black, Speed: 150 km/h
 }
 The showInfo() method uses the instance's color and speed.
 
@@ -3970,13 +4105,12 @@ Instance method = object’s behavior
 
 ---
 
-
 118) 🔹what is Asynchronous and Synchronous Programming?
-🔁 Synchronous Programming
-Code runs line by line, one after the other.
-Each task waits for the previous one to finish before starting.
-It’s blocking in nature.
-Example:
+     🔁 Synchronous Programming
+     Code runs line by line, one after the other.
+     Each task waits for the previous one to finish before starting.
+     It’s blocking in nature.
+     Example:
 
 print('Start');
 print('Middle');
@@ -4007,9 +4141,9 @@ Asynchronous = Don’t wait, let things run in parallel. Better for performance.
 
 ---
 
-
 119) 📄 What is PageView in Flutter?
-PageView is a scrollable list of pages, where each page takes up the full screen. You can swipe left or right (like onboarding screens or image sliders).
+     PageView is a scrollable list of pages, where each page takes up the full screen. You can swipe
+     left or right (like onboarding screens or image sliders).
 
 🔧 Basic Usage:
 PageView(
@@ -4020,6 +4154,7 @@ Container(color: Colors.blue),
 ],
 )
 🧩 Types / Variations of PageView:
+
 1. Default PageView
    Swipeable, horizontal by default.
    PageView(
@@ -4054,7 +4189,6 @@ Tab-like interfaces
 
 ---
 
-
 120) 🧱 What is GridView?
      GridView displays widgets in a 2D grid layout, similar to a photo gallery or product listing.
 
@@ -4063,6 +4197,7 @@ Image galleries
 E-commerce product grids
 Dashboards
 📦 Types of GridView:
+
 1. GridView.count
    You define how many columns (crossAxisCount) you want.
    GridView.count(
@@ -4108,15 +4243,15 @@ Use physics: NeverScrollableScrollPhysics() if embedding inside another scroll v
 
 ---
 
-
 121) 📋 What is ListView?
-ListView is a scrollable list of widgets arranged vertically or horizontally.
+     ListView is a scrollable list of widgets arranged vertically or horizontally.
 
 ✅ Common Use Cases:
 Chat messages
 News feed
 Dynamic item lists
 🔢 Types of ListView in Flutter:
+
 1. ListView() (Default constructor)
    Use when you have a small, fixed number of children.
    ListView(
@@ -4157,9 +4292,9 @@ Use shrinkWrap: true if embedding in another scrollable widget.
 
 ---
 
-
 122) 🎨 What is BoxDecoration in Flutter?
-BoxDecoration is a widget used to style and decorate containers — it's commonly used with the Container widget to add background color, border, radius, gradient, image, etc.
+     BoxDecoration is a widget used to style and decorate containers — it's commonly used with the
+     Container widget to add background color, border, radius, gradient, image, etc.
 
 ✅ Common uses of BoxDecoration:
 Container(
@@ -4191,7 +4326,6 @@ fit: BoxFit.cover,
 
 ---
 
-
 123) 📦 What is Row and Column in Flutter?
      Both Row and Column are layout widgets used to arrange children widgets:
 
@@ -4220,7 +4354,9 @@ ElevatedButton(onPressed: () {}, child: Text("Click"))
 This puts the widgets vertically stacked.
 
 ⚙️ Common Properties (Same for both):
-Property Description mainAxisAlignment Aligns children in main direction (horizontal for Row, vertical for Column) crossAxisAlignment Aligns children in the cross direction children List of widgets to be displayed
+Property Description mainAxisAlignment Aligns children in main direction (horizontal for Row,
+vertical for Column) crossAxisAlignment Aligns children in the cross direction children List of
+widgets to be displayed
 
 Common Use:
 Use Row when you want widgets side by side.
@@ -4229,7 +4365,6 @@ Use Column when you want widgets stacked on top of each other.
 Use Expanded, Flexible, Spacer inside Row/Column to control layout spacing and sizing.
 
 ---
-
 
 124) Main OOP (Object-Oriented Programming) concepts, perfect to tell an interviewer:
      ✅ 1. Class
@@ -4289,11 +4424,11 @@ void start() => print("Bike started");
 
 ---
 
-
 125) 🔹 What is a Getter & Setter in Dart?
-What is a Getter in Dart?
-A getter is a special method used to read the value of a private or internal variable in a class.
-It allows controlled access to private properties (like variables starting with _).
+     What is a Getter in Dart?
+     A getter is a special method used to read the value of a private or internal variable in a
+     class.
+     It allows controlled access to private properties (like variables starting with _).
 
 ✅ Think of it like: “How can I safely get the value?”
 
@@ -4326,20 +4461,22 @@ print("Invalid amount!");
 void main() {
 var account = BankAccount();
 
-account.balance = 1000;        // setter
-print(account.balance);        // getter
-account.balance = -500;        // invalid setter
+account.balance = 1000; // setter
+print(account.balance); // getter
+account.balance = -500; // invalid setter
 }
 🧠 In Interviews, You Can Say:
-“In Dart, getters and setters allow me to control how a class variable is accessed or updated. They help with encapsulation and are great for adding extra logic like validation when assigning values.”
+“In Dart, getters and setters allow me to control how a class variable is accessed or updated. They
+help with encapsulation and are great for adding extra logic like validation when assigning values.”
 
 ---
 
-
 126) 🔹 What is Generic in Dart?
-Generics allow you to write flexible, reusable, and type-safe code by allowing classes, methods, or functions to work with any data type without losing type checking.
+     Generics allow you to write flexible, reusable, and type-safe code by allowing classes,
+     methods, or functions to work with any data type without losing type checking.
 
-📦 Think of generics like a container that can hold any type of item, but you decide the item when you use it.
+📦 Think of generics like a container that can hold any type of item, but you decide the item when
+you use it.
 
 ✅ Why use Generics?
 Avoids code duplication
@@ -4365,19 +4502,21 @@ print('Content: $content');
 Usage:
 void main() {
 var intBox = Box<int>(123);
-intBox.display();  // Content: 123
+intBox.display(); // Content: 123
 
 var strBox = Box<String>('Hello');
-strBox.display();  // Content: Hello
+strBox.display(); // Content: Hello
 }
 ✨ Interview Line:
-“Generics in Dart help me write type-safe and reusable code. For example, I can create a generic class or method that works with any data type instead of rewriting it multiple times for different types.”
+“Generics in Dart help me write type-safe and reusable code. For example, I can create a generic
+class or method that works with any data type instead of rewriting it multiple times for different
+types.”
 
 ---
 
-
 127) ✅ What is Exception Handling?
-     Exception Handling is the process of dealing with unexpected errors during the program’s execution without crashing the app.
+     Exception Handling is the process of dealing with unexpected errors during the program’s
+     execution without crashing the app.
 
 In Dart (and Flutter), exceptions are objects that represent runtime errors.
 
@@ -4411,10 +4550,11 @@ int result = 5 ~/ 0; // Throws exception
 Custom Exception — You can create your own
 class MyCustomException implements Exception { String error() => 'Custom Exception Occurred'; }
 ✨ Interview Line:
-“I use try-catch blocks in Dart to gracefully handle errors like invalid user input or failed API calls. I prefer catching specific exceptions when possible and always log them or show a user-friendly message.”
+“I use try-catch blocks in Dart to gracefully handle errors like invalid user input or failed API
+calls. I prefer catching specific exceptions when possible and always log them or show a
+user-friendly message.”
 
 ---
-
 
 128) 🔹 What is a Map in Dart?
      A Map is a collection of key-value pairs. Each key is unique, and it maps to a value.
@@ -4427,12 +4567,12 @@ Map<String, String> user = {
 To store data in key-value format
 Useful for things like JSON responses, user details, etc.
 🛠️ Common Methods:
-user['name'];         // Access value
-user['age'] = '25';   // Add new key-value pair
+user['name']; // Access value
+user['age'] = '25'; // Add new key-value pair
 user.remove('email'); // Remove key
 user.containsKey('name'); // Check key
-user.keys;            // All keys
-user.values;          // All values
+user.keys; // All keys
+user.values; // All values
 🔁 Iterating through a Map:
 user.forEach((key, value) {
 print('$key: $value');
@@ -4455,9 +4595,8 @@ print(student['name']); // John
 
 ---
 
-
 129) 🔹 What is a Set in Dart?
-A Set is an unordered collection of unique items — meaning no duplicates are allowed.
+     A Set is an unordered collection of unique items — meaning no duplicates are allowed.
 
 Set<int> numbers = {1, 2, 3};
 ✅ Key Features:
@@ -4465,11 +4604,11 @@ No duplicate values
 Items are not ordered (position isn’t guaranteed)
 Fast lookup and membership checking
 🛠️ Common Operations:
-numbers.add(4);         // Add an item
-numbers.add(2);         // Won’t add (2 is already there)
-numbers.remove(1);      // Remove item
-numbers.contains(3);    // true
-numbers.length;         // Number of items
+numbers.add(4); // Add an item
+numbers.add(2); // Won’t add (2 is already there)
+numbers.remove(1); // Remove item
+numbers.contains(3); // true
+numbers.length; // Number of items
 🔁 Looping through a Set:
 for (var n in numbers) {
 print(n);
@@ -4477,19 +4616,18 @@ print(n);
 📦 Example:
 void main() {
 Set<String> fruits = {'apple', 'banana', 'orange'};
-fruits.add('apple');  // Duplicate, won't be added again
-print(fruits);        // Output: {apple, banana, orange}
+fruits.add('apple'); // Duplicate, won't be added again
+print(fruits); // Output: {apple, banana, orange}
 }
 🔄 Set Operations:
 Set a = {1, 2, 3};
 Set b = {3, 4, 5};
 
-print(a.union(b));         // {1, 2, 3, 4, 5}
-print(a.intersection(b));  // {3}
-print(a.difference(b));    // {1, 2}
+print(a.union(b)); // {1, 2, 3, 4, 5}
+print(a.intersection(b)); // {3}
+print(a.difference(b)); // {1, 2}
 
 ---
-
 
 130) 🔹 What is a List?
      A List is an ordered collection of items in Dart, similar to arrays in other languages.
@@ -4503,18 +4641,19 @@ List<String> fruits = ['apple', 'banana', 'orange'];
 Growable List (default)
 var names = ['Ali', 'John'];
 names.add('Sara');
+
 2. Fixed-Length List
 
 var fixedList = List<int>.filled(3, 0); // [0, 0, 0]
 fixedList[0] = 1;
 🛠️ Common List Methods
-list.add(value);             // Add one item
-list.addAll([a, b]);         // Add multiple items
-list.remove(value);          // Remove specific item
-list.removeAt(index);        // Remove by index
-list.contains(value);        // Check existence
-list.indexOf(value);         // Find index
-list.length;                 // Get size
+list.add(value); // Add one item
+list.addAll([a, b]); // Add multiple items
+list.remove(value); // Remove specific item
+list.removeAt(index); // Remove by index
+list.contains(value); // Check existence
+list.indexOf(value); // Find index
+list.length; // Get size
 🔄 Looping through a List
 for (var fruit in fruits) {
 print(fruit);
@@ -4533,7 +4672,6 @@ print(numbers); // [1, 3, 4]
 }
 
 ---
-
 
 131) 🔹Difference between List, Set, and Map in Dart.
      🔹 List – Ordered, Duplicates Allowed
@@ -4576,7 +4714,6 @@ Map ➝ key-value structure, great for lookup.
 
 ---
 
-
 132) 🔹What is setState in flutter?
      setState() is a method used in StatefulWidget to update the UI when the internal state changes.
 
@@ -4604,9 +4741,9 @@ child: Text('Count: $count'),
 
 ---
 
-
 133) 🔹What is initState in flutter?
-     initState() is a lifecycle method in a StatefulWidget that's called only once, when the widget is inserted into the widget tree.
+     initState() is a lifecycle method in a StatefulWidget that's called only once, when the widget
+     is inserted into the widget tree.
 
 🔍 Purpose:
 Used to initialize data, start animations, or make API calls before the UI builds.
@@ -4625,9 +4762,10 @@ print("Widget initialized!");
 
 ---
 
-
 134) 🔹What is enum?
-     An enum (short for "enumeration") is a special data type in Dart used to define a collection of constant values. It's helpful for representing a set of predefined options or states in a more readable and maintainable way.
+     An enum (short for "enumeration") is a special data type in Dart used to define a collection of
+     constant values. It's helpful for representing a set of predefined options or states in a more
+     readable and maintainable way.
 
 🔍 Purpose:
 Used to define fixed sets of related values, such as days of the week, states, or categories.
@@ -4649,9 +4787,9 @@ print(today); // Output: Day.monday
 
 ---
 
-
 135) 🔹What is a Mixin?
-     A mixin in Dart is a way to reuse a class's functionality in multiple class hierarchies. It allows you to add the capabilities of other classes to your class without extending them.
+     A mixin in Dart is a way to reuse a class's functionality in multiple class hierarchies. It
+     allows you to add the capabilities of other classes to your class without extending them.
 
 🔍 Purpose:
 Used to add functionality from multiple classes into a single class without using inheritance.
@@ -4661,7 +4799,8 @@ Used to add functionality from multiple classes into a single class without usin
 A mixin is a class that contains methods or properties that can be used by other classes.
 You can apply a mixin to a class using the with keyword.
 A class can use multiple mixins.
-Mixins are different from inheritance because they allow for functionality reuse without the need for a direct parent-child relationship.
+Mixins are different from inheritance because they allow for functionality reuse without the need
+for a direct parent-child relationship.
 🧪 Example:
 
 mixin Drivable {
@@ -4674,15 +4813,15 @@ void fly() => print("Flying...");
 class FlyingCar with Drivable, Flyable {}
 void main() {
 var myFlyingCar = FlyingCar();
-myFlyingCar.drive();  // Output: Driving...
-myFlyingCar.fly();    // Output: Flying...
+myFlyingCar.drive(); // Output: Driving...
+myFlyingCar.fly(); // Output: Flying...
 }
 
 ---
 
-
 136) 🔹What is extends?
-     In Dart, extends is used to create a subclass that inherits the properties and methods from a superclass. This allows you to reuse code and build on existing classes.
+     In Dart, extends is used to create a subclass that inherits the properties and methods from a
+     superclass. This allows you to reuse code and build on existing classes.
 
 🔍 Purpose:
 Used to create a new class based on an existing class, enabling inheritance of functionality.
@@ -4707,13 +4846,15 @@ var dog = Dog();
 dog.speak(); // Output: Dog barks
 }
 ✨ Interview Line:
-“I use extends to create a subclass that inherits functionality from a superclass. It’s a powerful way to reuse code and build on existing classes while customizing behavior with method overrides."
+“I use extends to create a subclass that inherits functionality from a superclass. It’s a powerful
+way to reuse code and build on existing classes while customizing behavior with method overrides."
 
 ---
 
-
 137) 🔹What is a Conditional Expression?
-     A conditional expression (also known as a ternary operator) in Dart is a concise way to evaluate a condition and return one of two values based on whether the condition is true or false.
+     A conditional expression (also known as a ternary operator) in Dart is a concise way to
+     evaluate a condition and return one of two values based on whether the condition is true or
+     false.
 
 🔍 Purpose:
 Used for making quick decisions within expressions, replacing simple if-else statements.
@@ -4729,13 +4870,15 @@ int age = 18;
 String result = (age >= 18) ? 'Adult' : 'Minor';
 print(result); // Output: Adult
 ✨ Interview Line:
-“I use conditional expressions for concise and readable decision-making in code, especially when a simple if-else is not required."
+“I use conditional expressions for concise and readable decision-making in code, especially when a
+simple if-else is not required."
 
 ---
 
-
 138) 🔹What is Cascade Notation?
-     Cascade notation in Dart allows you to perform multiple operations on the same object in a single expression. It improves code readability and reduces redundancy by eliminating the need to repeatedly reference the object.
+     Cascade notation in Dart allows you to perform multiple operations on the same object in a
+     single expression. It improves code readability and reduces redundancy by eliminating the need
+     to repeatedly reference the object.
 
 🔍 Purpose:
 Used for chaining multiple method calls or setting multiple properties on an object.
@@ -4765,16 +4908,19 @@ var person = Person('Alice', 30)
 print(person.name); // Output: Bob
 }
 ✨ Interview Line:
-“I use cascade notation (..) to chain method calls and set multiple properties on an object, making my code cleaner and more concise."
+“I use cascade notation (..) to chain method calls and set multiple properties on an object, making
+my code cleaner and more concise."
 
 ---
 
-
 139) 🔹What are the Different Types of Data in Dart?
-     In Dart, data types represent the kind of data that can be stored in a variable. Dart supports both primitive and complex data types, allowing for flexibility and efficient handling of different kinds of information.
+     In Dart, data types represent the kind of data that can be stored in a variable. Dart supports
+     both primitive and complex data types, allowing for flexibility and efficient handling of
+     different kinds of information.
 
 🔍 Purpose:
-Data types define the nature and behavior of data in a program, guiding how data can be stored, manipulated, and interacted with.
+Data types define the nature and behavior of data in a program, guiding how data can be stored,
+manipulated, and interacted with.
 
 ✅ Key Points:
 
@@ -4787,39 +4933,45 @@ int: Represents integer values.
 double: Represents floating-point numbers.
 String: Represents text.
 bool: Represents a boolean value (true or false).
+
 2. Collection Types:
 
 List: An ordered collection of objects.
 Set: An unordered collection of unique objects.
 Map: A collection of key-value pairs
+
 3. Special Types:
 
 var: A variable that can hold any type of data, type inferred at runtime.
 dynamic: Similar to var but with dynamic typing, meaning it can change type at runtime.
 null: Represents no value or absence of a value (special type for absence).
+
 4. Custom Types (Objects):
 
 Class: Defines custom objects that can hold properties and methods.
 🧪 Example:
 
-int age = 25;            // Integer type
-double height = 5.9;     // Double type
-String name = 'Alice';   // String type
-bool isStudent = true;   // Boolean type
-List<int> scores = [90, 80, 70];  // List type
+int age = 25; // Integer type
+double height = 5.9; // Double type
+String name = 'Alice'; // String type
+bool isStudent = true; // Boolean type
+List<int> scores = [90, 80, 70]; // List type
 Set<String> languages = {'Dart', 'Python', 'Java'}; // Set type
 Map<String, String> capitals = {'USA': 'Washington', 'India': 'New Delhi'}; // Map type
 ✨ Interview Line:
-“I work with various data types in Dart, from simple types like int, String, and bool to more complex collections like List, Set, and Map, ensuring proper data handling for each situation."
+“I work with various data types in Dart, from simple types like int, String, and bool to more
+complex collections like List, Set, and Map, ensuring proper data handling for each situation."
 
 ---
 
-
 140) 🔹What is the is and is! Type Test Operator?
-     In Dart, the is and is! operators are used to check the type of an object at runtime. The is operator checks if an object is of a certain type, while the is! operator checks if an object is not of a certain type.
+     In Dart, the is and is! operators are used to check the type of an object at runtime. The is
+     operator checks if an object is of a certain type, while the is! operator checks if an object
+     is not of a certain type.
 
 🔍 Purpose:
-Used to test whether an object is an instance of a specific type or not, making type checking simple and concise.
+Used to test whether an object is an instance of a specific type or not, making type checking simple
+and concise.
 
 ✅ Key Points:
 
@@ -4839,8 +4991,8 @@ print("Unknown type");
 }
 
 void main() {
-checkType("Hello");   // Output: It's a String!
-checkType(42);        // Output: It's an Integer!
+checkType("Hello"); // Output: It's a String!
+checkType(42); // Output: It's an Integer!
 }
 void checkNotType(Object obj) {
 if (obj is! String) {
@@ -4851,17 +5003,19 @@ print("It's a String!");
 }
 
 void main() {
-checkNotType(42);     // Output: It's not a String!
-checkNotType("Hi");   // Output: It's a String!
+checkNotType(42); // Output: It's not a String!
+checkNotType("Hi"); // Output: It's a String!
 }
 ✨ Interview Line:
-“I use the is and is! operators in Dart to check an object's type at runtime, ensuring that I work with objects of the correct type or handle them appropriately if they don't match."
+“I use the is and is! operators in Dart to check an object's type at runtime, ensuring that I work
+with objects of the correct type or handle them appropriately if they don't match."
 
 ---
 
-
 141) 🔹What is the as Operator in Dart?
-     In Dart, the as operator is used to cast an object to a specific type. It allows you to explicitly convert an object to a target type, provided the object is compatible with that type.
+     In Dart, the as operator is used to cast an object to a specific type. It allows you to
+     explicitly convert an object to a target type, provided the object is compatible with that
+     type.
 
 🔍 Purpose:
 Used to safely cast an object to a specific type when you are sure of its type.
@@ -4878,22 +5032,24 @@ dynamic value = 'Hello, Dart!';
 
 // Using `as` to cast dynamic value to String
 String text = value as String;
-print(text);  // Output: Hello, Dart!
+print(text); // Output: Hello, Dart!
 
 // Uncommenting the next line will throw a runtime error
-// int number = value as int;  // Throws a TypeError
+// int number = value as int; // Throws a TypeError
 }
 ✨ Interview Line:
-“I use the as operator in Dart to safely cast objects to the required type, ensuring that type conversions are done correctly and without errors when the object's type is known."
+“I use the as operator in Dart to safely cast objects to the required type, ensuring that type
+conversions are done correctly and without errors when the object's type is known."
 
 ---
 
-
 142) 🔹What are Compound Assignment Operators?
-     In Dart, compound assignment operators are shorthand operators that combine an operation (like addition, subtraction, multiplication, etc.) with an assignment, making the code more concise.
+     In Dart, compound assignment operators are shorthand operators that combine an operation (like
+     addition, subtraction, multiplication, etc.) with an assignment, making the code more concise.
 
 🔍 Purpose:
-Used to modify a variable’s value by performing an operation on it and then assigning the result back to the same variable.
+Used to modify a variable’s value by performing an operation on it and then assigning the result
+back to the same variable.
 
 ✅ Key Points:
 
@@ -4902,36 +5058,42 @@ They include operations like addition, subtraction, multiplication, division, an
 They are often used to update values based on their current state.
 🧪 Types of Compound Assignment Operators:
 
-+=: Adds the right-hand operand to the left-hand operand and assigns the result to the left-hand operand.
--=: Subtracts the right-hand operand from the left-hand operand and assigns the result to the left-hand operand.
-*=: Multiplies the left-hand operand by the right-hand operand and assigns the result to the left-hand operand.
-/=: Divides the left-hand operand by the right-hand operand and assigns the result to the left-hand operand.
-%=: Takes the modulus of the left-hand operand by the right-hand operand and assigns the result to the left-hand operand.
++=: Adds the right-hand operand to the left-hand operand and assigns the result to the left-hand
+operand.
+-=: Subtracts the right-hand operand from the left-hand operand and assigns the result to the
+left-hand operand.
+*=: Multiplies the left-hand operand by the right-hand operand and assigns the result to the
+left-hand operand.
+/=: Divides the left-hand operand by the right-hand operand and assigns the result to the left-hand
+operand.
+%=: Takes the modulus of the left-hand operand by the right-hand operand and assigns the result to
+the left-hand operand.
 &=, |=, ^=: Used for bitwise AND, OR, and XOR operations, respectively.
 🧪 Example:
 
 void main() {
 int a = 10;
-a += 5;  // Equivalent to a = a + 5
+a += 5; // Equivalent to a = a + 5
 print(a); // Output: 15
 
-a *= 2;  // Equivalent to a = a * 2
+a *= 2; // Equivalent to a = a * 2
 print(a); // Output: 30
 
-a -= 3;  // Equivalent to a = a - 3
+a -= 3; // Equivalent to a = a - 3
 print(a); // Output: 27
 
-a /= 9;  // Equivalent to a = a / 9
+a /= 9; // Equivalent to a = a / 9
 print(a); // Output: 3.0
 }
 ✨ Interview Line:
-“I use compound assignment operators to make my code more concise and readable, reducing redundancy while performing operations like addition, subtraction, and multiplication directly on variables.”
+“I use compound assignment operators to make my code more concise and readable, reducing redundancy
+while performing operations like addition, subtraction, and multiplication directly on variables.”
 
 ---
 
-
 143) 🔹What are Logical Operators?
-     Logical operators in Dart are used to perform logical operations on boolean values. They are essential for controlling the flow of programs by combining or negating boolean expressions.
+     Logical operators in Dart are used to perform logical operations on boolean values. They are
+     essential for controlling the flow of programs by combining or negating boolean expressions.
 
 🔍 Purpose:
 Used to perform logical comparisons and control the flow based on multiple conditions.
@@ -4955,26 +5117,30 @@ void main() {
 bool a = true;
 bool b = false;
 
-print(a && b);  // Output: false (both must be true for AND)
-print(a || b);  // Output: true  (at least one must be true for OR)
-print(!a);       // Output: false (NOT reverses the value)
+print(a && b); // Output: false (both must be true for AND)
+print(a || b); // Output: true  (at least one must be true for OR)
+print(!a); // Output: false (NOT reverses the value)
 }
 ✨ Interview Line:
-“I use logical operators like &&, ||, and ! in Dart to combine multiple conditions and control the flow of my program based on boolean expressions."
+“I use logical operators like &&, ||, and ! in Dart to combine multiple conditions and control the
+flow of my program based on boolean expressions."
 
 ---
 
-
 144) 🔹What are Bitwise and Shift Operators?
-     Bitwise and shift operators in Dart are used to manipulate the individual bits of integer values. They are useful for low-level operations like optimization, cryptography, and hardware-level programming.
+     Bitwise and shift operators in Dart are used to manipulate the individual bits of integer
+     values. They are useful for low-level operations like optimization, cryptography, and
+     hardware-level programming.
 
 🔍 Purpose:
-Used for performing operations on the bits of integer values to achieve more efficient computations and control over data representation.
+Used for performing operations on the bits of integer values to achieve more efficient computations
+and control over data representation.
 
 ✅ Key Points:
 
 Bitwise operators work at the bit level (binary representation).
-Shift operators allow you to move bits left or right, which is useful for multiplying or dividing by powers of two.
+Shift operators allow you to move bits left or right, which is useful for multiplying or dividing by
+powers of two.
 🧪 Types of Bitwise and Shift Operators:
 
 Bitwise AND (&):
@@ -4986,39 +5152,43 @@ Performs a bitwise XOR operation on each bit of two integers.
 Bitwise NOT (~):
 Flips all the bits (inverts 0 to 1 and 1 to 0).
 Left Shift (<<):
-Shifts the bits of the left operand to the left by the number of positions specified by the right operand. This effectively multiplies the number by 2 for each shift.
+Shifts the bits of the left operand to the left by the number of positions specified by the right
+operand. This effectively multiplies the number by 2 for each shift.
 Right Shift (>>):
-Shifts the bits of the left operand to the right by the number of positions specified by the right operand. This effectively divides the number by 2 for each shift.
+Shifts the bits of the left operand to the right by the number of positions specified by the right
+operand. This effectively divides the number by 2 for each shift.
 🧪 Example:
 
 void main() {
-int a = 5;  // In binary: 0101
-int b = 3;  // In binary: 0011
+int a = 5; // In binary: 0101
+int b = 3; // In binary: 0011
 
 // Bitwise AND
-print(a & b);  // Output: 1 (binary 0001)
+print(a & b); // Output: 1 (binary 0001)
 // Bitwise OR
-print(a | b);  // Output: 7 (binary 0111)
+print(a | b); // Output: 7 (binary 0111)
 // Bitwise XOR
-print(a ^ b);  // Output: 6 (binary 0110)
+print(a ^ b); // Output: 6 (binary 0110)
 // Bitwise NOT
-print(~a);  // Output: -6 (binary inversion)
+print(~a); // Output: -6 (binary inversion)
 // Left Shift (multiply by 2)
-print(a << 1);  // Output: 10 (binary 1010)
+print(a << 1); // Output: 10 (binary 1010)
 // Right Shift (divide by 2)
-print(a >> 1);  // Output: 2 (binary 0010)
+print(a >> 1); // Output: 2 (binary 0010)
 }
 ✨ Interview Line:
-“I use bitwise and shift operators in Dart to manipulate individual bits of data, which is essential for optimizing performance, performing low-level operations, and working with binary data.”
+“I use bitwise and shift operators in Dart to manipulate individual bits of data, which is essential
+for optimizing performance, performing low-level operations, and working with binary data.”
 
 ---
 
-
 145) 🔹What is Recursion?
-     Recursion is a programming technique where a function calls itself to solve a problem. It is commonly used for problems that can be broken down into smaller, similar subproblems.
+     Recursion is a programming technique where a function calls itself to solve a problem. It is
+     commonly used for problems that can be broken down into smaller, similar subproblems.
 
 🔍 Purpose:
-Used to solve problems that have a recursive structure, such as tree traversal, factorials, or Fibonacci sequences.
+Used to solve problems that have a recursive structure, such as tree traversal, factorials, or
+Fibonacci sequences.
 
 ✅ Key Points:
 
@@ -5037,7 +5207,7 @@ return n * factorial(n - 1);
 }
 
 void main() {
-print(factorial(5));  // Output: 120
+print(factorial(5)); // Output: 120
 }
 🧪 Example (Fibonacci Sequence):
 
@@ -5049,39 +5219,49 @@ return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 void main() {
-print(fibonacci(5));  // Output: 5
+print(fibonacci(5)); // Output: 5
 }
 ✨ Interview Line:
-“I use recursion to solve problems that can be broken into smaller subproblems, like calculating factorials or traversing data structures, always ensuring a clear base case to prevent infinite loops.”
+“I use recursion to solve problems that can be broken into smaller subproblems, like calculating
+factorials or traversing data structures, always ensuring a clear base case to prevent infinite
+loops.”
 
 ---
 
-
 146) 🔹What Architecture is Used in Flutter?
-     Flutter doesn’t enforce a specific architecture, but there are several common architectural patterns that developers use to organize code in a clean and maintainable way. Some of the most popular architectures in Flutter are MVC, MVVM, BLoC, and Provider.
+     Flutter doesn’t enforce a specific architecture, but there are several common architectural
+     patterns that developers use to organize code in a clean and maintainable way. Some of the most
+     popular architectures in Flutter are MVC, MVVM, BLoC, and Provider.
 
 🔍 Purpose:
 Architectures help to separate concerns, making code more modular, testable, and maintainable.
 
 ✅ Key Points:
 
-Flutter provides flexibility in choosing architecture, but popular patterns like BLoC, Provider, and MVVM are commonly used.
+Flutter provides flexibility in choosing architecture, but popular patterns like BLoC, Provider, and
+MVVM are commonly used.
 The choice of architecture depends on the complexity of the app and the team’s preference.
 🧪 Popular Flutter Architectures:
 
 BLoC (Business Logic Component):
 BLoC uses streams and sinks to manage state and handle business logic separately from UI components.
 It ensures that the UI only reacts to changes in state, making it easy to test business logic.
+
 2. Provider:
 
 The Provider package is often used to manage state and pass data down the widget tree.
-It uses a more reactive approach, offering simplicity and flexibility while maintaining a clean separation of concerns.
+It uses a more reactive approach, offering simplicity and flexibility while maintaining a clean
+separation of concerns.
+
 3. MVVM (Model-View-ViewModel):
 
-The MVVM pattern separates the app into three layers: the Model (data), View (UI), and ViewModel (business logic). The ViewModel holds logic and data, while the View updates based on changes.
+The MVVM pattern separates the app into three layers: the Model (data), View (UI), and ViewModel (
+business logic). The ViewModel holds logic and data, while the View updates based on changes.
+
 4. MVC (Model-View-Controller):
 
-In MVC, the Model holds data, the View displays the UI, and the Controller acts as a middleman, handling user input and updating the model.
+In MVC, the Model holds data, the View displays the UI, and the Controller acts as a middleman,
+handling user input and updating the model.
 🧪 Example (BLoC):
 
 class CounterBloc {
@@ -5092,7 +5272,7 @@ Stream<int> get counterStream => _counterController.stream;
 
 void increment() {
 _counter++;
-_counterController.sink.add(_counter);  // Sink the new counter value
+_counterController.sink.add(_counter); // Sink the new counter value
 }
 void dispose() {
 _counterController.close();
@@ -5105,25 +5285,30 @@ counterBloc.counterStream.listen((count) {
 print("Counter Value: $count");
 });
 
-counterBloc.increment();  // Output: Counter Value: 1
+counterBloc.increment(); // Output: Counter Value: 1
 }
 ✨ Interview Line:
-“I use architectures like BLoC, Provider, or MVVM in Flutter to separate business logic from UI, making the code more modular, testable, and maintainable.”
+“I use architectures like BLoC, Provider, or MVVM in Flutter to separate business logic from UI,
+making the code more modular, testable, and maintainable.”
 
 ---
-
 
 147) 🔹What is better Provider or Bloc?
      Provider vs. BLoC in Flutter
 
-Both Provider and BLoC are popular state management solutions in Flutter. The choice between the two depends on the complexity of your app, your team’s preference, and the specific needs of your project.
+Both Provider and BLoC are popular state management solutions in Flutter. The choice between the two
+depends on the complexity of your app, your team’s preference, and the specific needs of your
+project.
 
 🔍 Purpose:
-To manage state efficiently in a Flutter app, providing a clean separation of concerns, easy maintenance, and scalability.
+To manage state efficiently in a Flutter app, providing a clean separation of concerns, easy
+maintenance, and scalability.
 
 Provider
 Overview:
-Provider is a simpler and more flexible solution that helps manage app state and pass data down the widget tree. It integrates seamlessly with Flutter’s widget tree and works well for small to medium-sized apps.
+Provider is a simpler and more flexible solution that helps manage app state and pass data down the
+widget tree. It integrates seamlessly with Flutter’s widget tree and works well for small to
+medium-sized apps.
 
 ✅ Key Points:
 
@@ -5171,12 +5356,14 @@ child: Icon(Icons.add),
 }
 BLoC (Business Logic Component)
 Overview:
-BLoC is a more structured approach that uses streams and sinks to manage state. It’s suitable for larger and more complex apps where business logic is separate from the UI.
+BLoC is a more structured approach that uses streams and sinks to manage state. It’s suitable for
+larger and more complex apps where business logic is separate from the UI.
 
 ✅ Key Points:
 
 Ideal for apps with complex business logic or large-scale apps.
-Uses Streams and Sinks to manage state and events, ensuring separation between UI and business logic.
+Uses Streams and Sinks to manage state and events, ensuring separation between UI and business
+logic.
 More boilerplate code but provides a clear separation of concerns.
 Makes testing business logic easier and provides scalability.
 🧪 Example (BLoC):
@@ -5188,7 +5375,7 @@ final _counterController = StreamController<int>();
 Stream<int> get counterStream => _counterController.stream;
 void increment() {
 _counter++;
-_counterController.sink.add(_counter);  // Sink the new counter value
+_counterController.sink.add(_counter); // Sink the new counter value
 }
 void dispose() {
 _counterController.close();
@@ -5228,7 +5415,8 @@ child: Icon(Icons.add),
 }
 }
 Provider
-Purpose: Simple, flexible, and reactive state management using ChangeNotifier. It is best suited for small to medium-sized apps where the logic is straightforward.
+Purpose: Simple, flexible, and reactive state management using ChangeNotifier. It is best suited for
+small to medium-sized apps where the logic is straightforward.
 When to Use: Ideal for apps that need basic state management and quick implementation.
 Pros:
 Easy to implement and understand.
@@ -5237,8 +5425,10 @@ Works well with Flutter’s reactive framework.
 Cons:
 Less structured for large-scale apps with complex business logic.
 BLoC (Business Logic Component)
-Purpose: Uses Streams and Sinks to manage state, separating business logic from the UI. BLoC is more structured and scalable, making it ideal for larger apps.
-When to Use: Suitable for complex apps where you need to manage extensive business logic and want a clear separation between the UI and business logic.
+Purpose: Uses Streams and Sinks to manage state, separating business logic from the UI. BLoC is more
+structured and scalable, making it ideal for larger apps.
+When to Use: Suitable for complex apps where you need to manage extensive business logic and want a
+clear separation between the UI and business logic.
 Pros:
 Provides clear separation between UI and business logic.
 Easier to scale and test complex business logic.
@@ -5246,22 +5436,27 @@ Cons:
 Requires a deeper understanding of Streams and Sinks.
 More boilerplate code.
 ✨ Interview Line:
-“I prefer Provider for smaller apps due to its simplicity and flexibility, while I choose BLoC for larger, more complex apps where clear separation of business logic from UI and scalability are critical.”
+“I prefer Provider for smaller apps due to its simplicity and flexibility, while I choose BLoC for
+larger, more complex apps where clear separation of business logic from UI and scalability are
+critical.”
 
 ---
 
-
 148) 🔹What is a ValueListenable in Flutter?
-     A ValueListenable in Flutter is an object that can be listened to for changes. It is used to notify listeners when its value changes. ValueListenable is commonly used with widgets like ValueListenableBuilder to rebuild parts of the UI based on the value change.
+     A ValueListenable in Flutter is an object that can be listened to for changes. It is used to
+     notify listeners when its value changes. ValueListenable is commonly used with widgets like
+     ValueListenableBuilder to rebuild parts of the UI based on the value change.
 
 🔍 Purpose:
-To observe and react to changes in a value, and automatically update the UI or perform other actions when that value changes.
+To observe and react to changes in a value, and automatically update the UI or perform other actions
+when that value changes.
 
 ✅ Key Points:
 
 ValueListenable holds a value that can be observed.
 It provides a way to listen for changes to a value and update the UI reactively.
-Commonly used with ValueListenableBuilder to rebuild parts of the widget tree based on value changes.
+Commonly used with ValueListenableBuilder to rebuild parts of the widget tree based on value
+changes.
 🧪 Example:
 
 import 'package:flutter/material.dart';
@@ -5289,7 +5484,7 @@ style: TextStyle(fontSize: 24),
 ),
 floatingActionButton: FloatingActionButton(
 onPressed: () {
-counter.value++;  // Increment the value
+counter.value++; // Increment the value
 },
 child: Icon(Icons.add),
 ),
@@ -5298,23 +5493,28 @@ child: Icon(Icons.add),
 }
 }
 ✨ Interview Line:
-“I use ValueListenable in Flutter to observe changes in data, and with ValueListenableBuilder, I can automatically rebuild UI elements when the data changes, ensuring a reactive and efficient design."
+“I use ValueListenable in Flutter to observe changes in data, and with ValueListenableBuilder, I can
+automatically rebuild UI elements when the data changes, ensuring a reactive and efficient design."
 
 ---
 
-
 149) 🔹What is Firebase?
-     Firebase is a platform developed by Google that provides backend services for mobile and web applications. It offers a variety of tools for app development, including real-time databases, authentication, cloud functions, analytics, and more.
+     Firebase is a platform developed by Google that provides backend services for mobile and web
+     applications. It offers a variety of tools for app development, including real-time databases,
+     authentication, cloud functions, analytics, and more.
 
 🔍 Purpose:
-To simplify app development by providing cloud-based services like real-time databases, authentication, cloud storage, and analytics.
+To simplify app development by providing cloud-based services like real-time databases,
+authentication, cloud storage, and analytics.
 
 ✅ Key Features:
 
 Firebase Authentication:
-Provides easy-to-use authentication services for login, including Google, Facebook, email/password, and more.
+Provides easy-to-use authentication services for login, including Google, Facebook, email/password,
+and more.
 Firebase Firestore & Realtime Database:
-Firestore is a flexible, scalable database for mobile, web, and server development. The Realtime Database allows you to store and sync data in real-time.
+Firestore is a flexible, scalable database for mobile, web, and server development. The Realtime
+Database allows you to store and sync data in real-time.
 Firebase Cloud Messaging (FCM):
 Allows you to send notifications and messages to users across platforms.
 Firebase Analytics:
@@ -5338,16 +5538,18 @@ password: "password123",
 print('Logged in user: ${user?.email}');
 }
 ✨ Interview Line:
-“I use Firebase for its comprehensive suite of backend services like authentication, real-time databases, and cloud storage, which greatly simplifies app development and scalability.”
+“I use Firebase for its comprehensive suite of backend services like authentication, real-time
+databases, and cloud storage, which greatly simplifies app development and scalability.”
 
 ---
 
-
 150) 🔹How to Decrease APK Size in Flutter?
-     Reducing the APK size is crucial to enhance the app’s performance and reduce the installation time for users. Here are some ways to minimize the APK size in Flutter:
+     Reducing the APK size is crucial to enhance the app’s performance and reduce the installation
+     time for users. Here are some ways to minimize the APK size in Flutter:
 
 1. Enable Proguard (Minification)
-   Proguard can be used to remove unused code, making the app smaller. It’s available for Android and helps optimize the size.
+   Proguard can be used to remove unused code, making the app smaller. It’s available for Android
+   and helps optimize the size.
    Steps:
 
 In android/app/build.gradle, enable Proguard by adding this:
@@ -5358,42 +5560,56 @@ shrinkResources true
 proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 }
 }
+
 2. Use Flutter’s --split-debug-info Option
-   Use the --split-debug-info flag to store the debug information separately from the release APK. This reduces the APK size by excluding debugging symbols from the app package.
+   Use the --split-debug-info flag to store the debug information separately from the release APK.
+   This reduces the APK size by excluding debugging symbols from the app package.
    Command:
 
 flutter build apk --split-debug-info=/<path-to-debug-info>
+
 3. Remove Unused Resources
    Remove any unused images, assets, or resources. You can also optimize images by compressing them.
 4. Use flutter build with App Bundles
-   Use Android App Bundles (.aab) instead of APKs. App Bundles allow Google Play to optimize the APK for specific device configurations, reducing the size for end users.
+   Use Android App Bundles (.aab) instead of APKs. App Bundles allow Google Play to optimize the APK
+   for specific device configurations, reducing the size for end users.
    Command:
 
 flutter build appbundle
+
 5. Use Dart Dev Compiler (DDC)
    Dart Dev Compiler (DDC) can reduce the size of the release by optimizing the generated Dart code.
    Steps:
 
 Make sure to use the release mode when building the app.
 flutter build apk --release
+
 6. Optimize Dependencies
-   Only include the necessary dependencies in your pubspec.yaml. Removing unnecessary or large dependencies will help reduce the APK size.
+   Only include the necessary dependencies in your pubspec.yaml. Removing unnecessary or large
+   dependencies will help reduce the APK size.
 7. Use Lottie for Animations
-   Instead of using heavy assets for animations, use lightweight animation files like Lottie for smooth animations with small file sizes.
+   Instead of using heavy assets for animations, use lightweight animation files like Lottie for
+   smooth animations with small file sizes.
 8. Reduce Native Code
-   If you’re using native code through plugins, make sure only the required parts of the native code are included in the build.
+   If you’re using native code through plugins, make sure only the required parts of the native code
+   are included in the build.
 9. Use flutter doctor for Dependency Cleanup
-   Run flutter doctor to ensure all dependencies are correctly set up and no unnecessary resources or dependencies are included in your project.
+   Run flutter doctor to ensure all dependencies are correctly set up and no unnecessary resources
+   or dependencies are included in your project.
 10. Enable Proguard for flutter_plugin
-    If you’re using third-party plugins, check if Proguard can be enabled to shrink those dependencies as well.
+    If you’re using third-party plugins, check if Proguard can be enabled to shrink those
+    dependencies as well.
     ✨ Interview Line:
-    “I use several techniques like enabling Proguard, using App Bundles, removing unused resources, and optimizing dependencies to reduce APK size in Flutter, which helps improve app performance and user experience.”
+    “I use several techniques like enabling Proguard, using App Bundles, removing unused resources,
+    and optimizing dependencies to reduce APK size in Flutter, which helps improve app performance
+    and user experience.”
 
 ---
 
-
 151) 🔹What is ListTile in Flutter?
-     ListTile is a widget in Flutter that provides a simple way to create list items with a consistent and customizable layout. It is typically used to display a row of information, such as a title, subtitle, icon, and trailing widget, in a list or menu.
+     ListTile is a widget in Flutter that provides a simple way to create list items with a
+     consistent and customizable layout. It is typically used to display a row of information, such
+     as a title, subtitle, icon, and trailing widget, in a list or menu.
 
 🔍 Purpose:
 To create a standard, easy-to-use list item that can display text, icons, and other widgets.
@@ -5451,20 +5667,26 @@ print('Tapped on Jane Smith');
 }
 }
 ✨ Interview Line:
-“I use ListTile in Flutter to easily create consistent and interactive list items with customizable options for title, subtitle, icons, and tap handling, streamlining UI development in list-based layouts."
+“I use ListTile in Flutter to easily create consistent and interactive list items with customizable
+options for title, subtitle, icons, and tap handling, streamlining UI development in list-based
+layouts."
 
 ---
 
-
 152) 🔹Method Overloading and Overriding in Flutter
-     In Flutter, both method overloading and method overriding work similarly as in other object-oriented programming languages, but with a specific focus on Flutter’s structure and Dart language.
+     In Flutter, both method overloading and method overriding work similarly as in other
+     object-oriented programming languages, but with a specific focus on Flutter’s structure and
+     Dart language.
 
 1. Method Overloading in Flutter (Dart)
    Definition:
-   Dart doesn’t support method overloading in the traditional sense, where you define multiple methods with the same name but different parameters in the same class. However, you can achieve similar functionality using optional or named parameters in Dart methods.
+   Dart doesn’t support method overloading in the traditional sense, where you define multiple
+   methods with the same name but different parameters in the same class. However, you can achieve
+   similar functionality using optional or named parameters in Dart methods.
 
 🔍 Purpose:
-To handle different input types or numbers with a single method name using optional or named parameters.
+To handle different input types or numbers with a single method name using optional or named
+parameters.
 
 ✅ Key Points:
 
@@ -5481,23 +5703,28 @@ return a + b;
 
 void main() {
 Calculator calc = Calculator();
-print(calc.add(5));      // Outputs: 5
-print(calc.add(5, 3));   // Outputs: 8
+print(calc.add(5)); // Outputs: 5
+print(calc.add(5, 3)); // Outputs: 8
 }
-Here, the add method is overloaded by using an optional parameter. If the second parameter is not passed, it defaults to 0.
+Here, the add method is overloaded by using an optional parameter. If the second parameter is not
+passed, it defaults to 0.
 
 2. Method Overriding in Flutter (Dart with extends)
    Definition:
-   Method overriding happens in Flutter when a subclass provides its own implementation of a method that is already defined in its superclass. It helps customize or replace the behavior of an inherited method.
+   Method overriding happens in Flutter when a subclass provides its own implementation of a method
+   that is already defined in its superclass. It helps customize or replace the behavior of an
+   inherited method.
 
 🔍 Purpose:
-To override the behavior of a superclass method in a subclass, providing customized logic while maintaining the same method signature.
+To override the behavior of a superclass method in a subclass, providing customized logic while
+maintaining the same method signature.
 
 ✅ Key Points:
 
 Overriding is done using inheritance (the extends keyword) in Dart.
 The subclass redefines a method from the superclass with the same signature.
-Use the @override annotation in Dart to indicate the method is intentionally overriding a method from the superclass.
+Use the @override annotation in Dart to indicate the method is intentionally overriding a method
+from the superclass.
 🧪 Example (Flutter — Using extends):
 
 class Animal {
@@ -5514,29 +5741,38 @@ print("Dog barks");
 }
 void main() {
 Dog dog = Dog();
-dog.sound();  // Outputs: Dog barks
+dog.sound(); // Outputs: Dog barks
 }
-In this example, the Dog class overrides the sound() method from the Animal class. The method signature remains the same, but the behavior is customized in the subclass.
+In this example, the Dog class overrides the sound() method from the Animal class. The method
+signature remains the same, but the behavior is customized in the subclass.
 
 ✨ Interview Line:
-“In Flutter, method overloading isn’t directly supported, but I use optional or named parameters to achieve similar behavior. For method overriding, I extend a class and use the @override annotation to customize the inherited methods while maintaining the same method signature."
+“In Flutter, method overloading isn’t directly supported, but I use optional or named parameters to
+achieve similar behavior. For method overriding, I extend a class and use the @override annotation
+to customize the inherited methods while maintaining the same method signature."
 
 ---
 
-
 153) 🔹Difference Between Abstract Class and Interface in Dart (Flutter)
-     In Dart (and many other object-oriented languages), abstract classes and interfaces are used to define common behaviors for different classes. However, there are key differences in how they are used and structured.
+     In Dart (and many other object-oriented languages), abstract classes and interfaces are used to
+     define common behaviors for different classes. However, there are key differences in how they
+     are used and structured.
 
 1. Abstract Class
    Definition:
-   An abstract class is a class that cannot be instantiated on its own and may contain both fully implemented methods (with a body) and abstract methods (without a body). Abstract classes are used when you want to provide a common base class with some shared implementation but also allow subclasses to provide their specific implementations.
+   An abstract class is a class that cannot be instantiated on its own and may contain both fully
+   implemented methods (with a body) and abstract methods (without a body). Abstract classes are
+   used when you want to provide a common base class with some shared implementation but also allow
+   subclasses to provide their specific implementations.
 
 🔍 Purpose:
-To create a common base class with default behavior that can be shared among subclasses, while also allowing them to provide specific implementations of certain methods.
+To create a common base class with default behavior that can be shared among subclasses, while also
+allowing them to provide specific implementations of certain methods.
 
 ✅ Key Points:
 
-An abstract class can have both abstract (no implementation) and non-abstract methods (with implementation).
+An abstract class can have both abstract (no implementation) and non-abstract methods (with
+implementation).
 Can have constructors and fields.
 Subclasses must implement all the abstract methods unless they are abstract as well.
 🧪 Example (Abstract Class in Dart):
@@ -5556,17 +5792,22 @@ print("Barking");
 }
 void main() {
 Dog dog = Dog();
-dog.sound();   // Outputs: Barking
+dog.sound(); // Outputs: Barking
 dog.breathe(); // Outputs: Breathing...
 }
-In this example, the Animal class is abstract. The Dog class must implement the abstract sound() method.
+In this example, the Animal class is abstract. The Dog class must implement the abstract sound()
+method.
 
 2. Interface
    Definition:
-   An interface is a contract that a class agrees to fulfill. In Dart, every class can be used as an interface. Unlike abstract classes, interfaces cannot have any implementation (i.e., no method bodies). They only define method signatures that must be implemented by any class that uses the interface.
+   An interface is a contract that a class agrees to fulfill. In Dart, every class can be used as an
+   interface. Unlike abstract classes, interfaces cannot have any implementation (i.e., no method
+   bodies). They only define method signatures that must be implemented by any class that uses the
+   interface.
 
 🔍 Purpose:
-To define a contract of methods that must be implemented by any class that implements the interface, ensuring that the class provides specific behavior.
+To define a contract of methods that must be implemented by any class that implements the interface,
+ensuring that the class provides specific behavior.
 
 ✅ Key Points:
 
@@ -5590,21 +5831,27 @@ void main() {
 Dog dog = Dog();
 dog.sound(); // Outputs: Barking
 }
-Here, the Dog class implements the Animal interface and provides its own implementation of the sound() method.
+Here, the Dog class implements the Animal interface and provides its own implementation of the
+sound() method.
 
 ✨ Interview Line:
-“In Dart, an abstract class can have both implemented and unimplemented methods and can include fields and constructors, while an interface is a contract with only method signatures and no implementation. Every class in Dart can act as an interface, and a class can implement multiple interfaces.”
+“In Dart, an abstract class can have both implemented and unimplemented methods and can include
+fields and constructors, while an interface is a contract with only method signatures and no
+implementation. Every class in Dart can act as an interface, and a class can implement multiple
+interfaces.”
 
 ---
 
-
 154) 🔹How to Determine Which State Management to Use for a Flutter Project
-     Choosing the right state management solution for a Flutter project depends on various factors, including project complexity, team size, scalability, and developer experience. Here’s a structured approach to help you decide:
+     Choosing the right state management solution for a Flutter project depends on various factors,
+     including project complexity, team size, scalability, and developer experience. Here’s a
+     structured approach to help you decide:
 
 1. Project Complexity
    Simple Projects (e.g., Small Apps, Prototyping):
    Recommended State Management: Provider, SetState
-   Reason: For small projects where state changes are localized to a small number of widgets, Provider and setState are simple and easy to use.
+   Reason: For small projects where state changes are localized to a small number of widgets,
+   Provider and setState are simple and easy to use.
    Use Case: Basic apps, single-screen apps, quick prototypes.
    🧪 Example:
    // Using setState in a simple counter app
@@ -5614,7 +5861,9 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    );
    Medium Complexity Projects (e.g., Apps with Multiple Screens, User Authentication):
    Recommended State Management: Provider, Riverpod, BLoC (Business Logic Component)
-   Reason: As apps grow, managing state becomes more challenging. Provider or Riverpod can help manage app-wide states (e.g., authentication state, user data). For more structured separation of concerns, BLoC can be used to keep business logic separate.
+   Reason: As apps grow, managing state becomes more challenging. Provider or Riverpod can help
+   manage app-wide states (e.g., authentication state, user data). For more structured separation of
+   concerns, BLoC can be used to keep business logic separate.
    Use Case: Apps with multiple screens, user sessions, and networking.
    🧪 Example:
    // Using Provider for shared state class Counter with ChangeNotifier
@@ -5628,8 +5877,11 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    }
    Large and Scalable Projects (e.g., Enterprise-level Apps, Complex State Interactions):
    Recommended State Management: BLoC, Redux, GetX
-   Reason: For large applications with complex state management needs (e.g., handling large datasets, complex interactions across multiple screens), BLoC and Redux are ideal. These solutions provide better control, scalability, and maintainability.
-   Use Case: Large, production-level apps with complex state changes (e.g., finance apps, e-commerce).
+   Reason: For large applications with complex state management needs (e.g., handling large
+   datasets, complex interactions across multiple screens), BLoC and Redux are ideal. These
+   solutions provide better control, scalability, and maintainability.
+   Use Case: Large, production-level apps with complex state changes (e.g., finance apps,
+   e-commerce).
    🧪 Example:
    // Using BLoC for state management
    class CounterBloc extends Bloc<CounterEvent, CounterState> {   
@@ -5644,43 +5896,61 @@ Here, the Dog class implements the Animal interface and provides its own impleme
 2. Team Size and Experience
    Small Teams or Individual Developers:
    Recommended State Management: Provider, Riverpod, GetX
-   Reason: If the team is small or if you’re a solo developer, it’s best to choose a state management solution that is easy to learn, has good documentation, and offers quick integration. Provider or Riverpod are good choices here.
+   Reason: If the team is small or if you’re a solo developer, it’s best to choose a state
+   management solution that is easy to learn, has good documentation, and offers quick integration.
+   Provider or Riverpod are good choices here.
    Large Teams:
    Recommended State Management: BLoC, Redux
-   Reason: Larger teams require better separation of concerns and more structured management of state. BLoC provides clear boundaries between UI and business logic, while Redux helps with managing complex state changes in large apps.
+   Reason: Larger teams require better separation of concerns and more structured management of
+   state. BLoC provides clear boundaries between UI and business logic, while Redux helps with
+   managing complex state changes in large apps.
    Use Case: Distributed teams where developers may work on different parts of the application.
 3. Maintainability and Scalability
    For Easy to Maintain and Scalable Solutions:
    Recommended State Management: BLoC, Riverpod
-   Reason: If the project will grow over time, BLoC and Riverpod can help with scaling the app and maintaining the separation between UI and business logic. They provide more structured approaches, reducing potential issues as the app expands.
-   Use Case: Apps that need to evolve and grow, especially with complex business logic or inter-screen data sharing.
+   Reason: If the project will grow over time, BLoC and Riverpod can help with scaling the app and
+   maintaining the separation between UI and business logic. They provide more structured
+   approaches, reducing potential issues as the app expands.
+   Use Case: Apps that need to evolve and grow, especially with complex business logic or
+   inter-screen data sharing.
 4. Development Speed vs Control
    Fast Development (Less Boilerplate, More Flexibility):
    Recommended State Management: Provider, GetX
-   Reason: For rapid development and flexibility, GetX offers a simple and less verbose approach to state management. It’s great for quick prototypes or simple apps.
+   Reason: For rapid development and flexibility, GetX offers a simple and less verbose approach to
+   state management. It’s great for quick prototypes or simple apps.
    Greater Control (More Structure, More Control Over Business Logic):
    Recommended State Management: BLoC, Redux
-   Reason: If you need more control over how state changes happen in your app, BLoC and Redux allow for better separation and more predictable state management. However, they come with more boilerplate code.
+   Reason: If you need more control over how state changes happen in your app, BLoC and Redux allow
+   for better separation and more predictable state management. However, they come with more
+   boilerplate code.
 5. Use Cases and Examples
-   Provider: Simple apps, basic state management, easy to integrate, ideal for apps with small state interactions.
+   Provider: Simple apps, basic state management, easy to integrate, ideal for apps with small state
+   interactions.
    Riverpod: Apps with dynamic states, dependency injection, modern and more flexible than Provider.
-   BLoC: Business logic-heavy apps, apps with complex state management, large apps requiring scalability.
-   GetX: Small to medium apps, developers who want minimal boilerplate, rapid development with simple state management.
+   BLoC: Business logic-heavy apps, apps with complex state management, large apps requiring
+   scalability.
+   GetX: Small to medium apps, developers who want minimal boilerplate, rapid development with
+   simple state management.
    Redux: Complex, large-scale applications, with many components that need to share a global state.
    ✨ Interview Line:
-   “I determine the right state management solution based on the project’s complexity, team size, scalability needs, and the level of control required. For small apps, I use Provider or GetX; for medium to large projects, I prefer BLoC or Riverpod, and for large-scale, complex apps, Redux is a strong option.”
+   “I determine the right state management solution based on the project’s complexity, team size,
+   scalability needs, and the level of control required. For small apps, I use Provider or GetX; for
+   medium to large projects, I prefer BLoC or Riverpod, and for large-scale, complex apps, Redux is
+   a strong option.”
 
 ---
 
-
 155) 🔹Which type of Database Use in Flutter?
-     Choosing the right database depends on the app’s requirements, whether it’s for local storage, real-time data, or complex queries. Here’s a breakdown of different databases you can use in Flutter:
+     Choosing the right database depends on the app’s requirements, whether it’s for local storage,
+     real-time data, or complex queries. Here’s a breakdown of different databases you can use in
+     Flutter:
 
 1. Local Databases
    SQLite
    Best For: Relational data storage, simple queries, and structured data.
    Package: sqflite
-   Use Case: When you need to store structured data (like tables with rows and columns), SQLite is a solid choice. It allows you to perform SQL queries directly on the local device.
+   Use Case: When you need to store structured data (like tables with rows and columns), SQLite is a
+   solid choice. It allows you to perform SQL queries directly on the local device.
    Example: Storing user data, app preferences, or offline data.
    Advantages: Supports SQL queries, great for moderate to complex data storage needs.
    Example Code:
@@ -5689,14 +5959,16 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    Hive
    Best For: Fast, lightweight key-value storage for unstructured data.
    Package: hive
-   Use Case: Perfect for small to medium apps where you need quick data storage without a relational structure. Hive is highly efficient for storing non-relational data like user settings or cache.
+   Use Case: Perfect for small to medium apps where you need quick data storage without a relational
+   structure. Hive is highly efficient for storing non-relational data like user settings or cache.
    Advantages: Very fast, no need for complex queries, and easy to integrate.
    Example Code:
    var box = await Hive.openBox('myBox'); box.put('name', 'John');
    SharedPreferences
    Best For: Simple key-value storage (e.g., boolean values, strings).
    Package: shared_preferences
-   Use Case: Storing simple preferences like user settings, login credentials, or app configurations. SharedPreferences is ideal for storing small amounts of data.
+   Use Case: Storing simple preferences like user settings, login credentials, or app
+   configurations. SharedPreferences is ideal for storing small amounts of data.
    Advantages: Easy to use, great for small and simple data.
    Example Code:
    SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -5705,7 +5977,9 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    Firebase Firestore
    Best For: Real-time data syncing and cloud-based storage.
    Package: cloud_firestore
-   Use Case: When you need real-time syncing across multiple devices, Firebase Firestore offers a cloud-based NoSQL database with great scalability. It’s perfect for chat apps, live data feeds, or apps that need to sync data in real-time.
+   Use Case: When you need real-time syncing across multiple devices, Firebase Firestore offers a
+   cloud-based NoSQL database with great scalability. It’s perfect for chat apps, live data feeds,
+   or apps that need to sync data in real-time.
    Advantages: Real-time synchronization, automatic scaling, built-in security.
    Example Code:
    FirebaseFirestore.instance.collection('users').add(
@@ -5713,7 +5987,8 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    Firebase Realtime Database
    Best For: Low-latency, real-time data updates.
    Package: firebase_database
-   Use Case: Ideal for apps that require frequent real-time data updates such as messaging apps, collaborative tools, or live updates.
+   Use Case: Ideal for apps that require frequent real-time data updates such as messaging apps,
+   collaborative tools, or live updates.
    Advantages: Instantaneous data updates, offline support.
    Example Code:
    FirebaseDatabase.instance.reference().child('users').push().set(
@@ -5722,19 +5997,28 @@ Here, the Dog class implements the Animal interface and provides its own impleme
    Moor (Drift)
    Best For: Complex local storage with advanced SQLite features.
    Package: moor
-   Use Case: Moor is perfect for apps that require more advanced SQLite database management. It offers a reactive interface, meaning the UI will automatically update when the data changes. Great for apps that need complex queries, relationships between tables, or reactive data handling.
-   Advantages: Provides SQL queries with a reactive framework, better management for complex local databases.
+   Use Case: Moor is perfect for apps that require more advanced SQLite database management. It
+   offers a reactive interface, meaning the UI will automatically update when the data changes.
+   Great for apps that need complex queries, relationships between tables, or reactive data
+   handling.
+   Advantages: Provides SQL queries with a reactive framework, better management for complex local
+   databases.
    Example Code:
    @Database(tables: [Users])
    class AppDatabase extends _$AppDatabase {   
    AppDatabase(QueryExecutor e) : super(e);
    }
    Conclusion
-   For Local Data: Use SQLite or Hive. SQLite is great for relational data with complex queries, and Hive is best for quick, lightweight key-value storage.
-   For Real-time or Cloud Data: Use Firebase Firestore or Realtime Database for cloud syncing and real-time updates.
-   For Complex Local Storage: Use Moor (Drift) when you need more control over local database queries and data reactivity.
+   For Local Data: Use SQLite or Hive. SQLite is great for relational data with complex queries, and
+   Hive is best for quick, lightweight key-value storage.
+   For Real-time or Cloud Data: Use Firebase Firestore or Realtime Database for cloud syncing and
+   real-time updates.
+   For Complex Local Storage: Use Moor (Drift) when you need more control over local database
+   queries and data reactivity.
    ✨ Interview Line:
-   “For local storage, I prefer SQLite for structured data and Hive for fast, key-value data. For cloud-based, real-time apps, I choose Firebase Firestore or Realtime Database, and for complex local storage, Moor is a great solution.”
+   “For local storage, I prefer SQLite for structured data and Hive for fast, key-value data. For
+   cloud-based, real-time apps, I choose Firebase Firestore or Realtime Database, and for complex
+   local storage, Moor is a great solution.”
 
 ---
 
