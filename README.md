@@ -1,6 +1,5 @@
 # Flutter complete Interview questions(100+) with answers
 ![alt text](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/Flutter.png)
-https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/Flutter.png
 ### All Questions with Answers ###
 
 ---
@@ -25,8 +24,8 @@ Flutter uses Dart because:
 ✅ Rich UI Capabilities — Supports Flutter’s widget-based architecture.
 
 ---
-
 3) What is pubspec.yaml file and what does it do?
+---
    The pubspec.yaml file is a configuration and dependency management file in every Flutter project. It tells Flutter how to build the app and what external packages, assets, and settings to use.
 
 The pubspec.yaml file is automatically created in every Flutter project. It is located in the root directory and is used to manage dependencies, assets, fonts, and project settings. 🚀
