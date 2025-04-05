@@ -6,12 +6,15 @@
 Flutter Questions and Answers
 ---
 
-1) What is Flutter?
+---
+1.What is Flutter?
+---
    Flutter is an open-source UI toolkit, developed by Google and first released in 2017. It uses the Dart language and allows developers to create cross-platform apps for Android, iOS, web, and desktop from a single codebase. It features a fast UI framework, hot reload, and rich widgets for smooth development.
 
----
 
-2) What is Dart and Why does Flutter use it?
+---
+2.What is Dart and Why does Flutter use it?
+---
    Dart is a programming language developed by Google in 2011. It is optimized for building fast, scalable, and cross-platform applications.
 
 Flutter uses Dart because:
