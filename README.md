@@ -31,226 +31,250 @@ Flutter uses Dart because:
 ---
 3.What is pubspec.yaml file and what does it do?
 ---
-The pubspec.yaml file is a configuration and dependency management file in every Flutter project. It
-tells Flutter how to build the app and what external packages, assets, and settings to use.
 
-The pubspec.yaml file is automatically created in every Flutter project. It is located in the root
-directory and is used to manage dependencies, assets, fonts, and project settings. 🚀
+The **pubspec.yaml** file is **automatically created in every Flutter project.** It is located in the root directory and is used to manage dependencies, assets, fonts, and project settings. 🚀
 
-What It Does?
+The **pubspec.yaml** file is a **configuration and dependency management file** in every Flutter project. It tells Flutter how to build the app and what external packages, assets, and settings to use.
 
-🔹 Project Metadata — Defines app name, description, and version.
-🔹 Dependencies — Lists Flutter/Dart packages needed.
-🔹 Assets & Fonts — Registers images, icons, and custom fonts.
-🔹 Environment Setup — Specifies Flutter and Dart SDK versions.
-🔹 Scripts & Configuration — Includes build settings and optional plugins.
+### **What It Does?**
+🔹 **Project Metadata** – Defines app name, description, and version.  
+🔹 **Dependencies** – Lists Flutter/Dart packages needed.  
+🔹 **Assets & Fonts** – Registers images, icons, and custom fonts.  
+🔹 **Environment Setup** – Specifies Flutter and Dart SDK versions.  
+🔹 **Scripts & Configuration** – Includes build settings and optional plugins.
 
-It’s essential for managing project resources and ensuring smooth app development! 🚀
+It's essential for managing project resources and ensuring smooth app development! 🚀
 
 ---
 4.What is the difference between main() and runApp() functions in Flutter?
 ---
-In Flutter, main() and runApp() serve different purposes:
+In Flutter, **main()** and **runApp()** serve different purposes:
 
-🔹 main(): The entry point of a Flutter app. It runs first when the app starts.
-🔹 runApp(): Takes a widget and makes it the root of the app, rendering it on the screen.
+🔹 **main()**: The **entry point** of a Flutter app. It runs first when the app starts.  
+🔹 **runApp()**: Takes a **widget** and makes it the root of the app, rendering it on the screen.
 
-Example:
+### Example:
+```dart
 void main() {
-runApp(MyApp()); // Calls runApp() with MyApp as the root widget
+  runApp(MyApp()); // Calls runApp() with MyApp as the root widget
 }
-✅ main() → Starts execution
-✅ runApp() → Loads & displays the UI 🚀
-
+```
+✅ **main() → Starts execution**  
+✅ **runApp() → Loads & displays the UI** 🚀
 ---
 5.Differentiate between named parameters and positional parameters in Flutter.
 ---
-Named vs. Positional Parameters in Flutter
-📌 Positional Parameters
+### **Named vs. Positional Parameters in Flutter**
 
-Order matters, and they are passed without labels.
-Can be required or optional (with default values).
-Defined using regular parentheses ().
-Example:
+📌 **Positional Parameters**
+- Order matters, and they are passed **without labels**.
+- Can be **required** or **optional (with default values)**.
+- Defined using **regular parentheses** `()`.
 
-void greet(String name, String city) {  
-print("Hello $name from $city!");  
-}
-greet("Alice", "New York"); // ✅ Correct
-greet("New York", "Alice"); // ❌ Wrong order
-📌 Named Parameters
+**Example:**
+    ```dart
+    void greet(String name, String city) {  
+      print("Hello $name from $city!");  
+    }
+    greet("Alice", "New York"); // ✅ Correct
+    greet("New York", "Alice"); // ❌ Wrong order
+    ```
 
-Order does not matter, and they are passed with labels.
-By default optional, but can be required using @required or required keyword.
-Defined using curly braces {}.
-Example:
+📌 **Named Parameters**
+- Order **does not** matter, and they are passed **with labels**.
+- By default **optional**, but can be **required** using `@required` or `required` keyword.
+- Defined using **curly braces** `{}`.
 
-void greet({required String name, String city = "Unknown"}) {  
-print("Hello $name from $city!");  
-}
-greet(name: "Alice", city: "New York"); // ✅ Any order
-greet(name: "Bob"); // ✅ Uses default city
-✅ Positional → Ordered, concise
-✅ Named → Flexible, readable 🚀
+**Example:**
+    ```dart
+    void greet({required String name, String city = "Unknown"}) {  
+      print("Hello $name from $city!");  
+    }
+    greet(name: "Alice", city: "New York"); // ✅ Any order
+    greet(name: "Bob"); // ✅ Uses default city
+    ```
+
+✅ **Positional → Ordered, concise**  
+✅ **Named → Flexible, readable** 🚀
 
 ---
 6.What are widgets in Flutter?
 ---
-Widgets in Flutter are the building blocks of the UI. Everything in Flutter is a widget, including
-buttons, text, images, and layouts.
 
-Types of Widgets
-🔹 Stateless Widget — Does not change after creation (e.g., Text, Icon).
+Widgets in **Flutter** are the **building blocks** of the UI. Everything in Flutter is a **widget**, including buttons, text, images, and layouts.
 
-🔹 Stateless Widget — Does not change once built. Used for static UI elements like Text and Icon.
-More efficient since it doesn't rebuild.
+### **Types of Widgets**
+🔹 **StatelessWidget** – Does **not** change after creation (e.g., `Text`, `Icon`).  
+🔹 **Stateless Widget** — Does **not** change once built. Used for static UI elements like Text and Icon. More efficient since it doesn't rebuild.
+🔹 **StatefulWidget** – Can **change dynamically** based on user interaction (e.g., `TextField`, `Checkbox`).
+🔹 **StatefulWidget** — Can **change** dynamically using setState(). Used for interactive UI like TextField and Checkbox. Requires more resources but enables real-time updates.
 
-🔹 StatefulWidget – Can change dynamically based on user interaction (e.g., TextField, Checkbox).
+### **Example:**
+```dart
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text("Hello, Flutter!");
+  }
+}
+```
 
-🔹 StatefulWidget — Can change dynamically using setState(). Used for interactive UI like TextField
-and Checkbox. Requires more resources but enables real-time updates.
-
-Why Are Widgets Important?
+### **Why Are Widgets Important?**
 ✔ Everything in Flutter is a widget (UI elements, layout, gestures).
 ✔ Widgets can be nested to build complex UIs.
 ✔ They make the UI flexible and reusable.
 
-Conclusion
-Widgets are the foundation of a Flutter app, allowing developers to create beautiful and responsive
-UIs easily! 🚀
+###**Conclusion**
+Widgets are the foundation of a Flutter app, allowing developers to create beautiful and responsive UIs easily! 🚀
+
+✅ **Widgets describe the UI** and **can be nested** to create complex designs! 🚀
 
 ---
 7.Difference Between Stateless Widget and Stateful Widget in Flutter
 ---
-🔹 Stateless Widget – A widget that does not change once built. It is immutable and only updates when
-its parent widget changes. Suitable for static content like text, icons, and images.
-Example:
+### **Difference Between StatelessWidget and StatefulWidget in Flutter**
 
+In **Flutter**, everything is a **widget**, but widgets can be classified into two types based on whether they hold and change state:
+
+| Feature           | **StatelessWidget** 🟢 | **StatefulWidget** 🔵 |
+|------------------|----------------------|----------------------|
+| **Definition**  | A widget **without state**, meaning it does **not change** once built. | A widget **with state**, meaning it can **change** dynamically during runtime. |
+| **Rebuilds**   | Only when the **parent widget changes**. | Can **rebuild anytime** when `setState()` is called. |
+| **Use Case**   | UI elements that remain **constant**, like `Text`, `Icon`, `Image`. | UI elements that need **interaction** or updates, like `TextField`, `Checkbox`, `Slider`. |
+| **Performance** | **More efficient** since it doesn’t need to track changes. | **Slightly heavier** as it manages state. |
+| **Example** | `Text("Hello, Flutter!")` | Counter App using `setState()` |
+
+---
+
+### **📌 StatelessWidget Example**
+A **StatelessWidget** does not change after being built.
+```dart
 class MyStatelessWidget extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Text("I am constant!");
+  @override
+  Widget build(BuildContext context) {
+    return Text("I am constant!");
+  }
 }
-}
-🔹 StatefulWidget – A widget that can change dynamically during runtime. It has a mutable state and
-updates using setState(). Used for interactive UI elements like text fields, counters, and
-animations.
-Example:
+```
+✅ Used for **static UI components** that do not require updates.
 
+---
+
+### **📌 StatefulWidget Example**
+A **StatefulWidget** can **change** when triggered by user interactions.
+```dart
 class MyStatefulWidget extends StatefulWidget {
-@override
-_MyStatefulWidgetState createState() => _MyStatefulWidgetState();
+  @override
+  _MyStatefulWidgetState createState() => _MyStatefulWidgetState();
 }
 
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
-int count = 0;
+  int count = 0;
 
-void increment() {
-setState(() { count++; });
+  void increment() {
+    setState(() { count++; }); // Updates UI
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text("Count: $count"),
+        ElevatedButton(onPressed: increment, child: Text("Increase"))
+      ],
+    );
+  }
 }
+```
+✅ Used for **dynamic UI components** that require real-time updates.
 
-@override
-Widget build(BuildContext context) {
-return Column(
-children: [
-Text("Count: $count"),
-ElevatedButton(onPressed: increment, child: Text("Increase"))
-],
-);
-}
-}
-Key Differences:
-Stateless Widget → Does not change after being built.
-Stateful Widget → Can update dynamically using setState().
-Stateless Widget is more efficient, while
-Stateful Widget allows interactive features.
-When to Use Which?
-✔ Use StatelessWidget when UI remains the same (e.g., logos, static text).
-✔ Use StatefulWidget when UI needs to change (e.g., form inputs, counters).
+---
 
-Conclusion
-🔹 StatelessWidget → Simple, Fast, No State Management
-🔹 StatefulWidget → Interactive, Uses setState(), Dynamic UI 🚀
+### **When to Use Which?**
+✔ **Use StatelessWidget** when UI remains the **same** (e.g., logos, static text).  
+✔ **Use StatefulWidget** when UI needs to **change** (e.g., form inputs, counters).
 
+### **Conclusion**
+🔹 **StatelessWidget → Simple, Fast, No State Management**  
+🔹 **StatefulWidget → Interactive, Uses setState(), Dynamic UI** 🚀
 ---
 8.What is Hot Reload and Hot Restart in Flutter?
 ---
-Hot Reload vs. Hot Restart in Flutter
-🔥 Hot Reload
+### **Hot Reload vs. Hot Restart in Flutter**
 
-Fast updates UI without restarting the app.
-Keeps the app state intact (e.g., text fields, animations).
-Used for UI changes, bug fixes, and design tweaks.
-Shortcut: r in terminal or click Hot Reload in IDE.
-🔥 Hot Restart
+🔥 **Hot Reload**
+- **Fast updates** UI without restarting the app.
+- Keeps the app **state intact** (e.g., text fields, animations).
+- Used for **UI changes, bug fixes, and design tweaks**.
+- **Shortcut:** `r` in terminal or click **Hot Reload** in IDE.
 
-Fully restarts the app and resets the state.
-Reloads code + main() but keeps app settings.
-Used for logic changes, dependency updates, or deep modifications.
-Shortcut: R in terminal or click Hot Restart in IDE.
-✅ Hot Reload → Fast UI updates
-✅ Hot Restart → Full app refresh 🚀
+🔥 **Hot Restart**
+- **Fully restarts** the app and resets the **state**.
+- Reloads **code + main()** but keeps app settings.
+- Used for **logic changes, dependency updates, or deep modifications**.
+- **Shortcut:** `R` in terminal or click **Hot Restart** in IDE.
+
+✅ **Hot Reload → Fast UI updates**  
+✅ **Hot Restart → Full app refresh** 🚀
 
 ---
 9.What do you mean by open-source software? Is Flutter open-source?
 ---
-What is Open-Source Software?
-Open-source software is software with publicly available source code, allowing anyone to view,
-modify, and distribute it freely. It promotes collaboration, transparency, and community
-contributions.
+### **What is Open-Source Software?**
+Open-source software is software with **publicly available source code**, allowing anyone to **view, modify, and distribute** it freely. It promotes **collaboration, transparency, and community contributions**.
 
-Is Flutter Open-Source?
-✅ Yes! Flutter is open-source, developed by Google, and available on GitHub. Developers worldwide
-contribute to its improvement, making it free to use for building apps across multiple platforms. 🚀
+### **Is Flutter Open-Source?**
+✅ Yes! **Flutter is open-source**, developed by **Google**, and available on **GitHub**. Developers worldwide contribute to its improvement, making it **free to use** for building apps across multiple platforms. 🚀
 
 ---
 10.What is BuildContext in Flutter? And why is it needed?
 ---
-What is BuildContext in Flutter?
-BuildContext is a reference to the location of a widget in the widget tree. It helps Flutter
-identify where the widget is placed and how it should interact with other widgets.
+### **What is BuildContext in Flutter?**
+`BuildContext` is a reference to the location of a widget in the **widget tree**. It helps Flutter identify **where** the widget is placed and how it should interact with other widgets.
 
-Why is BuildContext Needed?
-✔ Access Widget Tree — Helps navigate and interact with other widgets.
-✔ Pass Data Down — Used in InheritedWidget and Provider for state management.
-✔ Navigation – Required for Navigator.push() and showDialog().
-✔ Theme & Localization – Helps retrieve Theme.of(context) and MediaQuery.of(context).
+### **Why is BuildContext Needed?**
+✔ **Access Widget Tree** – Helps navigate and interact with other widgets.  
+✔ **Pass Data Down** – Used in `InheritedWidget` and `Provider` for state management.  
+✔ **Navigation** – Required for `Navigator.push()` and `showDialog()`.  
+✔ **Theme & Localization** – Helps retrieve `Theme.of(context)` and `MediaQuery.of(context)`.
 
-Example Usage:
+### **Example Usage:**
+```dart
+void main() {
+  runApp(MyApp());
+}
 
-        void main() {
-            runApp(MyApp());
-        }
-
-    class MyApp extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {  // BuildContext here
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {  // BuildContext here
     return MaterialApp(
-    home: Scaffold(
-    appBar: AppBar(title: Text("BuildContext Example")),
-    body: Center(child: MyButton()),
-    ),
+      home: Scaffold(
+        appBar: AppBar(title: Text("BuildContext Example")),
+        body: Center(child: MyButton()),
+      ),
     );
-    }
-    }
-    class MyButton extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {  // BuildContext in another widget
-    return ElevatedButton(
-    onPressed: () {
-    ScaffoldMessenger.of(context).showSnackBar(
-    SnackBar(content: Text("Hello from BuildContext!"))
-    );
-    },
-    child: Text("Show Snackbar"),
-    );
-    }
-    }
+  }
+}
 
-Key Takeaways
-✅ BuildContext identifies widget position in the tree.
-✅ Needed for navigation, themes, and UI updates.
-✅ Every widget has its own BuildContext. 🚀
+class MyButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {  // BuildContext in another widget
+    return ElevatedButton(
+      onPressed: () {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Hello from BuildContext!"))
+        );
+      },
+      child: Text("Show Snackbar"),
+    );
+  }
+}
+```
+
+### **Key Takeaways**
+✅ `BuildContext` **identifies widget position** in the tree.  
+✅ Needed for **navigation, themes, and UI updates**.  
+✅ Every widget has its **own BuildContext**. 🚀
 
 ---
 11.What are packages and plugins in Flutter?
