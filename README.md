@@ -53,13 +53,12 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 🔹 **main()**: The **entry point** of a Flutter app. It runs first when the app starts.  
 🔹 **runApp()**: Takes a **widget** and makes it the root of the app, rendering it on the screen.
 
-Example:
+**Example:**
 
-    ```dart
     void main() {
       runApp(MyApp()); // Calls runApp() with MyApp as the root widget
     }
-    ```
+    
 
 ✅ **main() → Starts execution**  
 ✅ **runApp() → Loads & displays the UI** 🚀
@@ -75,13 +74,13 @@ Example:
 - Defined using **regular parentheses** `()`.
 
 **Example:**
-    ```dart
+    
     void greet(String name, String city) {  
       print("Hello $name from $city!");  
     }
     greet("Alice", "New York"); // ✅ Correct
     greet("New York", "Alice"); // ❌ Wrong order
-    ```
+    
 
 📌 **Named Parameters**
 - Order **does not** matter, and they are passed **with labels**.
@@ -89,13 +88,13 @@ Example:
 - Defined using **curly braces** `{}`.
 
 **Example:**
-    ```dart
+    
     void greet({required String name, String city = "Unknown"}) {  
       print("Hello $name from $city!");  
     }
     greet(name: "Alice", city: "New York"); // ✅ Any order
     greet(name: "Bob"); // ✅ Uses default city
-    ```
+    
 
 ✅ **Positional → Ordered, concise**  
 ✅ **Named → Flexible, readable** 🚀
