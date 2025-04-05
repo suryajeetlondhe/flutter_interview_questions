@@ -53,14 +53,17 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 🔹 **main()**: The **entry point** of a Flutter app. It runs first when the app starts.  
 🔹 **runApp()**: Takes a **widget** and makes it the root of the app, rendering it on the screen.
 
-### Example:
-```dart
-void main() {
-  runApp(MyApp()); // Calls runApp() with MyApp as the root widget
-}
-```
+Example:
+
+    ```dart
+    void main() {
+      runApp(MyApp()); // Calls runApp() with MyApp as the root widget
+    }
+    ```
+
 ✅ **main() → Starts execution**  
 ✅ **runApp() → Loads & displays the UI** 🚀
+
 ---
 5.Differentiate between named parameters and positional parameters in Flutter.
 ---
