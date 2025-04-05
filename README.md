@@ -24,7 +24,7 @@ Flutter uses Dart because:
 ✅ Rich UI Capabilities — Supports Flutter’s widget-based architecture.
 
 ---
-3) What is pubspec.yaml file and what does it do?
+3.What is pubspec.yaml file and what does it do?
 ---
    The pubspec.yaml file is a configuration and dependency management file in every Flutter project. It tells Flutter how to build the app and what external packages, assets, and settings to use.
 
@@ -41,8 +41,8 @@ What It Does?
 It’s essential for managing project resources and ensuring smooth app development! 🚀
 
 ---
-
-4) What is the difference between main() and runApp() functions in Flutter?
+4.What is the difference between main() and runApp() functions in Flutter?
+---
    In Flutter, main() and runApp() serve different purposes:
 
 🔹 main(): The entry point of a Flutter app. It runs first when the app starts.
@@ -56,8 +56,8 @@ runApp(MyApp()); // Calls runApp() with MyApp as the root widget
 ✅ runApp() → Loads & displays the UI 🚀
 
 ---
-
-5) Differentiate between named parameters and positional parameters in Flutter.
+5.Differentiate between named parameters and positional parameters in Flutter.
+---
    Named vs. Positional Parameters in Flutter
    📌 Positional Parameters
 
@@ -87,8 +87,8 @@ greet(name: "Bob"); // ✅ Uses default city
 ✅ Named → Flexible, readable 🚀
 
 ---
-
-6) What are widgets in Flutter?
+6.What are widgets in Flutter?
+---
    Widgets in Flutter are the building blocks of the UI. Everything in Flutter is a widget, including buttons, text, images, and layouts.
 
 Types of Widgets
@@ -109,8 +109,8 @@ Conclusion
 Widgets are the foundation of a Flutter app, allowing developers to create beautiful and responsive UIs easily! 🚀
 
 ---
-
-7) Difference Between Stateless Widget and Stateful Widget in Flutter
+7.Difference Between Stateless Widget and Stateful Widget in Flutter
+---
    🔹 Stateless Widget – A widget that does not change once built. It is immutable and only updates when its parent widget changes. Suitable for static content like text, icons, and images.
    Example:
 
@@ -159,9 +159,8 @@ Conclusion
 🔹 StatefulWidget → Interactive, Uses setState(), Dynamic UI 🚀
 
 ---
-
-
-8) What is Hot Reload and Hot Restart in Flutter?
+8.What is Hot Reload and Hot Restart in Flutter?
+---
    Hot Reload vs. Hot Restart in Flutter
    🔥 Hot Reload
 
@@ -179,15 +178,17 @@ Shortcut: R in terminal or click Hot Restart in IDE.
 ✅ Hot Restart → Full app refresh 🚀
 
 ---
-
-9) What do you mean by open-source software? Is Flutter open-source?
+9.What do you mean by open-source software? Is Flutter open-source?
+---
    What is Open-Source Software?
    Open-source software is software with publicly available source code, allowing anyone to view, modify, and distribute it freely. It promotes collaboration, transparency, and community contributions.
 
 Is Flutter Open-Source?
 ✅ Yes! Flutter is open-source, developed by Google, and available on GitHub. Developers worldwide contribute to its improvement, making it free to use for building apps across multiple platforms. 🚀
 
-10) What is BuildContext in Flutter? And why is it needed?
+---
+10.What is BuildContext in Flutter? And why is it needed?
+---
     What is BuildContext in Flutter?
     BuildContext is a reference to the location of a widget in the widget tree. It helps Flutter identify where the widget is placed and how it should interact with other widgets.
 
