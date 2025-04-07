@@ -5,10 +5,8 @@
 ### All Questions with Answers ###
 
 ---
-Flutter Questions and Answers
+## 📱 Flutter Interview Questions and Answers App
 ---
-## 📱 Flutter Interview Questions App
-
 I’ve created a **Flutter application** that displays 100+ carefully curated **Flutter interview questions and answers** in a beautiful and interactive way.
 
 ---
@@ -60,7 +58,6 @@ This app fetches data live from this GitHub repository:
 
 Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
----
 
 ---
 1.What is Flutter?
