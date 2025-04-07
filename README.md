@@ -1,4 +1,4 @@
-# Flutter complete Interview questions(100+) with answers
+# 100+ Flutter complete Interview questions with answers
 
 ![alt text](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/Flutter.png)
 
