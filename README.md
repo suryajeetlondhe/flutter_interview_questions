@@ -7,6 +7,61 @@
 ---
 Flutter Questions and Answers
 ---
+## 📱 Flutter Interview Questions App
+
+I’ve created a **Flutter application** that displays 100+ carefully curated **Flutter interview questions and answers** in a beautiful and interactive way.
+
+---
+
+### 🚀 Features
+
+✅ Displays **Flutter interview Q&A**  
+✅ **Dark Mode & Light Mode** toggle  
+✅ **Search functionality** with highlight & navigation  
+✅ **Bookmark your favorite questions**  
+✅ **Export all questions as PDF**  
+✅ Automatically **syncs with new questions** from the GitHub source  
+✅ Clean and minimal UI for focused reading
+
+---
+
+### 📷 Screenshots
+
+<div align="center"> <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png" alt="Dark Mode" width="200"/> <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png" alt="Search Feature" width="200"/> </div>
+
+![Dark Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
+
+![Light Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
+
+---
+
+### 🔗 Download the App
+
+> [Download App Link](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/APK/Flutter_Interview_Questions_Answers_Application.apk)
+
+---
+
+### 📂 Data Source
+
+This app fetches data live from this GitHub repository:  
+👉 [Flutter Interview Questions (Source)](https://github.com/suryajeetlondhe/flutter_interview_questions)
+
+---
+
+### 📦 Tech Stack
+
+- Flutter (Dart)
+- HTTP
+- Shared Preferences
+- PDF + Printing packages
+
+---
+
+### 🤝 Contributions
+
+Suggestions or contributions are welcome! Feel free to fork or raise issues.
+
+---
 
 ---
 1.What is Flutter?
@@ -8057,64 +8112,4 @@ Choosing the right database depends on the app's requirements, whether it’s fo
 
 
 ---
-
-## 📱 Flutter Interview Questions App
-
-I’ve created a **Flutter application** that displays 100+ carefully curated **Flutter interview questions and answers** in a beautiful and interactive way.
-
----
-
-### 🚀 Features
-
-✅ Displays **Flutter interview Q&A**  
-✅ **Dark Mode & Light Mode** toggle  
-✅ **Search functionality** with highlight & navigation  
-✅ **Bookmark your favorite questions**  
-✅ **Export all questions as PDF**  
-✅ Automatically **syncs with new questions** from the GitHub source  
-✅ Clean and minimal UI for focused reading
-
----
-
-### 📷 Screenshots
-
-
-
-
-![Dark Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
-
-![Light Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
-
-
-
----
-
-### 🔗 Download the App
-
-> [Download App Link](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/APK/Flutter_Interview_Questions_Answers_Application.apk)
-
----
-
-### 📂 Data Source
-
-This app fetches data live from this GitHub repository:  
-👉 [Flutter Interview Questions (Source)](https://github.com/suryajeetlondhe/flutter_interview_questions)
-
----
-
-### 📦 Tech Stack
-
-- Flutter (Dart)
-- HTTP
-- Shared Preferences
-- PDF + Printing packages
-
----
-
-### 🤝 Contributions
-
-Suggestions or contributions are welcome! Feel free to fork or raise issues.
-
----
-
 
