@@ -8079,19 +8079,18 @@ I’ve created a **Flutter application** that displays 100+ carefully curated **
 
 ### 📷 Screenshots
 
-> Add screenshots below 👇 (e.g., `screenshots/dark_mode.png`, `screenshots/search.png`, etc.)
 
 ```
-![Dark Mode](screenshots/dark_mode.png)
-![Search Functionality](screenshots/search.png)
-![PDF Export](screenshots/pdf_export.png)
+![Dark Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
+![Light Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
+
 ```
 
 ---
 
 ### 🔗 Download the App
 
-> [Download App Link](https://your-download-link-or-playstore-link)
+> [Download App Link](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/APK/Flutter_Interview_Questions_Answers_Application.apk)
 
 ---
 
@@ -8119,5 +8118,4 @@ Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
 Let me know if you also want a GitHub Actions badge (like build status), Play Store badge, or want to host the APK publicly.
 
-https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png
-https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png
+
