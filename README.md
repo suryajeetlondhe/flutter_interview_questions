@@ -27,11 +27,10 @@ I’ve created a **Flutter application** that displays 100+ carefully curated **
 
 ### 📷 Screenshots
 
-<div align="center"> <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png" alt="Dark Mode" width="200"/> <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png" alt="Search Feature" width="200"/> </div>
-
-![Dark Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
-
-![Light Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
+<div align="center">
+  <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png" alt="Dark Mode" width="200" style="margin-right: 20px;"/>
+  <img src="https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png" alt="Search Feature" width="200"/>
+</div>
 
 ---
 
