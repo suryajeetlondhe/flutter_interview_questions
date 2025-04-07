@@ -8081,7 +8081,9 @@ I’ve created a **Flutter application** that displays 100+ carefully curated **
 
 
 ```
+![alt text](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
 ![Dark Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/1.png)
+![alt text](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
 ![Light Mode](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/assets/2.png)
 
 ```
