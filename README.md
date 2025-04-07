@@ -8055,7 +8055,6 @@ Choosing the right database depends on the app's requirements, whether it’s fo
 ✨ **Interview Line:**  
 "For local storage, I prefer **SQLite** for structured data and **Hive** for fast, key-value data. For cloud-based, real-time apps, I choose **Firebase Firestore** or **Realtime Database**, and for complex local storage, **Moor** is a great solution."
 
-Here's a clean and professional GitHub `README.md` description you can use:
 
 ---
 
@@ -8117,7 +8116,5 @@ This app fetches data live from this GitHub repository:
 Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
 ---
-
-Let me know if you also want a GitHub Actions badge (like build status), Play Store badge, or want to host the APK publicly.
 
 
