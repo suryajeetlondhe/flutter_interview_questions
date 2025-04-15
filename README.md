@@ -58,8 +58,17 @@ This app fetches data live from this GitHub repository:
 
 Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
+---
+| No. | Question |
+|-----|----------|
+| 1   | [What is Flutter?](#q1) |
+| 2   | [What is Dart and Why does Flutter use it?](#q2) |
+| 3   | [What is pubspec.yaml file and what does it do?](#q3) |
+
 
 ---
+<a name="q1"></a>
+
 1.What is Flutter?
 ---
 Flutter is an open-source UI toolkit, developed by Google and first released in 2017. It uses the
@@ -69,6 +78,8 @@ development.
 
 
 ---
+<a name="q2"></a>
+
 2.What is Dart and Why does Flutter use it?
 ---
 **Dart** is a programming language developed by **Google** in **2011**. It is optimized for building fast, scalable, and cross-platform applications.
@@ -80,6 +91,8 @@ Flutter uses Dart because:
 ✅ **Rich UI Capabilities** – Supports Flutter’s widget-based architecture.
 
 ---
+<a name="q3"></a>
+
 3.What is pubspec.yaml file and what does it do?
 ---
 
