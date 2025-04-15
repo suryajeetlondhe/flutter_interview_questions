@@ -57,6 +57,7 @@ This app fetches data live from this GitHub repository:
 ### 🤝 Contributions
 
 Suggestions or contributions are welcome! Feel free to fork or raise issues.
+**📘 [Click here to download the full Flutter Interview Questions & Answers PDF](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/pdf/Github_Flutter_Interview_Questions%26Answers.pdf)**
 
 ---
 ## 📋 Table of Contents
