@@ -64,7 +64,7 @@ Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
 ✨ Want all questions in one place?  
 📥 **[Download the complete Flutter Interview Q&A PDF here! 🚀](https://github.com/suryajeetlondhe/flutter_interview_questions/blob/master/pdf/Github_Flutter_Interview_Questions%26Answers.pdf)**  
-📌 Includes 130+ questions from beginner to advanced – perfect for interview prep!
+📌 Includes 150+ questions from beginner to advanced – perfect for interview prep!
 
 
 ---
