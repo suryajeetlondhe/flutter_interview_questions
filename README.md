@@ -61,163 +61,163 @@ Suggestions or contributions are welcome! Feel free to fork or raise issues.
 ---
 ## 📋 Table of Contents
 
-| No. | Question                                                                                  |Category      |
-|-----|-------------------------------------------------------------------------------------------|--------------|
-| 1   | [What is Flutter?](#q1)                                                                   | Beginner     |
-| 2   | [What is Dart and Why does Flutter use it?](#q2)                                          | Beginner     |
-| 3   | [What is pubspec.yaml file and what does it do?](#q3)                                     | Beginner     |
-| 4   | [What is the difference between main() and runApp() functions in Flutter?](#q4)           | Beginner     |
-| 5   | [Differentiate between named parameters and positional parameters in Flutter.?](#q5)      | Intermediate |
-| 6   | [What are widgets in Flutter??](#q6)                                                      | Beginner     |
-| 7   | [Difference Between Stateless Widget and Stateful Widget in Flutter?](#q7)                | Intermediate |
-| 8   | [What is Hot Reload and Hot Restart in Flutter?](#q8)                                     | Intermediate |
-| 9   | [What do you mean by open-source software? Is Flutter open-source?](#q9)                  | Beginner     |
-| 10  | [What is BuildContext in Flutter? And why is it needed?](#q10)                            | Intermediate |
-| 11  | [What are packages and plugins in Flutter?](#q11)                                         | Intermediate |
-| 12  | [Name some popular apps made with Flutter.?](#q12)                                        | Beginner     |
-| 13  | [What are different Build modes in Flutter?](#q13)                                        | Intermediate |
-| 14  | [What is the difference between WidgetsApp and MaterialApp in Flutter?](#q14)             | Intermediate |
-| 15  | [Differentiate between Final, Const and Static keyword with example?](#q15)               | Intermediate |
-| 16  | [What are StatefulWidget Lifecycle methods. Explain briefly?](#q16)                       | Advanced     |
-| 17  | [What are StatelessWidget Lifecycle methods. Explain briefly?](#q17)                      | Advanced     |
-| 18  | [What are keys and why do we need them?](#q18)                                            | Intermediate |
-| 19  | [What is the difference between Expanded and Flexible widget?](#q19)                      | Intermediate |
-| 20  | [What is Fat Arrow Notation in Dart?](#q20)                                               | Beginner     |
-| 21  | [What is the purpose of SafeArea widget in Flutter?](#q21)                                | Intermediate |
-| 22  | [What are Slivers in Flutter?](#q22)                                                      | Advanced     |
-| 23  | [What is an Extension Method in Dart?](#q23)                                              | Advanced     |
-| 24  | [Explain the mounted property. How is it important and when to use it?](#q24)             | Intermediate |
-| 25  | [What is Sound Null Safety in Dart?](#q25)                                                | Advanced     |
-| 26  | [What is the Null-Aware Operator in Dart?](#q26)                                          | Intermediate |
-| 27  | [Difference Between mainAxisAlignment and crossAxisAlignment in Flutter?](#q27)           | Intermediate |
-| 28  | [What are Mixins in Dart? How to use them?](#q28)                                         | Advanced     |
-| 29  | [Why Shouldn’t We Use Inheritance in Flutter?](#q29)                                      | Advanced     |
-| 30  | [What is InheritedWidget in Flutter?](#q30)                                               | Advanced     |
-| 31  | [Difference Between Container and SizedBox in Flutter?](#q31)                             | Intermediate |
-| 32  | [What is AppLifecycleState in Flutter?](#q32)                                             | Advanced     |
-| 33  | [Difference Between NetworkImage and Image.network in Flutter?](#q33)                     | Intermediate |
-| 34  | [Explain async, await, and Future in Dart?](#q34)                                         | Intermediate |
-| 35  | [What is resizeToAvoidBottomInset in Flutter? When should we use it?](#q35)               | Intermediate |
-| 36  | [What is TextEditingController in Flutter?](#q36)                                         | Intermediate |
-| 37  | [What is Animation and AnimationController in Flutter?](#q37)                             | Advanced     |
-| 38  | [What is Tree Shaking in Flutter?](#q38)                                                  | Advanced     |
-| 39  | [What is the AspectRatio Widget in Flutter?](#q39)                                        | Intermediate |
-| 40  | [What is vsync in Flutter?](#q40)                                                         | Advanced     |
-| 41  | [Difference Between Future and Stream in Flutter?](#q41)                                  | Advanced     |
-| 42  | [Types of Future in Dart?](#q42)                                                          | Intermediate |
-| 43  | [Types of Streams in Dart?](#q43)                                                         | Advanced     |
-| 44  | [What is assert in Dart and Flutter?](#q44)                                               | Intermediate |
-| 45  | [Can you explain the process of creating custom widgets in Flutter?](#q45)                | Advanced     |
-| 46  | [What is typedef in Dart?](#q46)                                                          | Advanced     |
-| 47  | [What is FutureBuilder in Flutter and how is it used to build dynamic UI?](#q47)          | Intermediate |
-| 48  | [How do you handle exceptions in Flutter, and what strategies have you used?](#q48)       | Intermediate |
-| 49  | [What is an Isolate in Flutter?](#q49)                                                    | Advanced     |
-| 50  | [What is a Thread in Flutter?](#q50)                                                      | Advanced     |
-| 51  | [How would you make HTTP requests in the Flutter framework?](#q51)                        | Intermediate |
-| 52  | [Making API Calls Using Dio in Flutter?](#q52)                                            | Advanced     |
-| 53  | [What is Microfrontend in Flutter?](#q53)                                                 | Advanced     |
-| 54  | [Difference Between Dio and HTTP in Flutter?](#q54)                                       | Advanced     |
-| 55  | [What is Factory constructor?](#q55)                                                      | Intermediate |
-| 56  | [What is a Singleton Class in Dart?](#q56)                                                | Intermediate |
-| 57  | [Can you explain the process of testing a Flutter app?](#q57)                             | Advanced     |
-| 58  | [What technology is Flutter built with?](#q58)                                            | Intermediate |
-| 59  | [What is the event loop?](#q59)                                                           | Advanced     |
-| 60  | [What is the difference between Provider vs. InheritedWidget?](#q60)                      | Intermediate |
-| 61  | [What is the purpose of the initState() method in a StatefulWidget?](#q61)                | Intermediate |
-| 62  | [What is the purpose of the dispose() method in a StatefulWidget?](#q62)                  | Intermediate |
-| 63  | [What is a GlobalKey in Flutter?](#q63)                                                   | Advanced     |
-| 64  | [What is the difference between padding and margin in Flutter?](#q64)                     | Intermediate |
-| 65  | [What is the purpose of the scaffold widget in Flutter?](#q65)                            | Intermediate |
-| 66  | [What is the purpose of the Expanded widget in Flutter?](#q66)                            | Intermediate |
-| 67  | [How do you handle user input in Flutter?](#q67)                                          | Intermediate |
-| 68  | [What is the purpose of SingleChildScrollView in Flutter?](#q68)                          | Intermediate |
-| 69  | [What is the purpose of the LayoutBuilder widget in Flutter?](#q69)                       | Intermediate |
-| 70  | [What is the purpose of the Stack widget in Flutter?](#q70)                               | Intermediate |
-| 71  | [What is a Theme in Flutter?](#q71)                                                       | Intermediate |
-| 72  | [What is the purpose of the Visibility widget in Flutter?](#q72)                          | Intermediate |
-| 73  | [How do you navigate between screens in Flutter?](#q73)                                   | Intermediate |
-| 74  | [What are Routes in Flutter?](#q74)                                                       | Intermediate |
-| 75  | [What is a Modal Bottom Sheet in Flutter?](#q75)                                          | Advanced     |
-| 76  | [How do you use ValueNotifier class in Flutter?](#q76)                                    | Advanced     |
-| 77  | [How do you use the Positioned widget in Flutter?](#q77)                                  | Advanced     |
-| 78  | [How do you pass data between screens in Flutter?](#q78)                                  | Intermediate |
-| 79  | [What can you do for Responsive Layout in Flutter?](#q79)                                 | Intermediate |
-| 80  | [What is a MediaQuery in Flutter?](#q80)                                                  | Advanced     |
-| 81  | [What is LayoutBuilder in Flutter?](#q81)                                                 | Intermediate |
-| 82  | [What is the purpose of the didUpdateWidget method in a StatefulWidget?](#q82)            | Beginner     |
-| 83  | [What is CustomPainter in Flutter?](#q83)                                                 | Intermediate |
-| 84  | [What is the purpose of AnimatedBuilder in Flutter?](#q84)                                | Advanced     |
-| 85  | [What is the Purpose of the Navigator class in Flutter?](#q85)                            | Beginner     |
-| 86  | [What is the Purpose of the AnimatedSwitcher widget in Flutter?](#q86)                    | Advanced     |
-| 87  | [What is the Purpose of FittedBox in Flutter?](#q87)                                      | Intermediate |
-| 88  | [What is State Management in Flutter?](#q88)                                              | Advanced     |
-| 89  | [What is Provider in Flutter?](#q89)                                                      | Intermediate |
-| 90  | [Types of Providers in Flutter?](#q90)                                                    | Advanced     |
-| 91  | [What is BLoC in Flutter?](#q91)                                                          | Advanced     |
-| 92  | [Difference Between Cupertino and Material Design in Flutter?](#q92)                      | Advanced     |
-| 93  | [What is the purpose of the Material Design Icons package in Flutter?](#q93)              | Advanced     |
-| 94  | [Explain briefly how you will deploy a Flutter app to the Google Play/App Store?](#q94)   | Intermediate |
-| 95  | [What are DevTools in Flutter?](#q95)                                                     | Intermediate |
-| 96  | [List the responsibilities of FlutterActivity?](#q96)                                     | Intermediate |
-| 97  | [Can you describe how to implement internationalization in a flutter app?](#q97)          | Intermediate |
-| 98  | [How do you implement a custom transition between screens in flutter?](#q98)              | Intermediate |
-| 99  | [How do you implement a custom animation curve in flutter?](#q99)                         | Intermediate |
-| 100 | [How do you implement a Draggable widget in flutter?](#q100)                              | Beginner     |
-| 101 | [How do you provide Accessibility when developing flutter apps, do you at all?](#q101)    | Advanced     |
-| 102 | [How to create a list with Persistent headers?](#q102)                                    | Beginner     |
-| 103 | [Can you communicate between isolates? Describe an Isolate?](#q103)                       | Beginner     |
-| 104 | [Explain What is a Ticker in Flutter?](#q104)                                             | Beginner     |
-| 105 | [What is the Flutter rendering pipeline and how does it work?](#q105)                     | Intermediate |
-| 106 | [What is the role of the FlutterEngine in the Flutter framework?](#q106)                  | Intermediate |
-| 107 | [What are platform channels in Flutter and when would you use them?](#q107)               | Intermediate |
-| 108 | [How do you work with multiple Flutter flavors?](#q108)                                   | Intermediate |
-| 109 | [What is code-splitting in Flutter, and how does it help?](#q109)                         | Advanced     |
-| 110 | [What are the differences between JIT and AOT?](#q110)                                    | Advanced     |
-| 111 | [How do Object, dynamic, and var differ in Dart?](#q111)                                  | Advanced     |
-| 112 | [How do mixins differ from interfaces in Dart?](#q112)                                    | Advanced     |
-| 113 | [What is Equatable?](#q113)                                                               | Intermediate |
-| 114 | [What is build() in Flutter?](#q114)                                                      | Advanced     |
-| 115 | [What is BuildContext in Flutter?](#q115)                                                 | Intermediate |
-| 116 | [Lifecycle of a StatefulWidget?](#q116)                                                   | Advanced     |
-| 117 | [What is an Instance Variable and Instance Method?](#q117)                                | Intermediate |
-| 118 | [What is Synchronous & Asynchronous Programming Flutter?](#q118)                          | Advanced     |
-| 119 | [What is PageView in Flutter?](#q119)                                                     | Intermediate |
-| 120 | [What is GridView?](#q120)                                                                | Intermediate |
-| 121 | [What is ListView?](#q121)                                                                | Intermediate |
-| 122 | [What is BoxDecoration in Flutter?](#q122)                                                | Intermediate |
-| 123 | [What is Row and Column in Flutter?](#q123)                                               | Intermediate |
-| 124 | [Main OOP (Object-Oriented Programming) concepts, perfect to tell an interviewer?](#q124) | Advanced     |
-| 125 | [What is a Getter & Setter in Dart?](#q125)                                               | Intermediate |
-| 126 | [What is Generic in Dart?](#q126)                                                         | Intermediate |
-| 127 | [What is Exception Handling?](#q127)                                                      | Intermediate |
-| 128 | [What is a Map in Dart?](#q128)                                                           | Intermediate |
-| 129 | [What is a Set in Dart?](#q129)                                                           | Intermediate |
-| 130 | [What is a List?](#q130)                                                                  | Intermediate |
-| 131 | [Difference between List, Set, and Map in Dart?](#q131)                                   | Advanced     |
-| 132 | [What is setState in flutter?](#q132)                                                     | Intermediate |
-| 133 | [What is initState in flutter?](#q133)                                                    | Intermediate |
-| 134 | [What is enum?](#q134)                                                                    | Intermediate |
-| 135 | [What is a Mixin?](#q135)                                                                 | Advanced     |
-| 136 | [What is extends?](#q136)                                                                 | Advanced     |
-| 137 | [What is a Conditional Expression?](#q137)                                                | Advanced     |
-| 138 | [What is Cascade Notation?](#q138)                                                        | Advanced     |
-| 139 | [What are the Different Types of Data in Dart?](#q139)                                    | Intermediate |
-| 140 | [What is the is and is! Type Test Operator?](#q140)                                       | Intermediate |
-| 141 | [What is the as Operator in Dart?](#q141)                                                 | Beginner     |
-| 142 | [What are Compound Assignment Operators?](#q142)                                          | Intermediate |
-| 143 | [What are Logical Operators?](#q143)                                                      | Advanced     |
-| 144 | [What are Bitwise and Shift Operators?](#q144)                                            | Intermediate |
-| 145 | [What is Recursion?](#q145)                                                               | Advanced     |
-| 146 | [What Architecture is Used in Flutter?](#q146)                                            | Intermediate |
-| 147 | [What is better Provider or Bloc?](#q147)                                                 | Advanced     |
-| 148 | [What is a ValueListenable in Flutter?](#q148)                                            | Advanced     |
-| 149 | [What is Firebase?](#q149)                                                                | Intermediate |
-| 150 | [How to Decrease APK Size in Flutter?](#q150)                                             | Intermediate |
-| 151 | [What is ListTile in Flutter?](#q151)                                                     | Advanced     |
-| 152 | [Method Overloading and Overriding in Flutter?](#q152)                                    | Advanced     |
-| 153 | [Difference Between Abstract Class and Interface in Dart (Flutter)?](#q153)               | Advanced     |
-| 154 | [How to Determine Which State Management to Use for a Flutter Project?](#q154)            | Advanced     |
-| 155 | [Which type of Database Use in Flutter?](#q155)                                           | Advanced     |
+| No. | Question                                                                                  | Category      |
+|-----|-------------------------------------------------------------------------------------------|---------------|
+| 1   | [What is Flutter?](#q1)                                                                   | Beginner      |
+| 2   | [What is Dart and Why does Flutter use it?](#q2)                                          | Beginner      |
+| 3   | [What is pubspec.yaml file and what does it do?](#q3)                                     | Beginner      |
+| 4   | [What is the difference between main() and runApp() functions in Flutter?](#q4)           | Beginner      |
+| 5   | [Differentiate between named parameters and positional parameters in Flutter.?](#q5)      | Intermediate  |
+| 6   | [What are widgets in Flutter??](#q6)                                                      | Beginner      |
+| 7   | [Difference Between Stateless Widget and Stateful Widget in Flutter?](#q7)                | Intermediate  |
+| 8   | [What is Hot Reload and Hot Restart in Flutter?](#q8)                                     | Intermediate  |
+| 9   | [What do you mean by open-source software? Is Flutter open-source?](#q9)                  | Beginner      |
+| 10  | [What is BuildContext in Flutter? And why is it needed?](#q10)                            | Intermediate  |
+| 11  | [What are packages and plugins in Flutter?](#q11)                                         | Intermediate  |
+| 12  | [Name some popular apps made with Flutter.?](#q12)                                        | Beginner      |
+| 13  | [What are different Build modes in Flutter?](#q13)                                        | Intermediate  |
+| 14  | [What is the difference between WidgetsApp and MaterialApp in Flutter?](#q14)             | Intermediate  |
+| 15  | [Differentiate between Final, Const and Static keyword with example?](#q15)               | Intermediate  |
+| 16  | [What are StatefulWidget Lifecycle methods. Explain briefly?](#q16)                       | Advanced      |
+| 17  | [What are StatelessWidget Lifecycle methods. Explain briefly?](#q17)                      | Advanced      |
+| 18  | [What are keys and why do we need them?](#q18)                                            | Intermediate  |
+| 19  | [What is the difference between Expanded and Flexible widget?](#q19)                      | Intermediate  |
+| 20  | [What is Fat Arrow Notation in Dart?](#q20)                                               | Beginner      |
+| 21  | [What is the purpose of SafeArea widget in Flutter?](#q21)                                | Intermediate  |
+| 22  | [What are Slivers in Flutter?](#q22)                                                      | Advanced      |
+| 23  | [What is an Extension Method in Dart?](#q23)                                              | Advanced      |
+| 24  | [Explain the mounted property. How is it important and when to use it?](#q24)             | Intermediate  |
+| 25  | [What is Sound Null Safety in Dart?](#q25)                                                | Advanced      |
+| 26  | [What is the Null-Aware Operator in Dart?](#q26)                                          | Intermediate  |
+| 27  | [Difference Between mainAxisAlignment and crossAxisAlignment in Flutter?](#q27)           | Intermediate  |
+| 28  | [What are Mixins in Dart? How to use them?](#q28)                                         | Advanced      |
+| 29  | [Why Shouldn’t We Use Inheritance in Flutter?](#q29)                                      | Advanced      |
+| 30  | [What is InheritedWidget in Flutter?](#q30)                                               | Advanced      |
+| 31  | [Difference Between Container and SizedBox in Flutter?](#q31)                             | Intermediate  |
+| 32  | [What is AppLifecycleState in Flutter?](#q32)                                             | Advanced      |
+| 33  | [Difference Between NetworkImage and Image.network in Flutter?](#q33)                     | Intermediate  |
+| 34  | [Explain async, await, and Future in Dart?](#q34)                                         | Intermediate  |
+| 35  | [What is resizeToAvoidBottomInset in Flutter? When should we use it?](#q35)               | Intermediate  |
+| 36  | [What is TextEditingController in Flutter?](#q36)                                         | Intermediate  |
+| 37  | [What is Animation and AnimationController in Flutter?](#q37)                             | Advanced      |
+| 38  | [What is Tree Shaking in Flutter?](#q38)                                                  | Advanced      |
+| 39  | [What is the AspectRatio Widget in Flutter?](#q39)                                        | Intermediate  |
+| 40  | [What is vsync in Flutter?](#q40)                                                         | Advanced      |
+| 41  | [Difference Between Future and Stream in Flutter?](#q41)                                  | Advanced      |
+| 42  | [Types of Future in Dart?](#q42)                                                          | Intermediate  |
+| 43  | [Types of Streams in Dart?](#q43)                                                         | Advanced      |
+| 44  | [What is assert in Dart and Flutter?](#q44)                                               | Intermediate  |
+| 45  | [Can you explain the process of creating custom widgets in Flutter?](#q45)                | Advanced      |
+| 46  | [What is typedef in Dart?](#q46)                                                          | Advanced      |
+| 47  | [What is FutureBuilder in Flutter and how is it used to build dynamic UI?](#q47)          | Intermediate  |
+| 48  | [How do you handle exceptions in Flutter, and what strategies have you used?](#q48)       | Intermediate  |
+| 49  | [What is an Isolate in Flutter?](#q49)                                                    | Advanced      |
+| 50  | [What is a Thread in Flutter?](#q50)                                                      | Advanced      |
+| 51  | [How would you make HTTP requests in the Flutter framework?](#q51)                        | Intermediate  |
+| 52  | [Making API Calls Using Dio in Flutter?](#q52)                                            | Advanced      |
+| 53  | [What is Microfrontend in Flutter?](#q53)                                                 | Advanced      |
+| 54  | [Difference Between Dio and HTTP in Flutter?](#q54)                                       | Advanced      |
+| 55  | [What is Factory constructor?](#q55)                                                      | Intermediate  |
+| 56  | [What is a Singleton Class in Dart?](#q56)                                                | Intermediate  |
+| 57  | [Can you explain the process of testing a Flutter app?](#q57)                             | Advanced      |
+| 58  | [What technology is Flutter built with?](#q58)                                            | Intermediate  |
+| 59  | [What is the event loop?](#q59)                                                           | Advanced      |
+| 60  | [What is the difference between Provider vs. InheritedWidget?](#q60)                      | Intermediate  |
+| 61  | [What is the purpose of the initState() method in a StatefulWidget?](#q61)                | Intermediate  |
+| 62  | [What is the purpose of the dispose() method in a StatefulWidget?](#q62)                  | Intermediate  |
+| 63  | [What is a GlobalKey in Flutter?](#q63)                                                   | Advanced      |
+| 64  | [What is the difference between padding and margin in Flutter?](#q64)                     | Intermediate  |
+| 65  | [What is the purpose of the scaffold widget in Flutter?](#q65)                            | Intermediate  |
+| 66  | [What is the purpose of the Expanded widget in Flutter?](#q66)                            | Intermediate  |
+| 67  | [How do you handle user input in Flutter?](#q67)                                          | Intermediate  |
+| 68  | [What is the purpose of SingleChildScrollView in Flutter?](#q68)                          | Intermediate  |
+| 69  | [What is the purpose of the LayoutBuilder widget in Flutter?](#q69)                       | Intermediate  |
+| 70  | [What is the purpose of the Stack widget in Flutter?](#q70)                               | Intermediate  |
+| 71  | [What is a Theme in Flutter?](#q71)                                                       | Intermediate  |
+| 72  | [What is the purpose of the Visibility widget in Flutter?](#q72)                          | Intermediate  |
+| 73  | [How do you navigate between screens in Flutter?](#q73)                                   | Intermediate  |
+| 74  | [What are Routes in Flutter?](#q74)                                                       | Intermediate  |
+| 75  | [What is a Modal Bottom Sheet in Flutter?](#q75)                                          | Advanced      |
+| 76  | [How do you use ValueNotifier class in Flutter?](#q76)                                    | Advanced      |
+| 77  | [How do you use the Positioned widget in Flutter?](#q77)                                  | Advanced      |
+| 78  | [How do you pass data between screens in Flutter?](#q78)                                  | Intermediate  |
+| 79  | [What can you do for Responsive Layout in Flutter?](#q79)                                 | Intermediate  |
+| 80  | [What is a MediaQuery in Flutter?](#q80)                                                  | Advanced      |
+| 81  | [What is LayoutBuilder in Flutter?](#q81)                                                 | Intermediate  |
+| 82  | [What is the purpose of the didUpdateWidget method in a StatefulWidget?](#q82)            | Beginner      |
+| 83  | [What is CustomPainter in Flutter?](#q83)                                                 | Intermediate  |
+| 84  | [What is the purpose of AnimatedBuilder in Flutter?](#q84)                                | Advanced      |
+| 85  | [What is the Purpose of the Navigator class in Flutter?](#q85)                            | Beginner      |
+| 86  | [What is the Purpose of the AnimatedSwitcher widget in Flutter?](#q86)                    | Advanced      |
+| 87  | [What is the Purpose of FittedBox in Flutter?](#q87)                                      | Intermediate  |
+| 88  | [What is State Management in Flutter?](#q88)                                              | Advanced      |
+| 89  | [What is Provider in Flutter?](#q89)                                                      | Intermediate  |
+| 90  | [Types of Providers in Flutter?](#q90)                                                    | Advanced      |
+| 91  | [What is BLoC in Flutter?](#q91)                                                          | Advanced      |
+| 92  | [Difference Between Cupertino and Material Design in Flutter?](#q92)                      | Advanced      |
+| 93  | [What is the purpose of the Material Design Icons package in Flutter?](#q93)              | Advanced      |
+| 94  | [Explain briefly how you will deploy a Flutter app to the Google Play/App Store?](#q94)   | Intermediate  |
+| 95  | [What are DevTools in Flutter?](#q95)                                                     | Intermediate  |
+| 96  | [List the responsibilities of FlutterActivity?](#q96)                                     | Intermediate  |
+| 97  | [Can you describe how to implement internationalization in a flutter app?](#q97)          | Intermediate  |
+| 98  | [How do you implement a custom transition between screens in flutter?](#q98)              | Intermediate  |
+| 99  | [How do you implement a custom animation curve in flutter?](#q99)                         | Intermediate  |
+| 100 | [How do you implement a Draggable widget in flutter?](#q100)                              | Beginner      |
+| 101 | [How do you provide Accessibility when developing flutter apps, do you at all?](#q101)    | Advanced      |
+| 102 | [How to create a list with Persistent headers?](#q102)                                    | Beginner      |
+| 103 | [Can you communicate between isolates? Describe an Isolate?](#q103)                       | Beginner      |
+| 104 | [Explain What is a Ticker in Flutter?](#q104)                                             | Beginner      |
+| 105 | [What is the Flutter rendering pipeline and how does it work?](#q105)                     | Intermediate  |
+| 106 | [What is the role of the FlutterEngine in the Flutter framework?](#q106)                  | Intermediate  |
+| 107 | [What are platform channels in Flutter and when would you use them?](#q107)               | Intermediate  |
+| 108 | [How do you work with multiple Flutter flavors?](#q108)                                   | Intermediate  |
+| 109 | [What is code-splitting in Flutter, and how does it help?](#q109)                         | Advanced      |
+| 110 | [What are the differences between JIT and AOT?](#q110)                                    | Advanced      |
+| 111 | [How do Object, dynamic, and var differ in Dart?](#q111)                                  | Advanced      |
+| 112 | [How do mixins differ from interfaces in Dart?](#q112)                                    | Advanced      |
+| 113 | [What is Equatable?](#q113)                                                               | Intermediate  |
+| 114 | [What is build() in Flutter?](#q114)                                                      | Advanced      |
+| 115 | [What is BuildContext in Flutter?](#q115)                                                 | Intermediate  |
+| 116 | [Lifecycle of a StatefulWidget?](#q116)                                                   | Advanced      |
+| 117 | [What is an Instance Variable and Instance Method?](#q117)                                | Intermediate  |
+| 118 | [What is Synchronous & Asynchronous Programming Flutter?](#q118)                          | Advanced      |
+| 119 | [What is PageView in Flutter?](#q119)                                                     | Intermediate  |
+| 120 | [What is GridView?](#q120)                                                                | Intermediate  |
+| 121 | [What is ListView?](#q121)                                                                | Intermediate  |
+| 122 | [What is BoxDecoration in Flutter?](#q122)                                                | Intermediate  |
+| 123 | [What is Row and Column in Flutter?](#q123)                                               | Intermediate  |
+| 124 | [Main OOP (Object-Oriented Programming) concepts, perfect to tell an interviewer?](#q124) | Advanced      |
+| 125 | [What is a Getter & Setter in Dart?](#q125)                                               | Intermediate  |
+| 126 | [What is Generic in Dart?](#q126)                                                         | Intermediate  |
+| 127 | [What is Exception Handling?](#q127)                                                      | Intermediate  |
+| 128 | [What is a Map in Dart?](#q128)                                                           | Intermediate  |
+| 129 | [What is a Set in Dart?](#q129)                                                           | Intermediate  |
+| 130 | [What is a List?](#q130)                                                                  | Intermediate  |
+| 131 | [Difference between List, Set, and Map in Dart?](#q131)                                   | Advanced      |
+| 132 | [What is setState in flutter?](#q132)                                                     | Intermediate  |
+| 133 | [What is initState in flutter?](#q133)                                                    | Intermediate  |
+| 134 | [What is enum?](#q134)                                                                    | Intermediate  |
+| 135 | [What is a Mixin?](#q135)                                                                 | Advanced      |
+| 136 | [What is extends?](#q136)                                                                 | Advanced      |
+| 137 | [What is a Conditional Expression?](#q137)                                                | Advanced      |
+| 138 | [What is Cascade Notation?](#q138)                                                        | Advanced      |
+| 139 | [What are the Different Types of Data in Dart?](#q139)                                    | Intermediate  |
+| 140 | [What is the is and is! Type Test Operator?](#q140)                                       | Intermediate  |
+| 141 | [What is the as Operator in Dart?](#q141)                                                 | Beginner      |
+| 142 | [What are Compound Assignment Operators?](#q142)                                          | Intermediate  |
+| 143 | [What are Logical Operators?](#q143)                                                      | Advanced      |
+| 144 | [What are Bitwise and Shift Operators?](#q144)                                            | Intermediate  |
+| 145 | [What is Recursion?](#q145)                                                               | Advanced      |
+| 146 | [What Architecture is Used in Flutter?](#q146)                                            | Intermediate  |
+| 147 | [What is better Provider or Bloc?](#q147)                                                 | Advanced      |
+| 148 | [What is a ValueListenable in Flutter?](#q148)                                            | Advanced      |
+| 149 | [What is Firebase?](#q149)                                                                | Intermediate  |
+| 150 | [How to Decrease APK Size in Flutter?](#q150)                                             | Intermediate  |
+| 151 | [What is ListTile in Flutter?](#q151)                                                     | Advanced      |
+| 152 | [Method Overloading and Overriding in Flutter?](#q152)                                    | Advanced      |
+| 153 | [Difference Between Abstract Class and Interface in Dart (Flutter)?](#q153)               | Advanced      |
+| 154 | [How to Determine Which State Management to Use for a Flutter Project?](#q154)            | Advanced      |
+| 155 | [Which type of Database Use in Flutter?](#q155)                                           | Advanced      |
 
 
 ---
@@ -3159,6 +3159,8 @@ Flutter is built using **C++, Dart, and Skia**.
 - **Skia** – A 2D graphics engine used to render Flutter's UI across platforms.
 
 👉 This combo lets Flutter deliver **fast, smooth, and native-like performance** on iOS, Android, web, desktop, and more.
+
+[🔼 Back to Top](#-table-of-contents)
 
 ---
 <a name="q59"></a>
