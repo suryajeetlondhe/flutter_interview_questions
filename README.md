@@ -229,7 +229,7 @@ Dart language and allows developers to create cross-platform apps for Android, i
 from a single codebase. It features a fast UI framework, hot reload, and rich widgets for smooth
 development.
 
-⬆️ [Back to Questions Table](#📋-q1)
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q2"></a>
 
