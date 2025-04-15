@@ -3422,7 +3422,7 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 
 
 ---
-<a name="q70"></a>
+<a name="q70">70.What is the purpose of the Stack widget in Flutter?</a>
 
 70.What is the purpose of the Stack widget in Flutter?
 ---
