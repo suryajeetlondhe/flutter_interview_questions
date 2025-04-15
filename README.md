@@ -100,124 +100,124 @@ Suggestions or contributions are welcome! Feel free to fork or raise issues.
 | 35  | [What is resizeToAvoidBottomInset in Flutter? When should we use it?](#q35)          |
 | 36  | [What is TextEditingController in Flutter?](#q36)                                    |
 | 37  | [What is Animation and AnimationController in Flutter?](#q37)                        |
-| 38  | [What is Tree Shaking in Flutter?](#q38)                               |
-| 39  | [What is the AspectRatio Widget in Flutter?](#q39)                               |
-| 40  | [What is vsync in Flutter?](#q40)                               |
-| 41  | [Difference Between Future and Stream in Flutter?](#q41)                               |
-| 42  | [Types of Future in Dart?](#q42)                               |
-| 43  | [Types of Streams in Dart?](#q43)                               |
-| 44  | [What is assert in Dart and Flutter?](#q44)                               |
-| 45  | [Can you explain the process of creating custom widgets in Flutter?](#q45)                               |
-| 46  | [What is typedef in Dart?](#q46)                               |
-| 47  | [What is FutureBuilder in Flutter and how is it used to build dynamic UI?](#q47)                               |
-| 48  | [How do you handle exceptions in Flutter, and what strategies have you used?](#q48)                               |
-| 49  | [What is an Isolate in Flutter?](#q49)                               |
-| 50  | [What is a Thread in Flutter?](#q50)                               |
-| 51  | [What is pubspec.yaml file and what does it do?](#q51)                               |
-| 52  | [What is pubspec.yaml file and what does it do?](#q52)                               |
-| 53  | [What is pubspec.yaml file and what does it do?](#q53)                               |
-| 54  | [What is pubspec.yaml file and what does it do?](#q54)                               |
-| 55  | [What is pubspec.yaml file and what does it do?](#q55)                               |
-| 56  | [What is pubspec.yaml file and what does it do?](#q56)                               |
-| 57  | [What is pubspec.yaml file and what does it do?](#q57)                               |
-| 58  | [What is pubspec.yaml file and what does it do?](#q58)                               |
-| 59  | [What is pubspec.yaml file and what does it do?](#q59)                               |
-| 60  | [What is pubspec.yaml file and what does it do?](#q60)                               |
-| 61  | [What is pubspec.yaml file and what does it do?](#q61)                               |
-| 62  | [What is pubspec.yaml file and what does it do?](#q62)                               |
-| 63  | [What is pubspec.yaml file and what does it do?](#q63)                               |
-| 64  | [What is pubspec.yaml file and what does it do?](#q64)                               |
-| 65  | [What is pubspec.yaml file and what does it do?](#q65)                               |
-| 66  | [What is pubspec.yaml file and what does it do?](#q66)                               |
-| 67  | [What is pubspec.yaml file and what does it do?](#q67)                               |
-| 68  | [What is pubspec.yaml file and what does it do?](#q68)                               |
-| 69  | [What is pubspec.yaml file and what does it do?](#q69)                               |
-| 70  | [What is pubspec.yaml file and what does it do?](#q70)                               |
-| 71  | [What is pubspec.yaml file and what does it do?](#q71)                               |
-| 72  | [What is pubspec.yaml file and what does it do?](#q72)                               |
-| 73  | [What is pubspec.yaml file and what does it do?](#q73)                               |
-| 74  | [What is pubspec.yaml file and what does it do?](#q74)                               |
-| 75  | [What is pubspec.yaml file and what does it do?](#q75)                               |
-| 76  | [What is pubspec.yaml file and what does it do?](#q76)                               |
-| 77  | [What is pubspec.yaml file and what does it do?](#q77)                               |
-| 78  | [What is pubspec.yaml file and what does it do?](#q78)                               |
-| 79  | [What is pubspec.yaml file and what does it do?](#q79)                               |
-| 80  | [What is pubspec.yaml file and what does it do?](#q80)                               |
-| 81  | [What is pubspec.yaml file and what does it do?](#q81)                               |
-| 82  | [What is pubspec.yaml file and what does it do?](#q82)                               |
-| 83  | [What is pubspec.yaml file and what does it do?](#q83)                               |
-| 84  | [What is pubspec.yaml file and what does it do?](#q84)                               |
-| 85  | [What is pubspec.yaml file and what does it do?](#q85)                               |
-| 86  | [What is pubspec.yaml file and what does it do?](#q86)                               |
-| 87  | [What is pubspec.yaml file and what does it do?](#q87)                               |
-| 88  | [What is pubspec.yaml file and what does it do?](#q88)                               |
-| 89  | [What is pubspec.yaml file and what does it do?](#q89)                               |
-| 90  | [What is pubspec.yaml file and what does it do?](#q90)                               |
-| 91  | [What is pubspec.yaml file and what does it do?](#q91)                               |
-| 92  | [What is pubspec.yaml file and what does it do?](#q92)                               |
-| 93  | [What is pubspec.yaml file and what does it do?](#q93)                               |
-| 94  | [What is pubspec.yaml file and what does it do?](#q94)                               |
-| 95  | [What is pubspec.yaml file and what does it do?](#q95)                               |
-| 96  | [What is pubspec.yaml file and what does it do?](#q96)                               |
-| 97  | [What is pubspec.yaml file and what does it do?](#q97)                               |
-| 98  | [What is pubspec.yaml file and what does it do?](#q98)                               |
-| 99  | [What is pubspec.yaml file and what does it do?](#q99)                               |
-| 100 | [What is pubspec.yaml file and what does it do?](#q100)                              |
-| 101 | [What is pubspec.yaml file and what does it do?](#q101)                              |
-| 102 | [What is pubspec.yaml file and what does it do?](#q102)                              |
-| 103 | [What is pubspec.yaml file and what does it do?](#q103)                              |
-| 104 | [What is pubspec.yaml file and what does it do?](#q104)                              |
-| 105 | [What is pubspec.yaml file and what does it do?](#q105)                              |
-| 106 | [What is pubspec.yaml file and what does it do?](#q106)                              |
-| 107 | [What is pubspec.yaml file and what does it do?](#q107)                              |
-| 108 | [What is pubspec.yaml file and what does it do?](#q108)                              |
-| 109 | [What is pubspec.yaml file and what does it do?](#q109)                              |
-| 110 | [What is pubspec.yaml file and what does it do?](#q110)                              |
-| 111 | [What is pubspec.yaml file and what does it do?](#q111)                              |
-| 112 | [What is pubspec.yaml file and what does it do?](#q112)                              |
-| 113 | [What is pubspec.yaml file and what does it do?](#q113)                              |
-| 114 | [What is pubspec.yaml file and what does it do?](#q114)                              |
-| 115 | [What is pubspec.yaml file and what does it do?](#q115)                              |
-| 116 | [What is pubspec.yaml file and what does it do?](#q116)                              |
-| 117 | [What is pubspec.yaml file and what does it do?](#q117)                              |
-| 118 | [What is pubspec.yaml file and what does it do?](#q118)                              |
-| 119 | [What is pubspec.yaml file and what does it do?](#q119)                              |
-| 120 | [What is pubspec.yaml file and what does it do?](#q120)                              |
-| 121 | [What is pubspec.yaml file and what does it do?](#q121)                              |
-| 122 | [What is pubspec.yaml file and what does it do?](#q122)                              |
-| 123 | [What is pubspec.yaml file and what does it do?](#q123)                              |
-| 124 | [What is pubspec.yaml file and what does it do?](#q124)                              |
-| 125 | [What is pubspec.yaml file and what does it do?](#q125)                              |
-| 126 | [What is pubspec.yaml file and what does it do?](#q126)                              |
-| 127 | [What is pubspec.yaml file and what does it do?](#q127)                              |
-| 128 | [What is pubspec.yaml file and what does it do?](#q128)                              |
-| 129 | [What is pubspec.yaml file and what does it do?](#q129)                              |
-| 130 | [What is pubspec.yaml file and what does it do?](#q130)                              |
-| 131 | [What is pubspec.yaml file and what does it do?](#q131)                              |
-| 132 | [What is pubspec.yaml file and what does it do?](#q132)                              |
-| 133 | [What is pubspec.yaml file and what does it do?](#q133)                              |
-| 134 | [What is pubspec.yaml file and what does it do?](#q134)                              |
-| 135 | [What is pubspec.yaml file and what does it do?](#q135)                              |
-| 136 | [What is pubspec.yaml file and what does it do?](#q136)                              |
-| 137 | [What is pubspec.yaml file and what does it do?](#q137)                              |
-| 138 | [What is pubspec.yaml file and what does it do?](#q138)                              |
-| 139 | [What is pubspec.yaml file and what does it do?](#q139)                              |
-| 140 | [What is pubspec.yaml file and what does it do?](#q140)                              |
-| 141 | [What is pubspec.yaml file and what does it do?](#q141)                              |
-| 142 | [What is pubspec.yaml file and what does it do?](#q142)                              |
-| 143 | [What is pubspec.yaml file and what does it do?](#q143)                              |
-| 144 | [What is pubspec.yaml file and what does it do?](#q144)                              |
-| 145 | [What is pubspec.yaml file and what does it do?](#q145)                              |
-| 146 | [What is pubspec.yaml file and what does it do?](#q146)                              |
-| 147 | [What is pubspec.yaml file and what does it do?](#q147)                              |
-| 148 | [What is pubspec.yaml file and what does it do?](#q148)                              |
-| 149 | [What is pubspec.yaml file and what does it do?](#q149)                              |
-| 150 | [What is pubspec.yaml file and what does it do?](#q150)                              |
-| 151 | [What is pubspec.yaml file and what does it do?](#q151)                              |
-| 152 | [What is pubspec.yaml file and what does it do?](#q152)                              |
-| 153 | [What is pubspec.yaml file and what does it do?](#q153)                              |
-| 154 | [What is pubspec.yaml file and what does it do?](#q154)                              |
-| 155 | [What is pubspec.yaml file and what does it do?](#q155)                              |
+| 38  | [What is Tree Shaking in Flutter?](#q38)                                             |
+| 39  | [What is the AspectRatio Widget in Flutter?](#q39)                                   |
+| 40  | [What is vsync in Flutter?](#q40)                                                    |
+| 41  | [Difference Between Future and Stream in Flutter?](#q41)                             |
+| 42  | [Types of Future in Dart?](#q42)                                                     |
+| 43  | [Types of Streams in Dart?](#q43)                                                    |
+| 44  | [What is assert in Dart and Flutter?](#q44)                                          |
+| 45  | [Can you explain the process of creating custom widgets in Flutter?](#q45)           |
+| 46  | [What is typedef in Dart?](#q46)                                                     |
+| 47  | [What is FutureBuilder in Flutter and how is it used to build dynamic UI?](#q47)     |
+| 48  | [How do you handle exceptions in Flutter, and what strategies have you used?](#q48)  |
+| 49  | [What is an Isolate in Flutter?](#q49)                                               |
+| 50  | [What is a Thread in Flutter?](#q50)                                                 |
+| 51  | [How would you make HTTP requests in the Flutter framework?](#q51)                   |
+| 52  | [Making API Calls Using Dio in Flutter?](#q52)                                       |
+| 53  | [What is Microfrontend in Flutter?](#q53)                                            |
+| 54  | [Difference Between Dio and HTTP in Flutter?](#q54)                                  |
+| 55  | [What is Factory constructor?](#q55)                                                 |
+| 56  | [What is a Singleton Class in Dart?](#q56)                                           |
+| 57  | [Can you explain the process of testing a Flutter app?](#q57)                        |
+| 58  | [What technology is Flutter built with?](#q58)                                       |
+| 59  | [What is the event loop?](#q59)                                                      |
+| 60  | [What is the difference between Provider vs. InheritedWidget?](#q60)                 |
+| 61  | [What is the purpose of the initState() method in a StatefulWidget?](#q61)           |
+| 62  | [What is the purpose of the dispose() method in a StatefulWidget?](#q62)             |
+| 63  | [What is a GlobalKey in Flutter?](#q63)                                              |
+| 64  | [What is the difference between padding and margin in Flutter?](#q64)                |
+| 65  | [What is the purpose of the scaffold widget in Flutter?](#q65)                       |
+| 66  | [What is the purpose of the Expanded widget in Flutter?](#q66)                       |
+| 67  | [How do you handle user input in Flutter?](#q67)                                     |
+| 68  | [What is the purpose of SingleChildScrollView in Flutter?](#q68)                     |
+| 69  | [What is the purpose of the LayoutBuilder widget in Flutter?](#q69)                  |
+| 70  | [What is the purpose of the Stack widget in Flutter?](#q70)                          |
+| 71  | [What is a Theme in Flutter?](#q71)                                                  |
+| 72  | [What is the purpose of the Visibility widget in Flutter?](#q72)                     |
+| 73  | [How do you navigate between screens in Flutter?](#q73)                              |
+| 74  | [What are Routes in Flutter?](#q74)                                                  |
+| 75  | [What is a Modal Bottom Sheet in Flutter?](#q75)                                     |
+| 76  | [How do you use ValueNotifier class in Flutter?](#q76)                               |
+| 77  | [How do you use the Positioned widget in Flutter?](#q77)                             |
+| 78  | [How do you pass data between screens in Flutter?](#q78)                             |
+| 79  | [What can you do for Responsive Layout in Flutter?](#q79)                            |
+| 80  | [What is a MediaQuery in Flutter?](#q80)                                             |
+| 81  | [What is LayoutBuilder in Flutter?](#q81)                                            |
+| 82  | [What is the purpose of the didUpdateWidget method in a StatefulWidget?](#q82)       |
+| 83  | [What is CustomPainter in Flutter?](#q83)                                            |
+| 84  | [What is the purpose of AnimatedBuilder in Flutter?](#q84)                           |
+| 85  | [What is the Purpose of the Navigator class in Flutter?](#q85)                       |
+| 86  | [What is the Purpose of the AnimatedSwitcher widget in Flutter?](#q86)               |
+| 87  | [What is the Purpose of FittedBox in Flutter?](#q87)                                 |
+| 88  | [What is State Management in Flutter?](#q88)                                         |
+| 89  | [What is Provider in Flutter?](#q89)                                                 |
+| 90  | [Types of Providers in Flutter?](#q90)                                               |
+| 91  | [What is BLoC in Flutter?](#q91)                                                     |
+| 92  | [Difference Between Cupertino and Material Design in Flutter?](#q92)                 |
+| 93  | [What is the purpose of the Material Design Icons package in Flutter?](#q93)         |
+| 94  | [Explain briefly how you will deploy a Flutter app to the Google Play/App Store?](#q94) |
+| 95  | [What are DevTools in Flutter?](#q95)                                                |
+| 96  | [List the responsibilities of FlutterActivity?](#q96)                                |
+| 97  | [Can you describe how to implement 🌍internationalization in a flutter app?](#q97)   |
+| 98  | [How do you implement a custom transition between screens in flutter?](#q98)         |
+| 99  | [How do you implement a custom animation curve in flutter?](#q99)                    |
+| 100 | [How do you implement a Draggable widget in flutter?](#q100)                         |
+| 101 | [How do you provide Accessibility when developing flutter apps, do you at all?](#q101) |
+| 102 | [How to create a list with Persistent headers?](#q102)                              |
+| 103 | [Can you communicate between isolates? Describe an Isolate?](#q103)                              |
+| 104 | [Explain What is a Ticker in Flutter?](#q104)                                |
+| 105 | [What is the Flutter rendering pipeline and how does it work?](#q105)                              |
+| 106 | [What is the role of the FlutterEngine in the Flutter framework?](#q106)                              |
+| 107 | [What are platform channels in Flutter and when would you use them?](#q107)                              |
+| 108 | [How do you work with multiple Flutter flavors?](#q108)                              |
+| 109 | [What is code-splitting in Flutter, and how does it help?](#q109)                              |
+| 110 | [What are the differences between JIT and AOT?](#q110)                              |
+| 111 | [How do Object, dynamic, and var differ in Dart?](#q111)                              |
+| 112 | [How do mixins differ from interfaces in Dart?](#q112)                              |
+| 113 | [What is Equatable?](#q113)                                |
+| 114 | [What is build() in Flutter?](#q114)                                |
+| 115 | [What is BuildContext in Flutter?](#q115)                               |
+| 116 | [Lifecycle of a StatefulWidget?](#q116)                               |
+| 117 | [What is an Instance Variable and Instance Method?](#q117)                              |
+| 118 | [What is Synchronous & Asynchronous Programming Flutter?](#q118)                              |
+| 119 | [What is PageView in Flutter?](#q119)                                |
+| 120 | [What is GridView?](#q120)                                |
+| 121 | [What is ListView?](#q121)                                |
+| 122 | [What is BoxDecoration in Flutter?](#q122)                               |
+| 123 | [What is Row and Column in Flutter?](#q123)                               |
+| 124 | [Main OOP (Object-Oriented Programming) concepts, perfect to tell an interviewer?](#q124)                              |
+| 125 | [What is a Getter & Setter in Dart?](#q125)                               |
+| 126 | [What is Generic in Dart?](#q126)                                |
+| 127 | [What is Exception Handling?](#q127)                                |
+| 128 | [What is a Map in Dart?](#q128)                                |
+| 129 | [What is a Set in Dart?](#q129)                                |
+| 130 | [What is a List?](#q130)                                |
+| 131 | [Difference between List, Set, and Map in Dart?](#q131)                              |
+| 132 | [What is setState in flutter?](#q132)                                |
+| 133 | [What is initState in flutter?](#q133)                               |
+| 134 | [What is enum?](#q134)                               |
+| 135 | [What is a Mixin?](#q135)                               |
+| 136 | [What is extends?](#q136)                               |
+| 137 | [What is a Conditional Expression?](#q137)                               |
+| 138 | [What is Cascade Notation?](#q138)                               |
+| 139 | [What are the Different Types of Data in Dart?](#q139)                              |
+| 140 | [What is the is and is! Type Test Operator?](#q140)                              |
+| 141 | [What is the as Operator in Dart?](#q141)                               |
+| 142 | [What are Compound Assignment Operators?](#q142)                              |
+| 143 | [What are Logical Operators?](#q143)                               |
+| 144 | [What are Bitwise and Shift Operators?](#q144)                               |
+| 145 | [What is Recursion?](#q145)                               |
+| 146 | [What Architecture is Used in Flutter?](#q146)                               |
+| 147 | [What is better Provider or Bloc?](#q147)                               |
+| 148 | [What is a ValueListenable in Flutter?](#q148)                               |
+| 149 | [What is Firebase?](#q149)                               |
+| 150 | [How to Decrease APK Size in Flutter?](#q150)                               |
+| 151 | [What is ListTile in Flutter?](#q151)                               |
+| 152 | [Method Overloading and Overriding in Flutter?](#q152)                              |
+| 153 | [Difference Between Abstract Class and Interface in Dart (Flutter)?](#q153)                              |
+| 154 | [How to Determine Which State Management to Use for a Flutter Project?](#q154)                              |
+| 155 | [Which type of Database Use in Flutter?](#q155)                               |
 
 
 ---
@@ -231,6 +231,7 @@ from a single codebase. It features a fast UI framework, hot reload, and rich wi
 development.
 
 [🔼 Back to Top](#-table-of-contents)
+
 ---
 <a name="q2"></a>
 
@@ -246,6 +247,7 @@ Flutter uses Dart because:
 
 
 [🔼 Back to Top](#-table-of-contents)
+
 ---
 <a name="q3"></a>
 
@@ -266,6 +268,7 @@ The **pubspec.yaml** file is a **configuration and dependency management file** 
 It's essential for managing project resources and ensuring smooth app development! 🚀
 
 [🔼 Back to Top](#-table-of-contents)
+
 ---
 <a name="q4"></a>
 
@@ -287,6 +290,7 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 ✅ **runApp() → Loads & displays the UI** 🚀
 
 [🔼 Back to Top](#-table-of-contents)
+
 ---
 <a name="q5"></a>
 
@@ -2594,6 +2598,7 @@ void main() async {
 🚀 **"Use Isolates in Flutter to handle heavy computations without blocking the UI!"**
 
 [🔼 Back to Top](#-table-of-contents)
+
 ---
 <a name="q50"></a>
 
