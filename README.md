@@ -227,7 +227,7 @@ Dart language and allows developers to create cross-platform apps for Android, i
 from a single codebase. It features a fast UI framework, hot reload, and rich widgets for smooth
 development.
 
-
+⬆️ [Back to Questions Table](#📋-table-of-contents)
 ---
 <a name="q2"></a>
 
@@ -241,6 +241,8 @@ Flutter uses Dart because:
 ✅ **Asynchronous Support** – Handles async tasks efficiently.  
 ✅ **Rich UI Capabilities** – Supports Flutter’s widget-based architecture.
 
+
+⬆️ [Back to Questions Table](#📋-table-of-contents)
 ---
 <a name="q3"></a>
 
@@ -260,6 +262,7 @@ The **pubspec.yaml** file is a **configuration and dependency management file** 
 
 It's essential for managing project resources and ensuring smooth app development! 🚀
 
+⬆️ [Back to Questions Table](#📋-table-of-contents)
 ---
 <a name="q4"></a>
 
@@ -280,6 +283,7 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 ✅ **main() → Starts execution**  
 ✅ **runApp() → Loads & displays the UI** 🚀
 
+⬆️ [Back to Questions Table](#📋-table-of-contents)
 ---
 <a name="q5"></a>
 
