@@ -575,6 +575,7 @@ Future<void> initCamera() async {
 ✅ **Plugins** → Uses native code to access platform-specific features.  
 ✅ **Both** are installed via `pubspec.yaml` and managed with `pub.dev`. 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q12"></a>
 
@@ -593,6 +594,7 @@ Future<void> initCamera() async {
 
 ✅ **Why Flutter?** Fast development, cross-platform support, and a beautiful UI! 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q13"></a>
 
@@ -615,6 +617,7 @@ Flutter has **three build modes** for different stages of development and deploy
 
 ✅ **Release mode gives the best speed & smallest size!** 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q14"></a>
 
@@ -647,6 +650,7 @@ Flutter has **three build modes** for different stages of development and deploy
 2️⃣ `MaterialApp` → Includes **Material Design**, themes, navigation, and localization.  
 3️⃣ `MaterialApp` is **recommended** for most Flutter apps. 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q15"></a>
 
@@ -730,6 +734,7 @@ void main() {
 ✔ **Use `const`** for values **known at compile-time** and **never change**.  
 ✔ **Use `static`** for variables/methods that belong to the **class, not instances**. 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q16"></a>
 
@@ -868,6 +873,7 @@ void dispose() {
 ✅ **`setState()`** – For UI updates  
 ✅ **`dispose()`** – For cleanup
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q17"></a>
 
@@ -906,6 +912,7 @@ class MyStatelessWidget extends StatelessWidget {
 - **Efficient and lightweight** compared to `StatefulWidget`.
 - **Useful for static UI elements** that don’t change dynamically. 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q18"></a>
 
@@ -982,6 +989,7 @@ Keys are special identifiers used in Flutter to **preserve the widget’s state*
 ✔ **Use keys in dynamic lists, forms, and animations to avoid unwanted UI issues.**  
 ✔ **Choose the right key (`GlobalKey`, `ValueKey`, `ObjectKey`, `UniqueKey`) based on the use case.** 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q19"></a>
 
@@ -1044,6 +1052,7 @@ Both `Expanded` and `Flexible` are used inside `Row`, `Column`, or `Flex` widget
 ✔ **Use `Expanded`** when the widget must occupy all remaining space.  
 ✔ **Use `Flexible`** when the widget should take only as much space as it needs. 🚀
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q20"></a>
 
@@ -1136,6 +1145,7 @@ void printNumbers() {
 
 🚀 **"Use fat arrow notation for single expressions, but for complex logic, use curly braces `{}`."**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q21"></a>
 
@@ -1165,6 +1175,7 @@ void printNumbers() {
 ✔ Works on Android & iOS automatically.  
 ✔ Use for full-screen UIs; avoid in widgets like `AppBar` that already handle padding.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q22"></a>
 
@@ -1209,6 +1220,7 @@ Slivers are **scrollable areas** in Flutter that allow for **efficient and custo
 ✔ Used inside `CustomScrollView`.  
 ✔ Common in **collapsing headers, sticky lists, and parallax effects**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q23"></a>
 
@@ -1243,6 +1255,7 @@ void main() {
 
 🚀 **"Use extension methods to enhance existing classes while keeping code clean and reusable!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q24"></a>
 
@@ -1286,6 +1299,7 @@ class _MyWidgetState extends State<MyWidget> {
 
 🚀 **"Always check `mounted` before updating UI in async functions to avoid modifying a disposed widget!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q25"></a>
 
@@ -1327,6 +1341,7 @@ class _MyWidgetState extends State<MyWidget> {
 
 🚀 **"Dart's sound null safety makes Flutter apps safer, faster, and more reliable by preventing null errors at compile time!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q26"></a>
 
@@ -1370,6 +1385,7 @@ Null-aware operators in Dart help **safely handle null values** and prevent null
 
 🚀 **"Null-aware operators in Dart make handling null values easier, preventing crashes while keeping the code readable and safe!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q27"></a>
 
@@ -1426,7 +1442,7 @@ In **Flutter**, both `mainAxisAlignment` and `crossAxisAlignment` are used in **
 | **Example (Row)** | `mainAxisAlignment: MainAxisAlignment.center` (centers children horizontally in a Row). | `crossAxisAlignment: CrossAxisAlignment.start` (aligns children to the top in a Row). |
 | **Example (Column)** | `mainAxisAlignment: MainAxisAlignment.end` (places children at the bottom in a Column). | `crossAxisAlignment: CrossAxisAlignment.center` (centers children horizontally in a Column). |
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q28"></a>
 
@@ -1474,6 +1490,7 @@ void main() {
 
 🚀 **"Mixins help add functionality to multiple classes without inheritance, making code cleaner and more efficient!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q29"></a>
 
@@ -1528,6 +1545,7 @@ void main() {
 
 ✅ **Best Practice: Instead of manually using InheritedWidget, use Provider (built on InheritedWidget) for state management.**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q30"></a>
 
@@ -1583,6 +1601,7 @@ Widget build(BuildContext context) {
 
 🚀 **"InheritedWidget is a powerful way to share state efficiently across the widget tree!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q31"></a>
 
@@ -1620,6 +1639,7 @@ Widget build(BuildContext context) {
 
 🚀 **"Use `Container` for layouts and styling, and `SizedBox` when you just need empty space or a fixed size!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q32"></a>
 
@@ -1675,6 +1695,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
 
 🚀 **"`AppLifecycleState` helps in handling app behavior when it moves between foreground, background, or gets terminated!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q33"></a>
 
@@ -1706,6 +1727,7 @@ Both are used to load images from a network URL, but they work differently.
 
 🚀 **"Use `NetworkImage` when you need an image provider, and `Image.network` when you want a ready-to-use widget!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q34"></a>
 
@@ -1753,6 +1775,7 @@ Future<void> fetchUser() async {
 
 🚀 **"`Future` represents a delayed result, `async` makes a function asynchronous, and `await` waits for the result before moving forward!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q35"></a>
 
@@ -1784,6 +1807,7 @@ Future<void> fetchUser() async {
 
 🚀 **"Set `resizeToAvoidBottomInset` to `true` to automatically adjust UI when the keyboard appears!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q36"></a>
 
@@ -1822,6 +1846,7 @@ Future<void> fetchUser() async {
 
 🚀 **"`TextEditingController` allows direct control over a text field, making it essential for form handling and real-time text updates!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q37"></a>
 
@@ -1889,6 +1914,7 @@ class _MyAnimatedWidgetState extends State<MyAnimatedWidget> with SingleTickerPr
 
 🚀 **"Animations make UI smooth, and `AnimationController` helps manage them efficiently!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q38"></a>
 
@@ -1919,6 +1945,7 @@ import 'package:some_library/some_unused_feature.dart'; // This will be removed 
 
 🚀 **"Tree shaking helps Flutter apps stay lightweight and optimized by removing unused code!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q39"></a>
 
@@ -1957,6 +1984,7 @@ This ensures that the `Container` always maintains a **16:9** ratio, no matter t
 
 🚀 **"Use `AspectRatio` to keep widgets proportionate across different screens!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q40"></a>
 
@@ -2013,6 +2041,7 @@ class _MyAnimatedWidgetState extends State<MyAnimatedWidget> with TickerProvider
 
 🚀 **"Use `vsync` to optimize animations and sync them with the display refresh rate!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q41"></a>
 
@@ -2068,6 +2097,7 @@ Stream<int> numberStream() async* {
 
 🚀 **Use `Future` for one-time async tasks and `Stream` for continuous updates!**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q42"></a>
 
@@ -2114,6 +2144,7 @@ Future<String> getData() {
 
 🚀 **"Use `Future` for async tasks and `Completer` when manual control is needed!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q43"></a>
 
@@ -2181,6 +2212,7 @@ Stream<int> numberStream() async* {
 
 🚀 **"Use Single Subscription Stream for one-time tasks and Broadcast Stream for multiple listeners!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q44"></a>
 
@@ -2209,6 +2241,7 @@ void main() {
 
 🚀 **"Use `assert` to validate conditions during development, but avoid it in production!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q45"></a>
 
@@ -2288,6 +2321,7 @@ CounterWidget();
 
 🚀 **"Use StatelessWidget for UI-only components and StatefulWidget when state updates are required!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q46"></a>
 
@@ -2335,6 +2369,7 @@ void main() {
 
 🚀 **"`typedef` simplifies function signatures and improves code readability!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q47"></a>
 
@@ -2392,6 +2427,7 @@ class FutureExample extends StatelessWidget {
 
 🚀 **"Use `FutureBuilder` to handle asynchronous UI updates dynamically!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q48"></a>
 
@@ -2485,6 +2521,7 @@ For async functions:
 
 🚀 **"Handle exceptions using `try-catch`, global handlers, and user-friendly error messages to ensure a smooth app experience!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q49"></a>
 
@@ -2555,6 +2592,7 @@ void main() async {
 
 🚀 **"Use Isolates in Flutter to handle heavy computations without blocking the UI!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q50"></a>
 
@@ -2655,6 +2693,7 @@ void main() async {
 
 🚀 **"Threads in Flutter are handled via Futures, async/await, and Isolates for efficient background execution!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q51"></a>
 
@@ -2688,6 +2727,7 @@ Then open DevTools via **VS Code, Android Studio, or Chrome**.
 
 🚀 **"DevTools helps in debugging, performance monitoring, and UI inspection efficiently!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q51"></a>
 
@@ -2744,6 +2784,7 @@ Future<void> sendData() async {
 
 🚀 **"Use the `http` package for simple API calls and `dio` for advanced networking!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q52"></a>
 
@@ -2819,6 +2860,7 @@ Future<void> sendData() async {
 
 🚀 **"Dio is great for making API calls with features like interceptors, timeouts, and request cancellation!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q53"></a>
 
@@ -2848,6 +2890,7 @@ Each module is built separately and integrated into the main app.
 
 🚀 **"Microfrontend in Flutter improves modularization, making apps scalable and maintainable!"**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q54"></a>
 
@@ -2930,6 +2973,7 @@ Each module is built separately and integrated into the main app.
 
 🚀 **Conclusion:** **Dio** is powerful with many features, while **HTTP** is lightweight and minimal.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q55"></a>
 
@@ -2994,7 +3038,11 @@ void main() {
 ### **Conclusion**
 📌 **Factory constructors are used when we need control over object creation.**  
 📌 They help in implementing **caching, singleton patterns, and returning different instances dynamically.**
+
+[🔼 Back to Top](#-table-of-contents)
 ---
+<a name="q56"></a>
+
 56.What is a Singleton Class in Dart?
 ---
 ### **Singleton Class in Dart**
@@ -3026,6 +3074,7 @@ void main() {
 ```
 📌 **Singleton is best for global state, logging, and database management.**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q57"></a>
 
@@ -3074,6 +3123,7 @@ flutter test
 
 🎯 *Testing ensures app reliability and catches bugs early.*
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q58"></a>
 
@@ -3122,6 +3172,7 @@ Async task
 
 💡 The event loop helps keep the app responsive and smooth, even with long-running tasks.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q60"></a>
 
@@ -3148,6 +3199,7 @@ Here's a simple and interview-ready answer:
 
 📌 Use **Provider** for most real-world apps unless you need custom or fine-tuned behavior.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q61"></a>
 
@@ -3172,6 +3224,7 @@ void initState() {
 
 ✅ Just remember: `initState()` runs **before** `build()` and **only once** in the widget's lifecycle.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q62"></a>
 
@@ -3194,6 +3247,7 @@ void dispose() {
 
 ✅ Always use `dispose()` to **release resources** when the widget is no longer in use.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q63"></a>
 
@@ -3217,6 +3271,7 @@ You can then use:
 
 ✅ In short, **GlobalKey** gives access to a widget’s state and context **globally**, but use it carefully — overusing it can affect performance.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q64"></a>
 
@@ -3245,6 +3300,7 @@ Here’s a clean and short explanation you can tell the interviewer:
 **Padding = internal spacing**  
 **Margin = external spacing**
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q65"></a>
 
@@ -3271,6 +3327,7 @@ It gives you built-in layout features like:
 
 ✅ So, `Scaffold` is like a **page layout manager** that helps you quickly build standard UI screens.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q66"></a>
 
@@ -3322,6 +3379,7 @@ In this example:
 - Works only in **flex containers** (`Row`, `Column`, `Flex`).
 - Helps in building **adaptive layouts** easily.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q67"></a>
 
@@ -3395,6 +3453,7 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 - Prevents **overflow errors**.
 - Often used with `Column` for form screens or long content.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q69"></a>
 
@@ -3431,7 +3490,7 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 - Helps you build **adaptive UIs** based on size.
 - Ideal for **responsive** or **dynamic** UI adjustments.
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q70"></a>
 
@@ -3469,6 +3528,7 @@ The `Stack` widget allows you to **place widgets on top of each other**, like la
 - Combine with `Positioned` to place widgets precisely.
 - Great for **custom UIs** and layered designs.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q71"></a>
 
@@ -3503,6 +3563,7 @@ A **Theme** in Flutter defines the **overall visual styling** of your app—like
 - Use `ThemeData` to define it.
 - Access with `Theme.of(context)` for styling specific widgets.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q72"></a>
 
@@ -3534,6 +3595,7 @@ The `Visibility` widget is used to **show or hide a widget** in the widget tree 
 - `visible: false` → hides it (you can still reserve space if needed).
 - Good for **conditionally displaying** content.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q73"></a>
 
@@ -3565,6 +3627,7 @@ You can navigate using **Navigator** class.
 - Use `Navigator.pop()` to return to the previous screen.
 - Useful for **multi-screen apps** and **user flows**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q74"></a>
 
@@ -3604,6 +3667,7 @@ You can navigate using **Navigator** class.
 - Routes are like **named addresses** for screens.
 - Useful for managing multiple screens in a structured way.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q75"></a>
 
@@ -3634,6 +3698,7 @@ A **Modal Bottom Sheet** is a UI panel that **slides up from the bottom** of the
 - Appears from bottom and **blocks interaction** with rest of the screen until dismissed.
 - Closes by tapping outside or using `Navigator.pop(context)` inside it.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q76"></a>
 
@@ -3677,6 +3742,7 @@ ValueNotifier<int> counter = ValueNotifier<int>(0);
 - Use when you need to **rebuild UI on small changes**.
 - Wrap with `ValueListenableBuilder` to reflect UI updates.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q77"></a>
 
@@ -3710,6 +3776,7 @@ ValueNotifier<int> counter = ValueNotifier<int>(0);
 
 Perfect for UI layouts that need overlays or custom positioning like badges, tooltips, or floating elements.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q78"></a>
 
@@ -3756,6 +3823,7 @@ class SecondScreen extends StatelessWidget {
 
 Simple and clean for navigating and sharing info between screens.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q79"></a>
 
@@ -3838,6 +3906,7 @@ var screenHeight = MediaQuery.of(context).size.height;
 
 📌 **Tip:** Always call `MediaQuery.of(context)` **inside the build method** (or with a valid context).
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q81"></a>
 
@@ -3877,6 +3946,7 @@ Perfect for making **responsive designs** — when you want to display different
 
 🧠 In short: `LayoutBuilder` gives you the space info during build time and lets you design **smart adaptive UIs**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q82"></a>
 
@@ -3916,6 +3986,7 @@ void didUpdateWidget(covariant MyWidget oldWidget) {
 
 🧠 In short: Use `didUpdateWidget` when you need to **handle changes to widget properties** without recreating the whole `State`.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q83"></a>
 
@@ -3967,6 +4038,7 @@ Use it like:
 ### 🧠 In short:
 `CustomPainter` gives full control to draw **anything** pixel by pixel on the screen, making your UI more flexible and powerful.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q84"></a>
 
@@ -4032,6 +4104,7 @@ The `Navigator` class is used to **manage a stack of routes** (screens/pages) an
 ### 🧠 In short:
 `Navigator` helps move between screens and maintain history like a stack — forward and back navigation is easy and flexible.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q86"></a>
 
@@ -4067,6 +4140,7 @@ The `Navigator` class is used to **manage a stack of routes** (screens/pages) an
 ### 🧠 In short:
 `AnimatedSwitcher` animates widget changes automatically — great for swapping UI elements with nice effects.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q87"></a>
 
@@ -4097,6 +4171,7 @@ The `Navigator` class is used to **manage a stack of routes** (screens/pages) an
 ### 🧠 In short:
 `FittedBox` keeps your UI **neat and resizable**, especially in dynamic layouts or when preventing overflow.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q88"></a>
 
@@ -4138,6 +4213,7 @@ int count = 0;
 ✅ In short:  
 **State Management** ensures your UI stays **in sync** with the data behind it.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q89"></a>
 
@@ -4186,12 +4262,11 @@ int count = 0;
 ✅ **In short:**  
 Provider helps **manage and access state** across your app efficiently using a clean and scalable pattern.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q90"></a>
 
 90.🚦Types of Providers in Flutter
----
-
 ---
 
 ### **Types of Providers in Flutter**
@@ -4314,6 +4389,7 @@ Provider helps **manage and access state** across your app efficiently using a c
 ✨ **Interview Line:**  
 "I choose different types of providers based on the app’s needs—**ChangeNotifierProvider** for managing simple state, **FutureProvider** and **StreamProvider** for async data, and **Selector** for optimizing widget rebuilds."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q91"></a>
 
@@ -4385,6 +4461,7 @@ Use in UI:
 
 Let me know if you want this in a visual/diagram format too!
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q92"></a>
 
@@ -4415,10 +4492,8 @@ Here are the **main differences between Cupertino and Material Design** in Flutt
 ### 💡 Pro Tip:
 You can detect the platform using `Platform.isIOS` and show Cupertino or Material accordingly — or use `Theme.of(context).platform`.
 
----
 
-Let me know if you want a small demo code that switches based on platform!
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q93"></a>
 
@@ -4435,13 +4510,9 @@ The **Material Design Icons package** in Flutter provides a **set of ready-to-us
 
     Icon(Icons.home, size: 30, color: Colors.blue)
 
-
 This shows a blue home icon.
 
----
-
-Let me know if you want to customize or use custom icon sets too!
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q94"></a>
 
@@ -4540,7 +4611,7 @@ flutter build ios --release
 4. Select the uploaded build
 5. Submit for review
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q96"></a>
 
@@ -4581,6 +4652,7 @@ The `FlutterActivity` class in Flutter is the **entry point** for integrating Fl
 📝 In simple terms:  
 `FlutterActivity` is the **default Android container** for running a full-screen Flutter experience. It manages the setup, rendering, communication, and lifecycle between Android and Flutter.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q97"></a>
 
@@ -4672,6 +4744,7 @@ In your widgets:
 ### 💡 Optional: Dynamically change language
 You can change the locale using `setState()` or a state management solution by updating the `locale` parameter of `MaterialApp`.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q98"></a>
 
@@ -4744,6 +4817,7 @@ To implement a **custom screen transition** in Flutter, you can use the `PageRou
 ### 💡 Pro Tip:
 You can combine multiple transitions using `TweenSequence` or wrap them inside `AnimatedBuilder` for more complex animations.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q99"></a>
 
@@ -4815,6 +4889,7 @@ Animation<double> animation = CurvedAnimation(
 - You want non-linear or bouncy/elastic effects
 - Built-in `Curves` don't fit your design
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q100"></a>
 
@@ -4871,6 +4946,7 @@ It listens for data and lets you handle it when something is dropped on it.
 - Custom drag-drop UIs
 - Games or design apps
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q101"></a>
 
@@ -4992,6 +5068,7 @@ This small form:
 - Ensures screen readers can announce hints
 - Makes navigation easier for visually impaired users
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q102"></a>
 
@@ -5052,6 +5129,7 @@ class MyHeaderDelegate extends SliverPersistentHeaderDelegate {
 
 This makes headers **stay visible while scrolling**, useful for categorized lists.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q103"></a>
 
@@ -5158,6 +5236,7 @@ void initState() {
 
 A Ticker is useful when you need **frame-by-frame control** for animations or game loops. It’s the heartbeat for anything animated in Flutter.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q105"></a>
 
@@ -5223,6 +5302,7 @@ Widget Tree ➡ Element Tree ➡ Render Tree ➡ Layout ➡ Paint ➡ Layer Tree
 
 This efficient pipeline is one of the reasons why Flutter apps are **fast and smooth**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q106"></a>
 
@@ -5264,6 +5344,7 @@ The **`FlutterEngine`** is the **core runtime** of a Flutter app. It plays a cen
 > `FlutterEngine` = Dart Runtime + Rendering + Platform Integration  
 It is **the heart of every Flutter app**, responsible for running and displaying your UI while integrating with the native platform.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q107"></a>
 
@@ -5319,6 +5400,7 @@ KOTLIN
 ### 🧠 Summary:
 > Platform channels allow Flutter and native code to **talk to each other**. Use them when you need native functionality that isn’t available in Flutter plugins.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q108"></a>
 
@@ -5459,8 +5541,7 @@ flutter run --flavor prod -t lib/main_prod.dart
 - Easily switch environments during development
 - Customize branding (icons, names) for each variant
 
----
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q109"></a>
 
@@ -5504,6 +5585,7 @@ import 'deferred_page.dart' deferred as page;
 - Apps with multiple modules or tools
 - Games or apps with heavy assets
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q110"></a>
 
@@ -5541,7 +5623,7 @@ Here’s a **short and clear comparison** of **JIT (Just-In-Time)** and **AOT (A
 | Use case       | Debug & Build              | Publish & Deploy            |
 
 ---
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q111"></a>
 
@@ -5590,6 +5672,7 @@ Here’s a **clear and concise explanation** you can use during an interview:
 | `dynamic`| ❌         | ✅                    | When type is truly unknown        |
 | `Object` | ✅         | ✅ (with casting)     | Store any type with some safety   |
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q112"></a>
 
@@ -5689,6 +5772,7 @@ class Report implements Printable {
 - **Use Mixins** when you want to **reuse logic**.
 - **Use Interfaces** when you want to **enforce structure**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q113"></a>
 
@@ -5734,6 +5818,7 @@ But with `Equatable`, you can make it return `true` if the values are the same:
 - Helpful in **state management** (like BLoC) to detect state changes.
 - Makes **equality comparisons easier and cleaner**.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q114"></a>
 
@@ -5776,7 +5861,7 @@ Widget build(BuildContext context) {
 ### 💡 Key Point:
 `build()` should be **pure** — it should return UI based only on the current state and not do heavy work or async operations.
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q115"></a>
 
@@ -5869,7 +5954,7 @@ createState → initState → didChangeDependencies → build
               deactivate → dispose
 ```
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q117"></a>
 
@@ -5997,6 +6082,8 @@ So basically:
 ---
 <a name="q118"></a>
 
+[🔼 Back to Top](#-table-of-contents)
+
 118.📄 What is Synchronous & Asynchronous Programming Flutter?
 ---
 
@@ -6048,8 +6135,7 @@ Middle
 - **Synchronous** = Wait for each task. Simple, but can freeze UI.
 - **Asynchronous** = Don’t wait, let things run in parallel. Better for performance.
 
-Let me know if you want a real Flutter use-case too (like with API or button tap).
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q119"></a>
 
@@ -6128,6 +6214,7 @@ Here's a **simple explanation of `PageView` in Flutter** with types — perfect 
 - News feed pages
 - Tab-like interfaces
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q120"></a>
 
@@ -6218,6 +6305,7 @@ Here's a clear and short explanation of **`GridView` and its types in Flutter** 
 - Use `shrinkWrap: true` inside scrollables to avoid layout issues.
 - Use `physics: NeverScrollableScrollPhysics()` if embedding inside another scroll view.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q121"></a>
 
@@ -6305,6 +6393,7 @@ ListView.builder(
 - Use `physics: BouncingScrollPhysics()` for iOS-style scrolling.
 - Use `shrinkWrap: true` if embedding in another scrollable widget.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q122"></a>
 
@@ -6365,6 +6454,7 @@ ListView.builder(
       ),
     )
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q123"></a>
 
@@ -6425,6 +6515,7 @@ Both `Row` and `Column` are **layout widgets** used to arrange **children widget
 ### 🧠 Tip:
 Use `Expanded`, `Flexible`, `Spacer` inside Row/Column to control layout spacing and sizing.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q124"></a>
 
@@ -6516,12 +6607,13 @@ class Bike extends Vehicle {
 }
 ```
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q125"></a>
 
 125.🔹 What is a Getter & Setter in Dart?
 ---
-Sure! Let's expand on **getter and setter** with deeper explanation, real-world context, and more interview-ready clarity:
+Let's expand on **getter and setter** with deeper explanation, real-world context, and more interview-ready clarity:
 
 ---
 
@@ -6589,6 +6681,7 @@ void main() {
 ### 🧠 In Interviews, You Can Say:
 > "In Dart, getters and setters allow me to control how a class variable is accessed or updated. They help with encapsulation and are great for adding extra logic like validation when assigning values."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q126"></a>
 
@@ -6660,6 +6753,7 @@ void main() {
 ### ✨ Interview Line:
 > "Generics in Dart help me write type-safe and reusable code. For example, I can create a generic class or method that works with any data type instead of rewriting it multiple times for different types."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q127"></a>
 
@@ -6734,7 +6828,7 @@ void main() {
 ### ✨ Interview Line:
 > "I use try-catch blocks in Dart to gracefully handle errors like invalid user input or failed API calls. I prefer catching specific exceptions when possible and always log them or show a user-friendly message."
 
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 128.🔹 What is a Map in Dart?
 ---
@@ -6806,6 +6900,7 @@ void main() {
 }
 ```
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q129"></a>
 
@@ -6876,6 +6971,7 @@ void main() {
     print(a.intersection(b));  // {3}
     print(a.difference(b));    // {1, 2}
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q130"></a>
 
@@ -6956,6 +7052,7 @@ void main() {
 }
 ```
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q131"></a>
 
@@ -7070,6 +7167,7 @@ It tells Flutter:
 
 ### 💡 Without `setState()`, changes to variables won't reflect on the screen.
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q133"></a>
 
@@ -7100,7 +7198,7 @@ void initState() {
   // Example: fetch data or start animation
 }
 ```
-
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q134"></a>
 
@@ -7172,6 +7270,7 @@ void main() {
   myFlyingCar.fly();    // Output: Flying...
 }
 ```
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q136"></a>
 
@@ -7211,6 +7310,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use `extends` to create a subclass that inherits functionality from a superclass. It’s a powerful way to reuse code and build on existing classes while customizing behavior with method overrides."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q137"></a>
 
@@ -7240,6 +7340,7 @@ print(result); // Output: Adult
 ✨ **Interview Line:**  
 "I use conditional expressions for concise and readable decision-making in code, especially when a simple `if-else` is not required."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q138"></a>
 
@@ -7283,6 +7384,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use cascade notation (`..`) to chain method calls and set multiple properties on an object, making my code cleaner and more concise."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q139"></a>
 
@@ -7337,6 +7439,7 @@ Map<String, String> capitals = {'USA': 'Washington', 'India': 'New Delhi'}; // M
 ✨ **Interview Line:**  
 "I work with various data types in Dart, from simple types like `int`, `String`, and `bool` to more complex collections like `List`, `Set`, and `Map`, ensuring proper data handling for each situation."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q140"></a>
 
@@ -7392,6 +7495,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use the `is` and `is!` operators in Dart to check an object's type at runtime, ensuring that I work with objects of the correct type or handle them appropriately if they don't match."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q141"></a>
 
@@ -7428,6 +7532,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use the `as` operator in Dart to safely cast objects to the required type, ensuring that type conversions are done correctly and without errors when the object's type is known."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q142"></a>
 
@@ -7477,6 +7582,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use compound assignment operators to make my code more concise and readable, reducing redundancy while performing operations like addition, subtraction, and multiplication directly on variables."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q143"></a>
 
@@ -7522,6 +7628,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use logical operators like `&&`, `||`, and `!` in Dart to combine multiple conditions and control the flow of my program based on boolean expressions."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q144"></a>
 
@@ -7589,6 +7696,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use bitwise and shift operators in Dart to manipulate individual bits of data, which is essential for optimizing performance, performing low-level operations, and working with binary data."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q145"></a>
 
@@ -7642,6 +7750,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use recursion to solve problems that can be broken into smaller subproblems, like calculating factorials or traversing data structures, always ensuring a clear base case to prevent infinite loops."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q146"></a>
 
@@ -7708,6 +7817,7 @@ void main() {
 ✨ **Interview Line:**  
 "I use architectures like BLoC, Provider, or MVVM in Flutter to separate business logic from UI, making the code more modular, testable, and maintainable."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q147"></a>
 
@@ -7866,6 +7976,7 @@ class MyApp extends StatelessWidget {
 ✨ **Interview Line:**  
 "I prefer **Provider** for smaller apps due to its simplicity and flexibility, while I choose **BLoC** for larger, more complex apps where clear separation of business logic from UI and scalability are critical."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q148"></a>
 
@@ -7927,6 +8038,7 @@ class MyApp extends StatelessWidget {
 ✨ **Interview Line:**  
 "I use `ValueListenable` in Flutter to observe changes in data, and with `ValueListenableBuilder`, I can automatically rebuild UI elements when the data changes, ensuring a reactive and efficient design."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q149"></a>
 
@@ -7979,6 +8091,7 @@ void main() async {
 ✨ **Interview Line:**  
 "I use Firebase for its comprehensive suite of backend services like authentication, real-time databases, and cloud storage, which greatly simplifies app development and scalability."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q150"></a>
 
@@ -8056,6 +8169,7 @@ flutter build apk --release
 ✨ **Interview Line:**  
 "I use several techniques like enabling Proguard, using App Bundles, removing unused resources, and optimizing dependencies to reduce APK size in Flutter, which helps improve app performance and user experience."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q151"></a>
 
@@ -8129,6 +8243,7 @@ class MyApp extends StatelessWidget {
 ✨ **Interview Line:**  
 "I use `ListTile` in Flutter to easily create consistent and interactive list items with customizable options for title, subtitle, icons, and tap handling, streamlining UI development in list-based layouts."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q152"></a>
 
@@ -8224,6 +8339,7 @@ In this example, the `Dog` class **overrides** the `sound()` method from the `An
 ✨ **Interview Line:**  
 "In Flutter, **method overloading** isn't directly supported, but I use optional or named parameters to achieve similar behavior. For **method overriding**, I extend a class and use the `@override` annotation to customize the inherited methods while maintaining the same method signature."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q153"></a>
 
@@ -8332,6 +8448,7 @@ Here, the `Dog` class implements the `Animal` interface and provides its own imp
 ✨ **Interview Line:**  
 "In Dart, an **abstract class** can have both implemented and unimplemented methods and can include fields and constructors, while an **interface** is a contract with only method signatures and no implementation. Every class in Dart can act as an interface, and a class can implement multiple interfaces."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q154"></a>
 
@@ -8445,6 +8562,7 @@ Choosing the right state management solution for a Flutter project depends on va
 ✨ **Interview Line:**  
 "I determine the right state management solution based on the project’s complexity, team size, scalability needs, and the level of control required. For small apps, I use **Provider** or **GetX**; for medium to large projects, I prefer **BLoC** or **Riverpod**, and for large-scale, complex apps, **Redux** is a strong option."
 
+[🔼 Back to Top](#-table-of-contents)
 ---
 <a name="q155"></a>
 
