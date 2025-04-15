@@ -59,11 +59,162 @@ This app fetches data live from this GitHub repository:
 Suggestions or contributions are welcome! Feel free to fork or raise issues.
 
 ---
-| No. | Question |
-|-----|----------|
-| 1   | [What is Flutter?](#q1) |
-| 2   | [What is Dart and Why does Flutter use it?](#q2) |
-| 3   | [What is pubspec.yaml file and what does it do?](#q3) |
+| No. | Question                                               |
+|-----|--------------------------------------------------------|
+| 1   | [What is Flutter?](#q1)                                |
+| 2   | [What is Dart and Why does Flutter use it?](#q2)       |
+| 3   | [What is pubspec.yaml file and what does it do?](#q3)  |
+| 4   | [What is pubspec.yaml file and what does it do?](#q4)  |
+| 5   | [What is pubspec.yaml file and what does it do?](#q5)  |
+| 6   | [What is pubspec.yaml file and what does it do?](#q6)  |
+| 7   | [What is pubspec.yaml file and what does it do?](#q7)  |
+| 8   | [What is pubspec.yaml file and what does it do?](#q8)  |
+| 9   | [What is pubspec.yaml file and what does it do?](#q9)  |
+| 10  | [What is pubspec.yaml file and what does it do?](#q10) |
+| 11  | [What is pubspec.yaml file and what does it do?](#q11)  |
+| 12  | [What is pubspec.yaml file and what does it do?](#q12)  |
+| 13  | [What is pubspec.yaml file and what does it do?](#q13)  |
+| 14  | [What is pubspec.yaml file and what does it do?](#q14)  |
+| 15  | [What is pubspec.yaml file and what does it do?](#q15)  |
+| 16  | [What is pubspec.yaml file and what does it do?](#q16)  |
+| 17  | [What is pubspec.yaml file and what does it do?](#q17)  |
+| 18  | [What is pubspec.yaml file and what does it do?](#q18)  |
+| 19  | [What is pubspec.yaml file and what does it do?](#q19)  |
+| 20  | [What is pubspec.yaml file and what does it do?](#q20)  |
+| 21  | [What is pubspec.yaml file and what does it do?](#q21)  |
+| 22  | [What is pubspec.yaml file and what does it do?](#q22)  |
+| 23  | [What is pubspec.yaml file and what does it do?](#q23)  |
+| 24  | [What is pubspec.yaml file and what does it do?](#q24)  |
+| 25  | [What is pubspec.yaml file and what does it do?](#q25)  |
+| 26  | [What is pubspec.yaml file and what does it do?](#q26)  |
+| 27  | [What is pubspec.yaml file and what does it do?](#q27)  |
+| 28  | [What is pubspec.yaml file and what does it do?](#q28)  |
+| 29  | [What is pubspec.yaml file and what does it do?](#q29)  |
+| 30  | [What is pubspec.yaml file and what does it do?](#q30)  |
+| 31  | [What is pubspec.yaml file and what does it do?](#q31)  |
+| 32  | [What is pubspec.yaml file and what does it do?](#q32)  |
+| 33  | [What is pubspec.yaml file and what does it do?](#q33)  |
+| 34  | [What is pubspec.yaml file and what does it do?](#q34)  |
+| 35  | [What is pubspec.yaml file and what does it do?](#q35)  |
+| 36  | [What is pubspec.yaml file and what does it do?](#q36)  |
+| 38  | [What is pubspec.yaml file and what does it do?](#q38)  |
+| 39  | [What is pubspec.yaml file and what does it do?](#q39)  |
+| 40  | [What is pubspec.yaml file and what does it do?](#q40)  |
+| 41  | [What is pubspec.yaml file and what does it do?](#q41)  |
+| 42  | [What is pubspec.yaml file and what does it do?](#q42)  |
+| 43  | [What is pubspec.yaml file and what does it do?](#q43)  |
+| 44  | [What is pubspec.yaml file and what does it do?](#q44)  |
+| 45  | [What is pubspec.yaml file and what does it do?](#q45)  |
+| 46  | [What is pubspec.yaml file and what does it do?](#q46)  |
+| 47  | [What is pubspec.yaml file and what does it do?](#q47)  |
+| 48  | [What is pubspec.yaml file and what does it do?](#q48)  |
+| 49  | [What is pubspec.yaml file and what does it do?](#q49)  |
+| 50  | [What is pubspec.yaml file and what does it do?](#q50)  |
+| 51  | [What is pubspec.yaml file and what does it do?](#q51)  |
+| 52  | [What is pubspec.yaml file and what does it do?](#q52)  |
+| 53  | [What is pubspec.yaml file and what does it do?](#q53)  |
+| 54  | [What is pubspec.yaml file and what does it do?](#q54)  |
+| 55  | [What is pubspec.yaml file and what does it do?](#q55)  |
+| 56  | [What is pubspec.yaml file and what does it do?](#q56)  |
+| 57  | [What is pubspec.yaml file and what does it do?](#q57)  |
+| 58  | [What is pubspec.yaml file and what does it do?](#q58)  |
+| 59  | [What is pubspec.yaml file and what does it do?](#q59)  |
+| 60  | [What is pubspec.yaml file and what does it do?](#q60)  |
+| 61  | [What is pubspec.yaml file and what does it do?](#q61)  |
+| 62  | [What is pubspec.yaml file and what does it do?](#q62)  |
+| 63  | [What is pubspec.yaml file and what does it do?](#q63)  |
+| 64  | [What is pubspec.yaml file and what does it do?](#q64)  |
+| 65  | [What is pubspec.yaml file and what does it do?](#q65)  |
+| 66  | [What is pubspec.yaml file and what does it do?](#q66)  |
+| 67  | [What is pubspec.yaml file and what does it do?](#q67)  |
+| 68  | [What is pubspec.yaml file and what does it do?](#q68)  |
+| 69  | [What is pubspec.yaml file and what does it do?](#q69)  |
+| 70  | [What is pubspec.yaml file and what does it do?](#q70)  |
+| 71  | [What is pubspec.yaml file and what does it do?](#q71)  |
+| 72  | [What is pubspec.yaml file and what does it do?](#q72)  |
+| 73  | [What is pubspec.yaml file and what does it do?](#q73)  |
+| 74  | [What is pubspec.yaml file and what does it do?](#q74)  |
+| 75  | [What is pubspec.yaml file and what does it do?](#q75)  |
+| 76  | [What is pubspec.yaml file and what does it do?](#q76)  |
+| 77  | [What is pubspec.yaml file and what does it do?](#q77)  |
+| 78  | [What is pubspec.yaml file and what does it do?](#q78)  |
+| 79  | [What is pubspec.yaml file and what does it do?](#q79)  |
+| 80  | [What is pubspec.yaml file and what does it do?](#q80)  |
+| 81  | [What is pubspec.yaml file and what does it do?](#q81)  |
+| 82  | [What is pubspec.yaml file and what does it do?](#q82)  |
+| 83  | [What is pubspec.yaml file and what does it do?](#q83)  |
+| 84  | [What is pubspec.yaml file and what does it do?](#q84)  |
+| 85  | [What is pubspec.yaml file and what does it do?](#q85)  |
+| 86  | [What is pubspec.yaml file and what does it do?](#q86)  |
+| 87  | [What is pubspec.yaml file and what does it do?](#q87)  |
+| 88  | [What is pubspec.yaml file and what does it do?](#q88)  |
+| 89  | [What is pubspec.yaml file and what does it do?](#q89)  |
+| 90  | [What is pubspec.yaml file and what does it do?](#q90)  |
+| 91  | [What is pubspec.yaml file and what does it do?](#q91)  |
+| 92  | [What is pubspec.yaml file and what does it do?](#q92)  |
+| 93  | [What is pubspec.yaml file and what does it do?](#q93)  |
+| 94  | [What is pubspec.yaml file and what does it do?](#q94)  |
+| 95  | [What is pubspec.yaml file and what does it do?](#q95)  |
+| 96  | [What is pubspec.yaml file and what does it do?](#q96)  |
+| 97  | [What is pubspec.yaml file and what does it do?](#q97)  |
+| 98  | [What is pubspec.yaml file and what does it do?](#q98)  |
+| 99  | [What is pubspec.yaml file and what does it do?](#q99)  |
+| 100 | [What is pubspec.yaml file and what does it do?](#q100)  |
+| 101 | [What is pubspec.yaml file and what does it do?](#q101)  |
+| 102 | [What is pubspec.yaml file and what does it do?](#q102)  |
+| 103 | [What is pubspec.yaml file and what does it do?](#q103)  |
+| 104 | [What is pubspec.yaml file and what does it do?](#q104)  |
+| 105 | [What is pubspec.yaml file and what does it do?](#q105)  |
+| 106 | [What is pubspec.yaml file and what does it do?](#q106)  |
+| 107 | [What is pubspec.yaml file and what does it do?](#q107)  |
+| 108 | [What is pubspec.yaml file and what does it do?](#q108)  |
+| 109 | [What is pubspec.yaml file and what does it do?](#q109)  |
+| 110 | [What is pubspec.yaml file and what does it do?](#q110)  |
+| 111 | [What is pubspec.yaml file and what does it do?](#q111)  |
+| 112 | [What is pubspec.yaml file and what does it do?](#q112)  |
+| 113 | [What is pubspec.yaml file and what does it do?](#q113)  |
+| 114 | [What is pubspec.yaml file and what does it do?](#q114)  |
+| 115 | [What is pubspec.yaml file and what does it do?](#q115)  |
+| 116 | [What is pubspec.yaml file and what does it do?](#q116)  |
+| 117 | [What is pubspec.yaml file and what does it do?](#q117)  |
+| 118 | [What is pubspec.yaml file and what does it do?](#q118)  |
+| 119 | [What is pubspec.yaml file and what does it do?](#q119)  |
+| 120 | [What is pubspec.yaml file and what does it do?](#q120)  |
+| 121 | [What is pubspec.yaml file and what does it do?](#q121)  |
+| 122 | [What is pubspec.yaml file and what does it do?](#q122)  |
+| 123 | [What is pubspec.yaml file and what does it do?](#q123)  |
+| 124 | [What is pubspec.yaml file and what does it do?](#q124)  |
+| 125 | [What is pubspec.yaml file and what does it do?](#q125)  |
+| 126 | [What is pubspec.yaml file and what does it do?](#q126)  |
+| 127 | [What is pubspec.yaml file and what does it do?](#q127)  |
+| 128 | [What is pubspec.yaml file and what does it do?](#q128)  |
+| 129 | [What is pubspec.yaml file and what does it do?](#q129)  |
+| 130 | [What is pubspec.yaml file and what does it do?](#q130)  |
+| 131 | [What is pubspec.yaml file and what does it do?](#q131)  |
+| 132 | [What is pubspec.yaml file and what does it do?](#q132)  |
+| 133 | [What is pubspec.yaml file and what does it do?](#q133)  |
+| 134 | [What is pubspec.yaml file and what does it do?](#q134)  |
+| 135 | [What is pubspec.yaml file and what does it do?](#q135)  |
+| 136 | [What is pubspec.yaml file and what does it do?](#q136)  |
+| 137 | [What is pubspec.yaml file and what does it do?](#q137)  |
+| 138 | [What is pubspec.yaml file and what does it do?](#q138)  |
+| 139 | [What is pubspec.yaml file and what does it do?](#q139)  |
+| 140 | [What is pubspec.yaml file and what does it do?](#q140)  |
+| 141 | [What is pubspec.yaml file and what does it do?](#q141)  |
+| 142 | [What is pubspec.yaml file and what does it do?](#q142)  |
+| 143 | [What is pubspec.yaml file and what does it do?](#q143)  |
+| 144 | [What is pubspec.yaml file and what does it do?](#q144)  |
+| 145 | [What is pubspec.yaml file and what does it do?](#q145)  |
+| 146 | [What is pubspec.yaml file and what does it do?](#q146)  |
+| 147 | [What is pubspec.yaml file and what does it do?](#q147)  |
+| 148 | [What is pubspec.yaml file and what does it do?](#q148)  |
+| 149 | [What is pubspec.yaml file and what does it do?](#q149)  |
+| 150 | [What is pubspec.yaml file and what does it do?](#q150)  |
+| 151 | [What is pubspec.yaml file and what does it do?](#q151)  |
+| 152 | [What is pubspec.yaml file and what does it do?](#q152)  |
+| 153 | [What is pubspec.yaml file and what does it do?](#q153)  |
+| 154 | [What is pubspec.yaml file and what does it do?](#q154)  |
+| 155 | [What is pubspec.yaml file and what does it do?](#q155)  |
 
 
 ---
@@ -110,6 +261,8 @@ The **pubspec.yaml** file is a **configuration and dependency management file** 
 It's essential for managing project resources and ensuring smooth app development! 🚀
 
 ---
+<a name="q4"></a>
+
 4.What is the difference between main() and runApp() functions in Flutter?
 ---
 In Flutter, **main()** and **runApp()** serve different purposes:
@@ -128,6 +281,8 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 ✅ **runApp() → Loads & displays the UI** 🚀
 
 ---
+<a name="q5"></a>
+
 5.Differentiate between named parameters and positional parameters in Flutter.
 ---
 ### **Named vs. Positional Parameters in Flutter**
@@ -164,6 +319,8 @@ In Flutter, **main()** and **runApp()** serve different purposes:
 ✅ **Named → Flexible, readable** 🚀
 
 ---
+<a name="q6"></a>
+
 6.What are widgets in Flutter?
 ---
 
@@ -196,6 +353,8 @@ Widgets are the foundation of a Flutter app, allowing developers to create beaut
 ✅ **Widgets describe the UI** and **can be nested** to create complex designs! 🚀
 
 ---
+<a name="q7"></a>
+
 7.Difference Between Stateless Widget and Stateful Widget in Flutter
 ---
 ### **Difference Between StatelessWidget and StatefulWidget in Flutter**
@@ -265,6 +424,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 🔹 **StatefulWidget → Interactive, Uses setState(), Dynamic UI** 🚀
 
 ---
+<a name="q8"></a>
+
 8.What is Hot Reload and Hot Restart in Flutter?
 ---
 ### **Hot Reload vs. Hot Restart in Flutter**
@@ -285,6 +446,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 ✅ **Hot Restart → Full app refresh** 🚀
 
 ---
+<a name="q9"></a>
+
 9.What do you mean by open-source software? Is Flutter open-source?
 ---
 ### **What is Open-Source Software?**
@@ -294,6 +457,8 @@ Open-source software is software with **publicly available source code**, allowi
 ✅ Yes! **Flutter is open-source**, developed by **Google**, and available on **GitHub**. Developers worldwide contribute to its improvement, making it **free to use** for building apps across multiple platforms. 🚀
 
 ---
+<a name="q10"></a>
+
 10.What is BuildContext in Flutter? And why is it needed?
 ---
 ### **What is BuildContext in Flutter?**
@@ -344,6 +509,8 @@ class MyButton extends StatelessWidget {
 ✅ Every widget has its **own BuildContext**. 🚀
 
 ---
+<a name="q11"></a>
+
 11.What are packages and plugins in Flutter?
 ---
 
@@ -396,7 +563,10 @@ Future<void> initCamera() async {
 ✅ **Packages** → Pure Dart, cross-platform, no native code.  
 ✅ **Plugins** → Uses native code to access platform-specific features.  
 ✅ **Both** are installed via `pubspec.yaml` and managed with `pub.dev`. 🚀
+
 ---
+<a name="q12"></a>
+
 12.Name some popular apps made with Flutter.
 ---
 ### **Popular Apps Built with Flutter 🚀**
@@ -413,6 +583,8 @@ Future<void> initCamera() async {
 ✅ **Why Flutter?** Fast development, cross-platform support, and a beautiful UI! 🚀
 
 ---
+<a name="q13"></a>
+
 13.What are different Build modes in Flutter?
 ---
 ### **Different Build Modes in Flutter 🚀**
@@ -433,6 +605,8 @@ Flutter has **three build modes** for different stages of development and deploy
 ✅ **Release mode gives the best speed & smallest size!** 🚀
 
 ---
+<a name="q14"></a>
+
 14.What is the difference between WidgetsApp and MaterialApp in Flutter?
 ---
 ### **Difference Between `WidgetsApp` and `MaterialApp` in Flutter**
@@ -463,6 +637,8 @@ Flutter has **three build modes** for different stages of development and deploy
 3️⃣ `MaterialApp` is **recommended** for most Flutter apps. 🚀
 
 ---
+<a name="q15"></a>
+
 15.Differentiate between Final, Const and Static keyword with example?
 ---
 ### **Difference Between `final`, `const`, and `static` in Flutter/Dart**
@@ -544,6 +720,8 @@ void main() {
 ✔ **Use `static`** for variables/methods that belong to the **class, not instances**. 🚀
 
 ---
+<a name="q16"></a>
+
 16.What are StatefulWidget Lifecycle methods. Explain briefly.
 ---
 ### **StatefulWidget Lifecycle Methods in Flutter**
@@ -680,6 +858,8 @@ void dispose() {
 ✅ **`dispose()`** – For cleanup
 
 ---
+<a name="q17"></a>
+
 17.What are StatelessWidget Lifecycle methods. Explain briefly.
 ---
 ### **StatelessWidget Lifecycle in Flutter**
@@ -716,6 +896,8 @@ class MyStatelessWidget extends StatelessWidget {
 - **Useful for static UI elements** that don’t change dynamically. 🚀
 
 ---
+<a name="q18"></a>
+
 18.What are keys and why do we need them?
 ---
 ### **What Are Keys in Flutter and Why Do We Need Them?**
@@ -790,6 +972,8 @@ Keys are special identifiers used in Flutter to **preserve the widget’s state*
 ✔ **Choose the right key (`GlobalKey`, `ValueKey`, `ObjectKey`, `UniqueKey`) based on the use case.** 🚀
 
 ---
+<a name="q19"></a>
+
 19.What is the difference between Expanded and Flexible widget?
 ---
 ### **Difference Between `Expanded` and `Flexible` in Flutter**
@@ -850,6 +1034,8 @@ Both `Expanded` and `Flexible` are used inside `Row`, `Column`, or `Flex` widget
 ✔ **Use `Flexible`** when the widget should take only as much space as it needs. 🚀
 
 ---
+<a name="q20"></a>
+
 20.What is Fat Arrow Notation in Dart?
 ---
 ### **Fat Arrow Notation (`=>`) in Dart – Explained for Interviews**
@@ -940,6 +1126,8 @@ void printNumbers() {
 🚀 **"Use fat arrow notation for single expressions, but for complex logic, use curly braces `{}`."**
 
 ---
+<a name="q21"></a>
+
 21.What is the purpose of SafeArea widget in Flutter?
 ---
 ### **SafeArea in Flutter**
@@ -967,6 +1155,8 @@ void printNumbers() {
 ✔ Use for full-screen UIs; avoid in widgets like `AppBar` that already handle padding.
 
 ---
+<a name="q22"></a>
+
 22.What are Slivers in Flutter?
 --- 
 ### **What are Slivers in Flutter?**
@@ -1009,6 +1199,8 @@ Slivers are **scrollable areas** in Flutter that allow for **efficient and custo
 ✔ Common in **collapsing headers, sticky lists, and parallax effects**.
 
 ---
+<a name="q23"></a>
+
 23.What is an Extension Method in Dart?
 ---
 ### **What is an Extension Method in Dart?**
@@ -1041,6 +1233,8 @@ void main() {
 🚀 **"Use extension methods to enhance existing classes while keeping code clean and reusable!"**
 
 ---
+<a name="q24"></a>
+
 24.Explain the mounted property. How is it important and when to use it?
 ---
 ### **What is the `mounted` Property in Flutter?**
@@ -1082,6 +1276,8 @@ class _MyWidgetState extends State<MyWidget> {
 🚀 **"Always check `mounted` before updating UI in async functions to avoid modifying a disposed widget!"**
 
 ---
+<a name="q25"></a>
+
 25.What is Sound Null Safety in Dart?
 ---
 ### **What is Sound Null Safety in Dart?**
@@ -1121,6 +1317,8 @@ class _MyWidgetState extends State<MyWidget> {
 🚀 **"Dart's sound null safety makes Flutter apps safer, faster, and more reliable by preventing null errors at compile time!"**
 
 ---
+<a name="q26"></a>
+
 26.What is the Null-Aware Operator in Dart?
 ---
 ### **What is the Null-Aware Operator in Dart?**
@@ -1162,6 +1360,8 @@ Null-aware operators in Dart help **safely handle null values** and prevent null
 🚀 **"Null-aware operators in Dart make handling null values easier, preventing crashes while keeping the code readable and safe!"**
 
 ---
+<a name="q27"></a>
+
 27.Difference Between mainAxisAlignment and crossAxisAlignment in Flutter.
 ---
 ### **Difference Between `mainAxisAlignment` and `crossAxisAlignment` in Flutter**
@@ -1217,6 +1417,8 @@ In **Flutter**, both `mainAxisAlignment` and `crossAxisAlignment` are used in **
 
 
 ---
+<a name="q28"></a>
+
 28.What are Mixins in Dart? How to use them?
 ---
 ### **What are Mixins in Dart?**
@@ -1260,7 +1462,10 @@ void main() {
 ✔ Helps in **code reusability** without deep inheritance.
 
 🚀 **"Mixins help add functionality to multiple classes without inheritance, making code cleaner and more efficient!"**
+
 ---
+<a name="q29"></a>
+
 29.Why Shouldn’t We Use Inheritance in Flutter?
 ---
 ### **Why Shouldn't We Use Inheritance in Flutter?**
@@ -1313,6 +1518,8 @@ void main() {
 ✅ **Best Practice: Instead of manually using InheritedWidget, use Provider (built on InheritedWidget) for state management.**
 
 ---
+<a name="q30"></a>
+
 30.What is InheritedWidget in Flutter?
 ---
 ### **What is `InheritedWidget` in Flutter?**
@@ -1366,6 +1573,8 @@ Widget build(BuildContext context) {
 🚀 **"InheritedWidget is a powerful way to share state efficiently across the widget tree!"**
 
 ---
+<a name="q31"></a>
+
 31.Difference Between Container and SizedBox in Flutter
 ---
 ### **Difference Between `Container` and `SizedBox` in Flutter**
@@ -1399,7 +1608,10 @@ Widget build(BuildContext context) {
 
 
 🚀 **"Use `Container` for layouts and styling, and `SizedBox` when you just need empty space or a fixed size!"**
+
 ---
+<a name="q32"></a>
+
 32.What is AppLifecycleState in Flutter?
 ---
 ### **What is `AppLifecycleState` in Flutter?**
@@ -1453,6 +1665,8 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
 🚀 **"`AppLifecycleState` helps in handling app behavior when it moves between foreground, background, or gets terminated!"**
 
 ---
+<a name="q33"></a>
+
 33.Difference Between NetworkImage and Image.network in Flutter
 ---
 ### **Difference Between `NetworkImage` and `Image.network` in Flutter**
@@ -1480,7 +1694,10 @@ Both are used to load images from a network URL, but they work differently.
 
 
 🚀 **"Use `NetworkImage` when you need an image provider, and `Image.network` when you want a ready-to-use widget!"**
+
 ---
+<a name="q34"></a>
+
 34.Explain async, await, and Future in Dart
 ---
 ### **Understanding `async`, `await`, and `Future` in Dart**
@@ -1526,6 +1743,8 @@ Future<void> fetchUser() async {
 🚀 **"`Future` represents a delayed result, `async` makes a function asynchronous, and `await` waits for the result before moving forward!"**
 
 ---
+<a name="q35"></a>
+
 35.What is resizeToAvoidBottomInset in Flutter? When should we use it?
 ---
 ### **What is `resizeToAvoidBottomInset` in Flutter?**
@@ -1553,7 +1772,10 @@ Future<void> fetchUser() async {
 
 
 🚀 **"Set `resizeToAvoidBottomInset` to `true` to automatically adjust UI when the keyboard appears!"**
+
 ---
+<a name="q36"></a>
+
 36.What is TextEditingController in Flutter?
 ---
 ### **What is `TextEditingController` in Flutter?**
@@ -1590,6 +1812,8 @@ Future<void> fetchUser() async {
 🚀 **"`TextEditingController` allows direct control over a text field, making it essential for form handling and real-time text updates!"**
 
 ---
+<a name="q37"></a>
+
 37.What is Animation and AnimationController in Flutter?
 ---
 ### **What is Animation and AnimationController in Flutter?**
@@ -1655,6 +1879,8 @@ class _MyAnimatedWidgetState extends State<MyAnimatedWidget> with SingleTickerPr
 🚀 **"Animations make UI smooth, and `AnimationController` helps manage them efficiently!"**
 
 ---
+<a name="q38"></a>
+
 38.What is Tree Shaking in Flutter?
 ---
 ### **What is Tree Shaking in Flutter?**
@@ -1683,6 +1909,8 @@ import 'package:some_library/some_unused_feature.dart'; // This will be removed 
 🚀 **"Tree shaking helps Flutter apps stay lightweight and optimized by removing unused code!"**
 
 ---
+<a name="q39"></a>
+
 39.What is the AspectRatio Widget in Flutter?
 ---
 ### **What is the `AspectRatio` Widget in Flutter?**
@@ -1719,6 +1947,8 @@ This ensures that the `Container` always maintains a **16:9** ratio, no matter t
 🚀 **"Use `AspectRatio` to keep widgets proportionate across different screens!"**
 
 ---
+<a name="q40"></a>
+
 40.What is vsync in Flutter?
 ---
 ### **What is `vsync` in Flutter?**
@@ -1773,6 +2003,8 @@ class _MyAnimatedWidgetState extends State<MyAnimatedWidget> with TickerProvider
 🚀 **"Use `vsync` to optimize animations and sync them with the display refresh rate!"**
 
 ---
+<a name="q41"></a>
+
 41.Difference Between Future and Stream in Flutter
 ---
 ### **Difference Between `Stream` and `Future` in Flutter**
@@ -1826,6 +2058,8 @@ Stream<int> numberStream() async* {
 🚀 **Use `Future` for one-time async tasks and `Stream` for continuous updates!**
 
 ---
+<a name="q42"></a>
+
 42.Types of Future in Dart
 ---
 ### **Types of `Future` in Dart**
@@ -1870,6 +2104,8 @@ Future<String> getData() {
 🚀 **"Use `Future` for async tasks and `Completer` when manual control is needed!"**
 
 ---
+<a name="q43"></a>
+
 43.Types of Streams in Dart
 ---
 ### **Types of Streams in Dart**
@@ -1935,6 +2171,8 @@ Stream<int> numberStream() async* {
 🚀 **"Use Single Subscription Stream for one-time tasks and Broadcast Stream for multiple listeners!"**
 
 ---
+<a name="q44"></a>
+
 44.What is assert in Dart and Flutter?
 ---
 ### **What is `assert` in Dart and Flutter?**
@@ -1961,6 +2199,8 @@ void main() {
 🚀 **"Use `assert` to validate conditions during development, but avoid it in production!"**
 
 ---
+<a name="q45"></a>
+
 45.Can you explain the process of creating custom widgets in Flutter?
 ---
 ### **How to Create Custom Widgets in Flutter?**
@@ -2038,6 +2278,8 @@ CounterWidget();
 🚀 **"Use StatelessWidget for UI-only components and StatefulWidget when state updates are required!"**
 
 ---
+<a name="q46"></a>
+
 46.What is typedef in Dart?
 ---
 ### **What is `typedef` in Dart?**
@@ -2083,6 +2325,8 @@ void main() {
 🚀 **"`typedef` simplifies function signatures and improves code readability!"**
 
 ---
+<a name="q47"></a>
+
 47.What is FutureBuilder in Flutter and how is it used to build dynamic UI?
 ---
 ### **What is `FutureBuilder` in Flutter?**
@@ -2138,6 +2382,8 @@ class FutureExample extends StatelessWidget {
 🚀 **"Use `FutureBuilder` to handle asynchronous UI updates dynamically!"**
 
 ---
+<a name="q48"></a>
+
 48.How do you handle exceptions in Flutter, and what strategies have you used?
 ---
 ### **How to Handle Exceptions in Flutter?**
@@ -2229,6 +2475,8 @@ For async functions:
 🚀 **"Handle exceptions using `try-catch`, global handlers, and user-friendly error messages to ensure a smooth app experience!"**
 
 ---
+<a name="q49"></a>
+
 49.What is an Isolate in Flutter?
 ---
 ### **What is an Isolate in Flutter?**
@@ -2297,6 +2545,8 @@ void main() async {
 🚀 **"Use Isolates in Flutter to handle heavy computations without blocking the UI!"**
 
 ---
+<a name="q50"></a>
+
 50.What is a Thread in Flutter?
 ---
 
@@ -2393,7 +2643,10 @@ void main() async {
 ✔ **Heavy computations require Isolates** since Dart threads **do not share memory** like in Java or C++.
 
 🚀 **"Threads in Flutter are handled via Futures, async/await, and Isolates for efficient background execution!"**
+
 ---
+<a name="q51"></a>
+
 50.What are DevTools in Flutter?
 ---
 ### **What are DevTools in Flutter?**
@@ -2425,6 +2678,8 @@ Then open DevTools via **VS Code, Android Studio, or Chrome**.
 🚀 **"DevTools helps in debugging, performance monitoring, and UI inspection efficiently!"**
 
 ---
+<a name="q51"></a>
+
 51.How would you make HTTP requests in the Flutter framework?
 ---
 ### **Making HTTP Requests in Flutter**
@@ -2477,7 +2732,10 @@ Future<void> sendData() async {
 ✔ Use `http` in services instead of directly in UI.
 
 🚀 **"Use the `http` package for simple API calls and `dio` for advanced networking!"**
+
 ---
+<a name="q52"></a>
+
 52.Making API Calls Using Dio in Flutter?
 ---
 ### **Making API Calls Using Dio in Flutter**
@@ -2551,6 +2809,8 @@ Future<void> sendData() async {
 🚀 **"Dio is great for making API calls with features like interceptors, timeouts, and request cancellation!"**
 
 ---
+<a name="q53"></a>
+
 53.What is Microfrontend in Flutter?
 ---
 ### **Microfrontend in Flutter**
@@ -2578,6 +2838,8 @@ Each module is built separately and integrated into the main app.
 🚀 **"Microfrontend in Flutter improves modularization, making apps scalable and maintainable!"**
 
 ---
+<a name="q54"></a>
+
 54.Difference Between Dio and HTTP in Flutter
 ---
 ### **Difference Between Dio and HTTP in Flutter**
@@ -2658,6 +2920,8 @@ Each module is built separately and integrated into the main app.
 🚀 **Conclusion:** **Dio** is powerful with many features, while **HTTP** is lightweight and minimal.
 
 ---
+<a name="q55"></a>
+
 55.What is Factory constructor?
 ---
 ### **Factory Constructor in Dart**
@@ -2750,7 +3014,10 @@ void main() {
 }
 ```
 📌 **Singleton is best for global state, logging, and database management.**
+
 ---
+<a name="q57"></a>
+
 57.Can you explain the process of testing a Flutter app?
 ---
 Sure! Here's a **short and simple** answer you can say in an interview:
@@ -2795,7 +3062,10 @@ flutter test
 ---
 
 🎯 *Testing ensures app reliability and catches bugs early.*
+
 ---
+<a name="q58"></a>
+
 58.What technology is Flutter built with?
 ---
 Flutter is built using **C++, Dart, and Skia**.
@@ -2807,6 +3077,8 @@ Flutter is built using **C++, Dart, and Skia**.
 👉 This combo lets Flutter deliver **fast, smooth, and native-like performance** on iOS, Android, web, desktop, and more.
 
 ---
+<a name="q59"></a>
+
 59.What is the event loop?
 ---
 The **event loop** is the system in Dart (and Flutter) that manages how asynchronous operations (like API calls, timers, file access) are handled without blocking the main thread.
@@ -2840,6 +3112,8 @@ Async task
 💡 The event loop helps keep the app responsive and smooth, even with long-running tasks.
 
 ---
+<a name="q60"></a>
+
 60.What is the difference between Provider vs. InheritedWidget?
 ---
 Here's a simple and interview-ready answer:
@@ -2864,6 +3138,8 @@ Here's a simple and interview-ready answer:
 📌 Use **Provider** for most real-world apps unless you need custom or fine-tuned behavior.
 
 ---
+<a name="q61"></a>
+
 61.What is the purpose of the initState() method in a StatefulWidget?
 ---
 The `initState()` method is called **once** when a `StatefulWidget` is created.
@@ -2886,6 +3162,8 @@ void initState() {
 ✅ Just remember: `initState()` runs **before** `build()` and **only once** in the widget's lifecycle.
 
 ---
+<a name="q62"></a>
+
 62.What is the purpose of the dispose() method in a StatefulWidget?
 ---
 The `dispose()` method is used to **clean up resources** when a `StatefulWidget` is removed from the widget tree.
@@ -2906,6 +3184,8 @@ void dispose() {
 ✅ Always use `dispose()` to **release resources** when the widget is no longer in use.
 
 ---
+<a name="q63"></a>
+
 63.What is a GlobalKey in Flutter?
 ---
 A **GlobalKey** in Flutter is used to **uniquely identify a widget** and access its state from **anywhere** in the app.
@@ -2927,6 +3207,8 @@ You can then use:
 ✅ In short, **GlobalKey** gives access to a widget’s state and context **globally**, but use it carefully — overusing it can affect performance.
 
 ---
+<a name="q64"></a>
+
 64.What is the difference between padding and margin in Flutter?
 ---
 Here’s a clean and short explanation you can tell the interviewer:
@@ -2953,6 +3235,8 @@ Here’s a clean and short explanation you can tell the interviewer:
 **Margin = external spacing**
 
 ---
+<a name="q65"></a>
+
 65.What is the purpose of the scaffold widget in Flutter?
 ---
 The **`Scaffold`** widget provides the **basic structure** for a screen in a Flutter app.
@@ -2977,6 +3261,8 @@ It gives you built-in layout features like:
 ✅ So, `Scaffold` is like a **page layout manager** that helps you quickly build standard UI screens.
 
 ---
+<a name="q66"></a>
+
 66.What is the purpose of the Expanded widget in Flutter?
 ---
 Sure! Here's a more detailed yet still interview-friendly explanation:
@@ -3026,6 +3312,8 @@ In this example:
 - Helps in building **adaptive layouts** easily.
 
 ---
+<a name="q67"></a>
+
 67.How do you handle user input in Flutter?
 ---
 Here’s a simple and clear answer you can give in an interview:
@@ -3061,7 +3349,9 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 - Use `Form` and `GlobalKey` for form validation and submission
 
 ---
-69.What is the purpose of SingleChildScrollView in Flutter?
+<a name="q68"></a>
+
+68.What is the purpose of SingleChildScrollView in Flutter?
 ---
 ### 🔹 What is the purpose of `SingleChildScrollView` in Flutter?
 
@@ -3095,7 +3385,9 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 - Often used with `Column` for form screens or long content.
 
 ---
-70.What is the purpose of the LayoutBuilder widget in Flutter?
+<a name="q69"></a>
+
+69.What is the purpose of the LayoutBuilder widget in Flutter?
 ---
 ### 🔹 What is the purpose of the `LayoutBuilder` widget in Flutter?
 
@@ -3130,6 +3422,8 @@ You can also wrap multiple fields in a `Form` widget and use validation.
 
 
 ---
+<a name="q70"></a>
+
 70.What is the purpose of the Stack widget in Flutter?
 ---
 ### 🔹 What is the purpose of the `Stack` widget in Flutter?
@@ -3165,6 +3459,8 @@ The `Stack` widget allows you to **place widgets on top of each other**, like la
 - Great for **custom UIs** and layered designs.
 
 ---
+<a name="q71"></a>
+
 71.🎨 What is a Theme in Flutter?
 ---
 ### 🎨 What is a `Theme` in Flutter?
@@ -8015,7 +8311,6 @@ Choosing the right state management solution for a Flutter project depends on va
 
 ---
 155.🔹Which type of Database Use in Flutter?
----
 ---
 
 ### **Which Database to Use in Flutter?**
