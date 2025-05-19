@@ -8828,7 +8828,7 @@ Choosing the right database depends on the app's requirements, whether it’s fo
 
 ---
 
-155.🔹✅ **What is `FutureBuilder` in Flutter?**
+156.🔹✅ **What is `FutureBuilder` in Flutter?**
 
 `FutureBuilder` is a Flutter widget that **builds itself based on the latest snapshot of interaction with a `Future`**. It is especially useful when you want to **perform asynchronous operations**, such as fetching data from an API or loading data from a database, and then update the UI based on the result.
 
@@ -8902,3 +8902,110 @@ Widget build(BuildContext context) {
 
 > "`FutureBuilder` is a widget in Flutter used to asynchronously fetch data and build UI based on the result of a `Future`. It simplifies handling loading, success, and error states in your app."
 
+156.🔹✅ **What is a Custom Widget in Flutter?**
+
+A **custom widget** in Flutter is a **user-defined reusable UI component** created by combining one or more existing widgets. It helps in:
+
+* Code reusability
+* Cleaner and more modular code
+* Easier maintenance and testing
+
+---
+
+### 🎯 **Example: Custom TextField Widget**
+
+Let’s create a custom `MyTextField` widget that wraps Flutter’s default `TextField` with additional styling and features.
+
+---
+
+### 📦 **Step 1: Create the Custom Widget**
+
+```dart
+import 'package:flutter/material.dart';
+
+class MyTextField extends StatelessWidget {
+  final String label;
+  final TextEditingController controller;
+  final bool obscureText;
+  final IconData? prefixIcon;
+
+  const MyTextField({
+    Key? key,
+    required this.label,
+    required this.controller,
+    this.obscureText = false,
+    this.prefixIcon,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return TextField(
+      controller: controller,
+      obscureText: obscureText,
+      decoration: InputDecoration(
+        labelText: label,
+        prefixIcon: prefixIcon != null ? Icon(prefixIcon) : null,
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+      ),
+    );
+  }
+}
+```
+
+---
+
+### 📦 **Step 2: Use the Custom Widget in a Screen**
+
+```dart
+import 'package:flutter/material.dart';
+import 'my_textfield.dart'; // Assuming MyTextField is in this file
+
+class MyFormScreen extends StatelessWidget {
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Custom TextField Example')),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            MyTextField(
+              label: 'Email',
+              controller: emailController,
+              prefixIcon: Icons.email,
+            ),
+            SizedBox(height: 20),
+            MyTextField(
+              label: 'Password',
+              controller: passwordController,
+              obscureText: true,
+              prefixIcon: Icons.lock,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
+
+---
+
+### 💡 **Advantages:**
+
+* Makes UI components **reusable and consistent**
+* Reduces code **duplication**
+* Easy to **customize** later in one place
+
+---
+
+### 🧠 **Interview Takeaway:**
+
+> "Custom widgets in Flutter allow developers to build reusable UI components. For example, a custom TextField widget can encapsulate common design and behavior for input fields used across the app."
+
+Let me know if you want a stateful version too!
