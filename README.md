@@ -8826,9 +8826,12 @@ Choosing the right database depends on the app's requirements, whether it’s fo
 "For local storage, I prefer **SQLite** for structured data and **Hive** for fast, key-value data. For cloud-based, real-time apps, I choose **Firebase Firestore** or **Realtime Database**, and for complex local storage, **Moor** is a great solution."
 
 
----
+[🔼 Back to Top](#-table-of-contents)
 
+---
+<a name="q156"></a>
 156.🔹✅ **What is `FutureBuilder` in Flutter?**
+---
 
 `FutureBuilder` is a Flutter widget that **builds itself based on the latest snapshot of interaction with a `Future`**. It is especially useful when you want to **perform asynchronous operations**, such as fetching data from an API or loading data from a database, and then update the UI based on the result.
 
@@ -8902,8 +8905,13 @@ Widget build(BuildContext context) {
 
 > "`FutureBuilder` is a widget in Flutter used to asynchronously fetch data and build UI based on the result of a `Future`. It simplifies handling loading, success, and error states in your app."
 
-156.🔹✅ **What is a Custom Widget in Flutter?**
+[🔼 Back to Top](#-table-of-contents)
 
+---
+<a name="q157"></a>
+157.🔹✅ **What is a Custom Widget in Flutter?**
+
+---
 A **custom widget** in Flutter is a **user-defined reusable UI component** created by combining one or more existing widgets. It helps in:
 
 * Code reusability
