@@ -8828,3 +8828,77 @@ Choosing the right database depends on the app's requirements, whether it’s fo
 
 ---
 
+### ✅ **What is `FutureBuilder` in Flutter?**
+
+`FutureBuilder` is a Flutter widget that **builds itself based on the latest snapshot of interaction with a `Future`**. It is especially useful when you want to **perform asynchronous operations**, such as fetching data from an API or loading data from a database, and then update the UI based on the result.
+
+---
+
+### 🔧 **Syntax:**
+
+```dart
+FutureBuilder<T>(
+  future: yourFutureFunction(),
+  builder: (BuildContext context, AsyncSnapshot<T> snapshot) {
+    if (snapshot.connectionState == ConnectionState.waiting) {
+      return CircularProgressIndicator();
+    } else if (snapshot.hasError) {
+      return Text('Error: ${snapshot.error}');
+    } else {
+      return Text('Result: ${snapshot.data}');
+    }
+  },
+);
+```
+
+---
+
+### 🧠 **Key Properties:**
+
+* `future`: The asynchronous computation to which this builder is currently connected.
+* `builder`: A function that builds a widget based on the `AsyncSnapshot`.
+
+---
+
+### 📦 **Snapshot States in FutureBuilder:**
+
+| State                     | Description                                   |
+| ------------------------- | --------------------------------------------- |
+| `ConnectionState.none`    | No future was provided                        |
+| `ConnectionState.waiting` | The future is still running                   |
+| `ConnectionState.active`  | (For Stream) Still receiving data             |
+| `ConnectionState.done`    | The future has completed (with success/error) |
+
+---
+
+### 💡 **Use Case Example:**
+
+```dart
+Future<String> fetchData() async {
+  await Future.delayed(Duration(seconds: 2));
+  return 'Hello from Future!';
+}
+
+@override
+Widget build(BuildContext context) {
+  return FutureBuilder<String>(
+    future: fetchData(),
+    builder: (context, snapshot) {
+      if (snapshot.connectionState == ConnectionState.waiting) {
+        return CircularProgressIndicator();
+      } else if (snapshot.hasError) {
+        return Text('Error: ${snapshot.error}');
+      } else {
+        return Text('Data: ${snapshot.data}');
+      }
+    },
+  );
+}
+```
+
+---
+
+### 🎯 **Interview Takeaway:**
+
+> "`FutureBuilder` is a widget in Flutter used to asynchronously fetch data and build UI based on the result of a `Future`. It simplifies handling loading, success, and error states in your app."
+
