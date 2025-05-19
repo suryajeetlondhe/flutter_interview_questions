@@ -227,6 +227,8 @@ Suggestions or contributions are welcome! Feel free to fork or raise issues.
 | 153 | [Difference Between Abstract Class and Interface in Dart (Flutter)?](#q153)               | Advanced      |
 | 154 | [How to Determine Which State Management to Use for a Flutter Project?](#q154)            | Advanced      |
 | 155 | [Which type of Database Use in Flutter?](#q155)                                           | Advanced      |
+| 156 | [What is `FutureBuilder` in Flutter?](#q156)                                              | Intermediate  |
+| 157 | [What is a Custom Widget in Flutter?](#q157)                                              | Advanced      |
 
 
 ---
@@ -8910,7 +8912,6 @@ Widget build(BuildContext context) {
 ---
 <a name="q157"></a>
 157.🔹✅ **What is a Custom Widget in Flutter?**
-
 ---
 A **custom widget** in Flutter is a **user-defined reusable UI component** created by combining one or more existing widgets. It helps in:
 
